@@ -4,7 +4,7 @@ Showcase Index Readme.
 
 AdvHCI(564): Design and development of interactive applications for a smart conference room. The applications are designed to run on smartphones/tablets a PC and a Big Screen with the aid of Kinect(C#), pressure sensors and voice recognition. The online interface of the applications make use of HTML, Bootstrap and AngularJS. Colleagues who cant attend the meeting communicate with the ones attending via a chat system
 
-   - Link Report-Functional Analysis here: https://github.com/gitmadnessario/Showcase/tree/master/AdvHCI(564)/project/Report-Functional_Analysis.pdf
+   - Report-Functional Analysis here: https://github.com/gitmadnessario/Showcase/tree/master/AdvHCI(564)/project/Report-Functional_Analysis.pdf
 
    - Link here: https://github.com/gitmadnessario/Showcase/tree/master/AdvHCI(564)/project/
 
