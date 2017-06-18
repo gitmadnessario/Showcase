@@ -2,7 +2,7 @@ Showcase Index Readme.
 
 564 and 464 are the collaborative work between me and Stayros Dagalakis
 
-AdvHCI(564): Design and development of interactive applications for a smart conference room. The applications are designed to run on smartphones/tablets a PC and a Big Screen with the aid of Kinect(C#), pressure sensors and voice recognition. The online interface of the applications make use of HTML, Bootstrap and AngularJS. Colleagues who cant attend the meeting communicate with the ones attending via a chat system
+AdvHCI(564): Design and development of interactive applications for a smart conference room. The applications are designed to run on smartphones/tablets a PC and a Big Screen with the aid of Kinect(C#), pressure sensors and voice recognition. The online interface of the applications make use of HTML, Bootstrap and AngularJS. Colleagues attending remotely communicate with the ones present in the meeting via a chat system.
 
    - Report-Functional Analysis here: https://github.com/gitmadnessario/Showcase/tree/master/AdvHCI(564)/project/Report-Functional_Analysis.pdf
 
