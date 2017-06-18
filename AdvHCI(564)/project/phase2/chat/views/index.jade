@@ -1,0 +1,30 @@
+doctype html
+html(lang="en" ng-app="ChatApp")
+  head
+    meta( charset='utf-8' )
+    meta( name='viewport', content='width=device-width, initial-scale=1.0' )
+    link( rel='stylesheet', href='/stylesheets/bootstrap.css')
+    link( rel='stylesheet', href='/stylesheets/style.css')
+    script( src='https://cdn.socket.io/socket.io-1.3.7.js')
+    script( src='//code.jquery.com/jquery-2.1.4.min.js' )
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js')
+    script( src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js')
+
+    script( src='/javascripts/app.js')
+    script( src='/javascripts/ChatAppController.js')
+    script( src='/javascripts/ChatAppFactory.js')
+    title= pageTitle
+
+  body(ng-controller="ChatAppCtrl")
+
+
+    .container
+        .row.show-grid.window
+            .col-md-8.visible-xs-block.hidden-md.hidden-lg.noPadding.contactListMobile
+                include ./partials/contacts_mobile.jade
+
+            .col-md-4.hidden-xs.noPadding
+                include ./partials/contacts.jade
+
+            .col-md-8.noPadding
+                include ./partials/chat.jade

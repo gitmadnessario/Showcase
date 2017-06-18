@@ -1,0 +1,128 @@
+<html>
+    <head>
+         <script src="JavaScripts/TeamCreation.js"></script>
+        <script src="JavaScripts/comment.js"></script>
+        <script>
+            $(document).ready(function() {
+                    $('.rating_stars').hover(
+                    // Handles the mouseover
+                    function() {
+                        $(this).prevAll().andSelf().addClass('ratings_over');
+                        $(this).nextAll().removeClass('ratings_vote'); 
+                    },
+                    // Handles the mouseout
+                    function() {
+                        $(this).prevAll().andSelf().removeClass('ratings_over');
+                        //set_votes($(this).parent());
+                    }
+                );
+                
+                $('.rating_stars').bind('click', function() {
+                    $(this).prevAll().andSelf().addClass('ratings_over');
+                    $(this).prevAll().andSelf().nextAll().unbind();
+                });
+            });
+        </script>
+    </head>
+<body>
+<table id="table464head">
+    <tr>
+        <td class="namefirstcol"><b>Αλληλεπίδραση Ανθρώπου-Υπολογιστή</b></td>
+        <td><b>(HY-464)</b></td>
+        <td class="buttonright"><button id="mybutton" type="button" onclick="create464('Θέμα Α  HCI Web Design','HY-464_project');" class="createteam">Create Team</button></td>
+    </tr>
+    </table>
+<table id="table464">
+    <tr>
+        <td class="first_column"><b>Professor:</b></td>
+        <td>Κωνσταντίνος Στεφανίδης</td>
+    </tr>
+    <tr>
+        <td class="first_column"><b>Project:</b></td>
+        <td>Θέμα Α HCI Web Design</td>
+    </tr>
+    <tr>
+        <td class="first_column"><b>Members:</b></td>
+        <td> 3</td>
+    </tr>
+    <tr>
+        <td class="first_column"><b>Difficulty:</b></td>
+        <td> <div class="star_1 ratings_stars"></div>(5/5)</td>
+    </tr>
+    <tr>
+        <td class="first_column"><textarea id="textarea" rows="4" cols="50" disabled>In this project your goal is to implement technics and styles learned during the course of HCI.After all the phases are done you will have a fully functional site about team creations on projects of the CSD Department.During each phase you will step by step follow the process of web development.</textarea></td>
+    </tr>
+    <tr>
+        <td class="first_column"><b>Dates:</b></td>
+        <td><a href="http://www.csd.uoc.gr/~hy464/files/lectures/Requirements%20Topic%20A.pdf">Phase 1</a>: 6/3<br><a href="http://www.csd.uoc.gr/~hy464/files/lectures/Phase%20B.pdf">Phase 2</a>: 27/3<br><a href="http://www.csd.uoc.gr/~hy464/files/lectures/Phase%20C.pdf">Phase 3</a>: 8/5<br><a href="http://www.csd.uoc.gr/~hy464/files/lectures/Phase%20D.pdf">Phase 4</a>: 18/5<br></td>
+    </tr>
+    </table>
+    
+    <table id="table464teams" style="width:560px;">
+        <thead>
+            <tr id="innerteamshead">
+                <th>Team</th>
+                <th>Completed</th>
+                <th>Creator</th>
+                <th>Members</th>
+                <th>Non Members</th>
+                <th style="color:white">buttons</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="uprow">
+                <td class="one">HY464-ομάδα21</td>
+                <td class="twoen"><img src="./Icons/1430863042_92-20.png" class="png" /></td>
+                <td class="three">kaloyannis</td>
+                <td class="four">3</td>
+                <td class="five">30</td>
+                <td class="six"><button id="mybutton" type="button">Apply</button></td>
+            </tr>
+            <tr id="downrow">
+                <td class="one">HY340-ομάδα22</td>
+                <td class="twodis"><img src="./Icons/1430863035_91-20.png" class="png" /></td>
+                <td class="three">dagalakis</td>
+                <td class="four">2</td>
+                <td class="five">29</td>
+                <td class="six"></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <table style="float:left;">
+        <tr><td>
+            <span style="float:left;" id="spanstars">
+                <span style="float:left">Difficulty:</span>
+                <span>
+                    <span class="star_1 rating_stars"></span>
+                    <span class="star_2 rating_stars"></span>
+                    <span class="star_3 rating_stars"></span>
+                    <span class="star_4 rating_stars"></span>
+                    <span class="star_5 rating_stars"></span>
+                </span>
+            </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <table id="comments">
+                <tr class="commentsfirst">
+                    <td class="nickcom">(2010)karvouno said:</td><td class="textcom">pos einai to project paidia???</td>
+                </tr>
+                <tr class="comentssecond">
+                   <td class="nickcom">(2012)papala said:</td><td class="textcom">normal to kobo</td>
+                </tr>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <form id="leaveComment" onsubmit="return addcomment()">
+                <input id="comment_area" type="text" name="comment" value="" class="comment">
+                <input type="submit" value="Comment" id="comment_button">
+            </form>
+            </td>
+        </tr>
+        </table>
+    </body>
+</html>

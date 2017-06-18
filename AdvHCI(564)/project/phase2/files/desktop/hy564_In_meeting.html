@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html ng-app="ChatApp">
+<head>
+    <title>hy564</title>
+    <meta charset="utf-8"/>
+	<script src="https://cdn.socket.io/socket.io-1.3.7.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="JS/angular.js"></script>
+   
+	<script src="JS/calendar.js"></script>
+	<script src="JS/jquery.mobile.custom.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <meta name="vieport" content="width=device-width , initial-scale=1">
+	<link rel="stylesheet" href="css/mobile.css">
+	<link rel="stylesheet" href="css/android-home.css" media="screen and (max-width: 480px)">
+	<link rel="stylesheet" href="css/android-inmeet.css" media="screen and (max-width: 480px)">
+	
+	<script src="JS/chat/public/javascripts/app.js"></script>
+    <script src="JS/chat/public/javascripts/ChatAppController.js"></script>
+    <script src="JS/chat/public/javascripts/ChatAppFactory.js"></script>
+	<!-- <script src="https://5ff31b7c371c0201bf166c9b27bbb1dce52d38a9-www.googledrive.com/host/0B6YnwZmPTUZ8SW92SmM3ZWhvLTA/interaction.js"></script> -->
+	
+
+	
+    <!--Header-->
+    <div class="header container-fluid" >
+        <div class="row">
+            <div class="col-md-1" ><img src="Corp_logo.png" style="height:100px"></div>
+            
+            
+			<div class="col-md-4"style="padding-left:40px">
+                
+                <h2>Shield Corporation</h2>
+                <h4>Fortify your Needs</h4>
+                </dl>
+            </div>
+        </div>
+    </div>
+    
+</head>
+
+<body style="background-color:white">
+    
+	<!--Menu-->
+    
+
+<nav class="navbar navbar-default menu_bar">
+    <div class="container-fluid menu_bar">
+
+        <ul class="nav navbar-nav">
+            <li class=" menu_button" ><a href = "hy564_home.html" > <font size="3" > Home </font> </a></li>
+            <li class=" menu_button"><a href = "hy564_calendar.html " > <font size="3" > Calendar </font> </a></li>
+            <li class="active menu_button"><a href = "hy564_meetings.html" ><font size="3" >Meetings</font></a></li>
+        </ul>
+         <!-- Setting drop down -->
+        <ul class="nav navbar-nav navbar-right">
+            
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="align:float-right">Settings <span class="glyphicon glyphicon-cog"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="login.html" onclick='localStorage.setItem("login","none");'>Logout</a></li>
+                    <li><a href="#">Some other settings</a></li>
+                </ul>
+                
+            </li>
+        </ul>
+    </div>
+
+</nav>
+<div class="container-fluid " >
+<div class="row " style="height:100%">
+
+    
+    <!--Sidebar-->
+    <div class="col-md-2 "  id="sidebar-wraper" >
+        <br>
+        <img src="Shield_logo.jpg" class=" img-circle " style="height: 40px " align="center" >
+        
+        <h4>Kwstas Mad</h4> <br>
+        <h4 align="left" ><b>Contacts :</b></h4>
+        
+        <table class="table table-bordered">
+            <tbody align="left">
+                <tr><td><img src="1445743931_photo.png" align="left"> <font size="4" style="padding-left:10px "> Stayros Dag</font> </td></tr>
+                <tr><td><img src="1445743931_photo.png" align="left"> <font size="4" style="padding-left:10px "> Giannhs Omorfos</font> </td></tr>
+                <tr><td><img src="1445743931_photo.png" align="left"> <font size="4" style="padding-left:10px "> Blind Maiden</font> </td></tr>
+            </tbody>
+        </table>
+		
+		<hr id="section_line" class="calnote"></hr>
+
+		<h4 align="left"><b>News Feed:</b></h4>
+		<table class="table table-bordered">
+			<tbody align="left">
+                <tr><td><img src="expmark.png" align="left"><font size="4" style="padding-left:10px "><b>Blind Maiden:</b><span aria-hidden="true" style="margin-left:45px;" onclick="hide_not()">&times;</span><br>Added you as a Friend</font> </td></tr>
+                <tr><td><img src="expmark.png" align="left"><font size="4" style="padding-left:10px"><b>Blind Maiden:</b><span aria-hidden="true" style="margin-left:45px;" onclick="hide_not()">&times;</span><br>Added you as a Friend</font> </td></tr>
+                <tr><td><img src="expmark.png" align="left"><font size="4" style="padding-left:10px"> <b>Blind Maiden:</b><span aria-hidden="true" style="margin-left:45px;" onclick="hide_not()">&times;</span><br><a href="" >Meeting invitation</a> </font> </td></tr>
+               
+            </tbody>
+        </table>
+    </div>
+    
+    <!-- Work Shop --> 
+    <div class="col-md-8 col-md-offset-2" style="padding: 0px" style="height:100%">
+		<div class="col-xs-6" id="top-section" style="margin-left:0px">
+				<br>
+				<button style="margin-left:-21px; border:0px; background-color: Transparent;" onclick="goback()">
+					<span class="glyphicon glyphicon-arrow-left"></span>
+					<label class="top_label" style="width:160px;"><b>Knights Of The Round Table</b></label>
+				</button>
+				<img style="margin-left:0px;" src="refresh_button.png" id="refresh" onclick="irefresh(0)"></img>
+				<img style="margin-left:-3px;" src="menu_button.png" id="menu" onclick="alert('dsda')"></img>
+				<br></br>
+				<label id="meadmin">Admin:Stayros Dag</label>
+			</div>
+        <div style="border-bottom: 2px solid black;background:#fff;padding-top: 10px;padding-left: 10px;margin-bottom:0px " class="calplus"><p> Knights Of The Round Table</p></div>
+        <div id="myCarousel1"class="carousel slide pause container-fluid" data-interval="false" style="height:40%" ng-controller="interactionAppCtrl">
+            <ol class="carousel-indicators calplus">
+                
+                <li data-target ="#myCarousel1" data-slide-to="0" ></li>
+                <li data-target ="#myCarousel1" data-slide-to="1" class="active"></li>
+                <li data-target ="#myCarousel1" data-slide-to="2" ></li>
+            </ol>
+			<ol class="carousel-indicators android-indi" style="width:321px;">
+				<div class="btn-group" id="inmgroup">
+					<button class="carbut btn btn-default" id="carbut1" type="button" data-target ="#myCarousel1" onclick="hide_files();"><img src="InMeetFiles.png"></img></button>
+					<button class="carbut btn btn-default active" id="carbut2" type="button" data-target ="#myCarousel1" onclick="hide_both()"><img src="screen.png"></button></button>
+					<button class="carbut btn btn-default" id="carbut3" type="button" data-target ="#myCarousel1" onclick="hide_cont();"><img src="colleagues.png"></img></button>
+				</div>
+			</ol>     
+            <div class="carousel-inner" id="inmeetcar" style="height:500px">
+                <div class="item"><img src="images/download (1).jpg " style="width:100%;height:100%" class="img-responsive" ></div>
+                <div class="item active" style="width:100%;height:100%"><img src="images/Conference-Room-Setup-Styles-Design-Idea-9.jpg"   class="img-responsive" ></div>
+                <div class="item">
+                    <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/qUlK3S_9IOo"></iframe>
+                    </div>
+                </div>
+            </div>
+            <a   class="carousel-control left calplus" href="#myCarousel1" ng-click='doaction(1)' data-slide="prev"><span class="buttons icon prev" id="swipe_left" ></span></a>
+            <a   class="carousel-control right calplus" href="#myCarousel1" ng-click='doaction(2)' data-slide="next" ><span class="buttons icon next"  id="swipe_right" ></span></a>
+        </div>
+
+        <div id="draw_mode" class="hidden" style="height:500px">
+            
+        </div>
+
+		<div class="btn-group videobutton" role="group" aria-label="..." id="videoset">
+              <button onclick="video();" type="button" class="btn btn-default" id="video"><span  class="glyphicon glyphicon-facetime-video"></span></button>
+              <button onclick="microphone();" type="button" class="btn btn-default" id="microphone"><img src="images/microphone.png" style="height:20px" class="img-responsive"> </button>
+              <button onclick="sound();"  class="btn btn-default" id="sound"><span  class="glyphicon glyphicon-volume-down"></span></button>
+        </div>
+		<!-- <div>
+			<iframe id="inmeetframe" src="http://localhost:3000/" style="width:230px;height:200px;"></iframe>
+		</div> -->
+        <div class="calplus" style="padding: 5px; border-bottom:  1px solid black; border-top:  1px solid black " >
+            <div> 
+            <button class="btn btn-default " style="margin-left:5px" id="files_but" onclick="hide_func();">Files</button>
+            <button class="btn btn-default"style="margin-left:5px" onclick="draw_func();">Draw</button>
+            <button class="btn btn-default "style="margin-left:5px; float:right" onclick="speak_func();" id="speak_but" >Speak !</button>
+
+            <div class="btn-group" role="group" aria-label="..." >
+              <button onclick="video();" type="button" class="btn btn-default" id="video"><span  class="glyphicon glyphicon-facetime-video"></span></button>
+              <button onclick="microphone();" type="button" class="btn btn-default" id="microphone"><img src="images/microphone.png" style="height:20px" class="img-responsive"> </button>
+              <button onclick="sound();"  class="btn btn-default" id="sound"><span  class="glyphicon glyphicon-volume-down"></span></button>
+            </div>
+        </div>   
+        </div>
+        <div id="file_div" style="padding: 5px;  display: block; border-bottom: 1px solid black " class="hidden" >
+                <table  class="table" style="text-align: center ">
+                    <tr style="float:left" >
+                    
+                    <td><img src="folder.png" style="height: 40px"><br>Meeting Files</td>
+                    <td><img src="folder.png" style="height: 40px"><br>Other Files</td>
+                    <td ><img src="Shield_logo.jpg" style="height: 40px"><br>Shield_logo.jpg</td>
+                    </tr>
+                    
+                </table>
+                   
+        </div>
+		<div id="mobilefiles" class="hidden" style="margin-bottom:-30px; margin-top:0px;">
+			<table class="table" style="text-align:center;border:0px">
+                    <tr style="float:left; margin-left:10px;">
+						<td class="drag"><img src="pdfdraaien.png" style="height: 50px"><br>Meeting Files</td>
+						<td class="drag"><img src="round.png" style="height: 50px"><br>Other Files</td>
+						<td ><img src="Shield_logo.jpg" style="height: 50px"><br>Shield_logo.jpg</td>
+                    </tr>
+                </table>
+		</div>
+		<div class="calplus">
+		<iframe style="width:100%" src="http://localhost:3000"></iframe>
+		</div>
+    </div>
+	<div class="col-md-2 col-md-offset-10 hidden" id="mobilepart"  >
+        <table class="table" ng-controller="meeting_participants">
+            <tbody>
+                <tr>
+                    <td class="dropable_contacts" ng-repeat="item in list"> <img ng-src='{{item.img}}' style="height:60px; width:110px;"/><br>{{item.name}}</td>   
+                </tr>   
+            </tbody>
+
+        </table>
+    </div>
+	
+    <!--Participants-->   
+    <div class="col-lg-2 col-lg-offset-10 calplus" id="participants"  >
+        <table class="table" ng-controller="meeting_participants" >
+            <div class="event" > <a href="#"  button type="button" data-toggle="modal"  data-target="#myModal1" data-direction="right">
+					
+						<div class="modal fade " id="myModal1" role="dialog">
+							<div class="modal-dialog modal-sm">
+								<div class="modal-content container-fluid" style="width : 400px" align="left">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h5 class="modal-title"><a href="#">Enter message:</a></h5>
+									</div>
+									<div class="modal-body">
+										<textarea id="notearea" style="width : 100%"></textarea>
+									</div>
+									<div class="modal-footer " >
+										 <p align="left">Add Files: 
+											<label for="fileupload">
+												<img id="fimage" src="plus_sign.png "></img>
+											</label>
+										
+										  <input type="file" class="file hidden"  multiple=" " id="fileupload"> 
+										  
+										 </p>
+										 <output id="flist"></output>
+<!-- <img src="plus_sign.png"  onClick="madness()"> -->
+											<!-- <input type="file" name="img" multiple> -->
+<!-- 										<button type="button" class="btn btn-default" data-dismiss="modal" onClick="fuck()">Add Files: </button> -->
+										<button type="button" class="btn btn-default" data-dismiss="modal"> Cancel</button>
+										<button type="button" class="btn btn-default" data-dismiss="modal" style="color:red"> Send</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					
+			 </div>
+            <tbody >
+                <tr ng-repeat="item in list" >
+                    <td  onClick="madness()" > <img ng-src='{{item.img}}' style="height:100px;width:100%" /><br>{{item.name}}</td>   
+                </tr>   
+            </tbody>
+
+        </table>
+    </div>
+    
+    
+    
+</div>
+</div>
+
+<script>
+//Populates the files list
+$('input[type=file]').change(function(e){
+ var files = $("#fileupload")[0].files;
+ var previous = document.getElementById("flist").innerHTML;
+ var output = [];
+ if (previous!=""){
+  var edited = previous.slice(0,previous.length-5);
+  output.push(edited);
+ }
+ for (var i = 0; i < files.length; i++){
+  output.push('<li>',files[i].name,'</li>');
+ }
+ document.getElementById('flist').innerHTML = '<ul>' + output.join('') + '</ul>';
+ if (previous==""){
+  document.getElementById('flist').innerHTML = '<ul>' + output.join('') + '</ul>';
+ }
+ else{
+  document.getElementById('flist').innerHTML = output.join('') + '</ul>';
+ }
+});
+</script>    
+
+<script>
+$(
+
+        function() {
+        $( ".drag" ).draggable({
+            cursor: 'move',
+            containment: 'document',
+            revert: true,
+            helper: function (){return $("<div class='helper '></div>").append($(this).clone());}
+            });
+
+        $("#participants").droppable({
+            hoverClass: 'hovered',
+            drop: handledrop
+        });
+		
+		$(".dropable_contacts").droppable({
+            hoverClass: 'hovered',
+            drop: handledrop
+        });
+
+          $(function() {
+            $( '.drag' ).sortable({
+              connectWith: ".connectedSortable"
+            }).disableSelection();
+          });
+        });
+    
+    $(".remove").click(function() {
+        $('.duplicate').remove();
+    });
+
+    function handledrop(event , ui){
+        ui.draggable.draggable( 'disable' );
+        $(this).droppable( 'disable' );
+        $(this).append(ui.draggable.clone(true));
+        ui.draggable.draggable( 'option', 'revert', false );
+        
+    }
+</script>
+
+<script>
+$(document).ready(function() {
+   $("#myCarousel1").swiperight(function(e) { //swipe right
+		console.log("right");
+      $("#myCarousel1").carousel('prev');
+	  e.preventDefault();
+    });
+   $("#myCarousel1").swipeleft(function(e) { //swipe left
+		console.log("left");
+      $("#myCarousel1").carousel('next');
+	  e.preventDefault();
+   });
+});
+</script>   
+    
+<script type="text/javascript">
+        function hide_func(){
+            $('#files_but').toggleClass('active');
+            $('#file_div').toggleClass('hidden');
+        }
+		
+		function hide_files(){
+            $('#files_but').toggleClass('active');
+            $('#mobilefiles').toggleClass('hidden');
+        }
+		
+		function hide_cont(){
+			$('#cont_but').toggleClass('active');
+            $('#mobilepart').toggleClass('hidden');
+		}
+		
+		function hide_both(){
+				if (!$("#mobilefiles").hasClass("hidden"))
+					$('#mobilefiles').toggleClass('hidden');
+				if (!$("#mobilepart").hasClass("hidden"))
+					$('#mobilepart').toggleClass('hidden');
+		}
+		
+        function speak_func(){
+            $('#speak_but').toggleClass('btn-success');
+        }
+
+        function draw_func(){
+             $('#draw_mode').toggleClass('hidden'); 
+             $('#myCarousel1').toggleClass('hidden') ;          
+        }
+        function video(){
+
+            $('#video').toggleClass('active');
+        }
+        function microphone(){
+
+            $('#microphone').toggleClass('active');
+        }
+        function sound(){
+
+            $('#sound').toggleClass('active');
+        }
+</script>
+
+<script>
+function madness(){
+			
+	$('#myModal1').modal('toggle');
+
+	//$( "#myModal1" ).animate({ "left": "-=0px" }, "slow" );
+	// Set the effect type
+	var effect = 'slide';
+	
+	// Set the options for the effect type chosen
+	var options = { direction: "right" };
+	
+	// Set the duration (default: 400 milliseconds)
+	var duration = 500;
+	
+	$('#myModal1').toggle(effect, options, "slow" );<!-- effect, options, duration -->
+
+	$('#myModal1').modal({
+			backdrop: false
+		});
+	}
+</script>
+    
+    
+</body>
+
+</html>

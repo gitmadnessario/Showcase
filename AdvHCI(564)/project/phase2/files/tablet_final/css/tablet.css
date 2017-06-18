@@ -1,0 +1,300 @@
+
+p {
+    font-size: 16px;
+}
+
+.body {
+	font-size: 16px;
+}
+.round_table {
+
+	border-radius: 50%;
+	width: 500px;
+	height: 500px;
+	border: 1px solid black;
+}
+
+#header_box{
+	
+    line-height:0;
+    height: 20px;
+    overflow: hidden;
+    visibility: hidden;
+    display: none;
+}
+
+
+.menu_bar {
+	height: 10% !important; 
+	padding: 0px !important;
+	margin: 0px !important;
+	border-bottom: 1px solid black; 
+	background: transparent;
+	
+}
+
+.header{
+	
+}
+
+body {
+	background-image: linear-gradient(180deg, #FF9900, #FFFFFF);
+	
+	
+}
+li  {list-style-type: none;}
+
+
+.bg-grey {
+    background-color: #f9f9f9;
+}
+
+
+
+
+
+
+
+
+#sidebar-wraper {
+    align-content: center;
+    padding: 00px;  
+    text-align: center;
+    border-right: 2px solid black;
+    background-color: #FFFFFF ;
+    height: 100%;
+    display: block;
+    position: absolute;    
+}
+
+#workshop{
+    background-color: #FFF;
+    height: 100%;
+    padding-left: 10px;
+    display: block;
+    position: absolute;
+}
+
+#meeting_list {
+    border-bottom: 2px solid black;
+    background: #FFF;
+    
+}
+
+#create_meet{
+	font-size:18px;
+	padding:0px;
+	padding-right:4px;
+	padding-left:4px;
+}
+
+#name_head:hover{
+	cursor: pointer; cursor: hand;
+}
+
+#date_head:hover{
+	cursor: pointer; cursor: hand;
+}
+
+#status_head:hover{
+	cursor: pointer; cursor: hand;
+}
+
+#logo_col{
+	width:17px;
+}
+
+.status_col{
+	text-align:center;
+}
+
+.attend_col{
+	text-align:right;
+}
+
+
+
+#file_div {
+    border:2px solid grey;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px;
+	height: 338px;
+    width: 150px;
+    background: #fff;
+
+   
+}
+
+
+#participants-list {
+    padding: 0px;
+}
+
+#participants-list li{
+    text-align: center;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid black;
+}
+
+
+.hidden {
+
+    display: block;
+    line-height:0;
+    height: 0;
+    overflow: hidden;
+
+}
+
+#myModal {
+    height: 400px;
+    display: block;
+}
+
+#test{
+	width: 100%;
+	height: 20%;
+
+}
+#test td{
+	border: 0px solid black;
+}	
+
+
+#set_list{
+
+    width: 100%;
+    padding: 0px;
+    
+}
+#set_list li{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: 0px;
+    margin: 2px;
+}
+
+#participants {
+
+    border:2px solid grey;
+   
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    float: bottom;
+    background: #fff;
+
+}
+
+#parts{
+    width: 100%;
+    padding: 0px;
+      position:relative;
+}
+
+#parts li{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: 0px;
+    margin: 2px;
+}
+
+.align_top{
+    vertical-align: top !important;
+}
+.align_bot{
+    vertical-align: bottom !important;
+}
+
+.drag{}
+
+.helper{
+    z-index: 999;
+    /*border: 1px solid black;*/
+    border-top: 2px solid red;
+    border-left: 2px solid red;
+    padding: 2px;
+    height: 20px;
+    width: 20px;
+    /*border-radius: 4px;*/
+    /*background: lightgray;*/
+
+}
+#chat {
+    z-index: 999;
+    position: absolute;
+    
+    background: #fff;
+    height: 90%;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: none;
+    bottom: 0;
+    margin-bottom: 22px;
+
+}
+#settings{
+    z-index: 998;
+    position: absolute;
+    
+    background: #fff;
+    height: 90%;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: none;
+    bottom: 0;
+    margin-bottom: 22px;
+    
+}
+
+#files{
+    z-index: 996;
+    position: absolute;
+    
+    background: #fff;
+    height: 90%;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: none;
+    bottom: 0;
+    margin-bottom: 22px;
+    
+}
+
+#contacts {
+    z-index: 999;
+    position: absolute;
+    
+    background: #fff;
+    height: 90%;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: none;
+    bottom: 0;
+    margin-bottom: 22px;
+    
+}
+
+#display_contact{
+    background: #fff;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2%;
+    height:95%;
+    width:95%;
+    z-index:100;
+    position:absolute;
+}
+.cont{ }
+.connectedSortable{}

@@ -1,0 +1,134 @@
+--------------------------------------------------------------------------------------------------
+#main {}
+#content {
+    width:660px;
+    min-height:570px;
+    background-color:red;
+    margin-left:182px;
+
+
+}
+#socialbar {padding-left:10px;}
+#left-sidebar{float:left;}
+#right-sidebar{float:right;background-color:#FFFC29;width:181px;}
+#main-menu {width:181px;}
+#main-menu .nav-bar { list-style:none; padding:0px;font:15px arial,sans-serif;}
+#main-menu .nav-bar li { display:block; padding: 0 10px;margin-top:13px; }
+#main-menu .nav-bar li a {
+padding: 3px 0px 10px 30px;
+text-decoration: none;
+color: #333;
+
+border-left: 2px solid #f00 transparent;
+text-align:center;
+}
+
+.nav-bar .nav-button-home a { 
+    width:24px;
+    height: 24px;
+    float: :left;
+    background:url("images/home.png") no-repeat 2px  ; }
+.nav-bar .nav-button-news a {
+    width:24px;
+    height: 24px;
+    float: :left;
+    background:url("images/news.png") no-repeat 2px  ; }
+.nav-bar .nav-button-events a { 
+    width:24px;
+    height: 24px;
+    float: :left;
+    background:url("images/roundpin.png") no-repeat 2px  ; }
+.nav-bar .nav-button-feeding a { background:url("images/food.png") no-repeat 2px  ; }
+.nav-bar .nav-button-routes a { background:url("images/bus.png") no-repeat 2px  ; }
+.nav-bar .nav-button-sales a { background:url("images/sales.png") no-repeat 2px  ; }
+.nav-bar .nav-button-maps a { background:url("images/map.png") no-repeat 2px  ; }
+.nav-bar .nav-button-calendar a { background:url("images/calendar.png") no-repeat 2px  ; }
+.nav-bar li a:hover{
+   border-left: 2px solid #f00;
+    margin-left:-2px;
+}
+#current a{
+    border-left: 2px solid #f00;
+    margin-left:-2px;
+}
+
+--------------------------------------------------------------------------------------------------
+
+#content {
+    width:660px;
+    min-height:570px;
+    background-color:red;
+
+
+}
+
+input[type=checkbox], input[type=radio] {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+input[type=radio] {
+    bottom: 2px;
+}
+
+
+#line-separator{
+font:13px arial,sans-serif;
+margin-left:10px;
+display:block;
+}
+#line-separator img{
+    margin: 0px 5px 0px 5px;
+}
+#login {margin-left:50px; }
+--------------------------------------------------------------------------------------------------
+
+----------------------
+<!-- CSS styles for standard search box with placeholder text-->
+
+#tfnewsearch{
+		float:right;
+		padding:20px;
+	}
+.tftextinput2{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#666;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+.tfbutton2 {
+		margin: 0;
+		padding: 5px 7px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+.tfbutton2:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+.tfbutton2::-moz-focus-inner {
+	  border: 0;
+	}
+.tfclear{
+		clear:both;
+	}
+</style> 

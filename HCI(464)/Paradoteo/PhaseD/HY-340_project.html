@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teams</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="CSS/index.css">
+  <link rel="stylesheet" type="text/css" href="CSS/left_side.css">
+  <link rel="stylesheet" type="text/css" href="CSS/right_side.css">
+  <link rel="stylesheet" type="text/css" href="CSS/footer.css">
+<link rel="stylesheet" type="text/css" href="CSS/HY-340_project.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="JavaScripts/login.js"></script>
+  <script src="JavaScripts/search.js"></script>
+  <script src="JavaScripts/browse_image.js"></script>
+    <script src="JavaScripts/comment.js"></script>
+  <!--<script src="JavaScripts/NavPath.js"></script>
+  <!--<style type="text/css">
+	body {
+		max-width: 1024px;
+		max-height: 768px;
+	}
+</style> -->
+</head>
+<body>
+
+<div id="index" style="width:1024px; max-height:768px; margin:0 auto;" align="center">
+<div id="header"></div>
+    
+    
+<div id="path">
+    <ul id="breadcrumb_path" class="breadcrumb">
+      <li><a class="home" href="Home.html" id="Home">Home</a></li>
+        <li> <b> > </b> </li>
+     <li><a class="home" href="Teams.html" id="Teams">Teams</a></li>
+        <li> <b> > </b> </li>
+      <li> <b>HY340-Ομάδα01  </b></li>
+    </ul>
+</div>
+
+<div id="left_bar">
+<div id="left_side">
+<table>
+	<th> News feed </th>
+	<tr>
+        <td><a class="home" href="HY-464_project.html" id="HY-464_project">New project HY-464</a></td>
+	</tr>
+	<tr>
+		<td><a class="home" href="HY-463_project.html" id="HY-463_project">New project HY-463</a></td>
+	</tr>
+	<tr>
+		<td><a class="home" href="HY-340_project.html" id="HY-340_project">New project HY-340</a></td>
+	</tr>
+    <tr>
+        <td><a class="home" href="HY-454_project.html" id="HY-454_project">New project HY-454</a></td>
+    </tr>
+</table>
+ </div>
+</div>
+
+ <div id="content" style="width:600px">
+    <table id="big_one">
+        
+        <tr>
+            <table id="team_table" class="sortable">
+                
+                <tbody>
+                   
+                    <tr>
+                        <td class="name_column">
+                            <div><a id="" class="lock_dot"></a></div>
+                            <div>HY340-Ομάδα01 <a href="HY-464_a_project.html" id="HY-340_project">Compiler</a></div>
+                            <br><br>
+                            <div>Members (3/3)</div>
+                            
+                            <div style="float:left; width: 200px;"  ><a href="#" onclick="showkaloyannis()" id="">Kaloyannis</a></div><div style="float:left">
+                            <a href="mailto:kaloyannis@csd.uoc.gr" id="">Kaloyannis@csd.uoc.gr </a></div>
+                            
+                            
+                            
+                            
+                            <div style="float:left; width:200px;">
+                                <a href="#" onclick="showkaloyannis()" id="">Dagalakis</a></div>
+                                <a href="mailto:dagalakis@csd.uoc.gr" id="">dagalakis@csd.uoc.gr </a>
+                            
+                            
+                            <br>
+                            <div>
+                            <div style="float:left; width: 200px;"><a href="#" onclick="showkaloyannis()" id="">Vardas</a></div><div style="float:left">
+                            <a href="mailto:vardas@csd.uoc.gr" id="">vardas@csd.uoc.gr </a></div>
+                            </div><br><br>
+                            <div>Project : <a href="HY-464_a_project.html" id="">Θέμα Α HCI Web Desig.pdf</a></div>
+                            
+
+                        </td>
+                        <td class="course_column">
+                        <input  type=button onClick="location.href='project_team_creation.html'" value='Accept' class="accept_button">
+                            <br><br>
+                        <br><br><div><a id="" class="red_dot"></a></div><div><br>
+                        <div><a id="team_container" class="red_dot"></a></div><br>
+                        <div><a id="team_container" class="green_dot"></a></div>
+                        
+                        </td>
+                        
+                        <td class="status_column">
+                            <div>
+                                <input style="margin-left -10px;" type=button onClick="location.href='project_team_creation.html'" value='Decline' class="decline_button">
+                                
+                                
+                                
+                            </div>
+                            
+                         
+                        </td>
+                        </tr>
+                        <tr><br></tr>
+                        <tr>
+                            
+                        <table id= "" style="margin-left: -14px;" > 
+                                 <td>
+                                    <table id="comments"style="width:570px;">
+                                        <tr class="commentsfirst">
+                                            <td class="nickcom">(2010)karvouno said:</td><td class="textcom">pos einai to project paidia???</td>
+                                        </tr>
+                                        <tr class="comentssecond">
+                                           <td class="nickcom">(2012)papala said:</td><td class="textcom">normal to kobo</td>
+                                        </tr>
+                                    </table>
+                                     <table  style="margin-left: -5px;" >
+                                        <tr>
+                                                <td>
+                                                <form id="leaveComment" onsubmit="return addcomment()">
+                                                    <input id="comment_area" type="text" name="comment" value="" class="comment">
+                                                    <input type="submit" value="Comment" id="comment_button">
+                                                </form>
+                                                </td>
+                                            </tr>
+                                     
+                                     </table>
+                                    </td>
+                                
+                                
+                        </table>
+                        
+                        </tr>
+                        
+                        
+                    
+                    
+                </tbody>
+                
+            </table>
+        </tr>
+    </table>
+    </div>
+
+
+ 
+    <div id="right_bar">
+ <div id="right_side">
+    
+ </div>
+    </div>
+ 
+<div id="footer" style="width:975px;">
+    Πανεπιστήμιο Κρήτης &#169; 2015
+</div>
+
+</div>
+<script> 
+     $(function(){ $("#header").load("header.html") });
+    //$(function(){ $("#right_side").load("form.html") });
+    /* $(function(){ $("#right_side").load("right_side_kaloyannis.html") }); */
+   </script>
+</body>
+</html>

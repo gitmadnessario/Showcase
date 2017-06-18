@@ -1,0 +1,175 @@
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+<script type="text/javascript">
+window.onload = function(){ 
+	//Get submit button
+	var submitbutton = document.getElementById("tfq");
+	//Add listener to submit button
+	if(submitbutton.addEventListener){
+		submitbutton.addEventListener("click", function() {
+			if (submitbutton.value == 'Αναζήτηση'){//Customize this text string to whatever you want
+				submitbutton.value = '';
+			}
+		});
+	}
+}
+</script>
+   
+
+
+</head>
+<html>
+<body >
+    <div style="width:1024px;margin:0 auto; max-height:768px; " >
+    
+   <div align="center">
+        <a href="index.html"><img src="images/header.png" class="logoc"></a>
+        <marquee  onmouseover="this.stop();" onmouseout="this.start();"   style="text-align:center;background:#F5F5F5;height:25px;border:solid 1px #EBEBEB;font-family:verdana;font-size:12px;
+        color:#000;font-weight:900;width:100%;"  >
+            >>Αποτελέσματα κατατακτηρίων εξετάσεων ακαδ. έτους 2013-14    >> Ενεργοποίηση δικαιώματος σίτισης για το εαρινό εξάμηνο του 2013-14  >> Τελετή Ορκωμοσίας και Απονομής Πτυχίων Μαρτίου 2014</marquee>            
+    </div>
+   
+    
+<div id="main container">
+    <div id="left-sidebar">
+    <div id="socialbar">
+        <a href="#"><img src="images/facebook.png"></a>
+        <a href="#"><img src="images/twitter.png"></a>
+        <a href="#"><img src="images/rss.png"></a>
+    </div>
+    
+       <div id="main-menu">
+        <ul class="nav-bar">
+          <li  class="nav-button-home"><a href="index.html">Αρχική</a></li>
+          <li  class="nav-button-news"><a href="news.html">Νέα-Ανακοινώσεις</a></li>
+          <li class="nav-button-events"><a href="events.html">Εκδηλώσεις</a></li>
+          <li class="nav-button-feeding"><a href="sitisi.html">Σίτιση</a></li>
+          <li  class="nav-button-routes"><a href="bus.html">Δρομολόγια ΚΤΕΛ</a></li>
+          <li  class="nav-button-sales"><a href="classifieds.html">Αγγελίες</a></li>
+          <li id="current" class="nav-button-maps"><a href="map.html">Το Πανεπιστήμιο</a></li>
+        </ul>
+    </div>
+<div style="width:96px;margin-left:20px;height:1px;background:#717171;border-bottom:1px solid#808080;"></div>
+    <div id="main-menu">
+        <ul class="nav-bar">
+          <li  class="nav-button-calendar"><a href="calendar.html">Ημερολόγιο</a></li>
+         
+        </ul>
+    </div>
+<div style="width:170px;height:1px;background:#717171;border-bottom:1px solid#808080;"></div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+<div id="right-sidebar" >
+<form id="tfnewsearch" method="get" action="search.html">		        <input type="text" id="tfq" class="tftextinput2" name="q" size="16" maxlength="80"                   value="Αναζήτηση"><input type="submit"  class="tfbutton2" value=">" >
+		</form>
+		<div class="tfclear"></div>
+    <div style="width:182px;height:4px;background:#404040;border-bottom:px solid#404040;margin-top:10px;"></div>
+    
+   <div id="login" style="margin-top:10px">
+    
+    <form action="">
+    <div id="logged">
+   Καλώς ήρθες , <br>
+            Nacho Scocco</div>
+   <div>
+<img src="images/login.png" alt="login" height="25" width="25" style="position:absolute;float:left;">
+    <input type="submit" value="Αποσύνδεση " />
+    
+   </div>
+  </form><!-- form -->    
+        
+    </div>
+    <div style="width:110px;margin:10px 19px 0px 20px;height:1px;background:#717171;border-bottom:1px solid#808080;float:right;"></div>
+        
+    <div id="fastlinks">
+    <h4>Γρήγορη Μετάβαση</h4>
+    <div class="kover">
+    <ul>
+        <li><u>Αλλαγή κωδικού</u></li>
+        <li><u>Προσθήκη συμβάντος</u></li>
+        <li><u>Εύρεση Δρομολογίου</u></li>
+        <li><u>Προσθήκη Αγγελίας</u></li>
+
+
+        </ul></div>
+    
+    
+<div style="width:170px;margin:2px 0px 0px 20px;height:1px;background:#717171;border-bottom:1px solid#808080;float:right;"></div>    
+  
+   
+    
+    <div class="kover" onclick="window.location='calendar.single.html';">
+    <h4>Επόμενο Μάθημα</h4>
+    <div id="next">
+        Κωδικός: ΗΥ-113<br>
+        Αίθουσα: Α113 <br>
+        Hμ/νία:    2/4/2014 12:00
+    </div>
+    </div>
+    </div>  
+    </div>
+  
+    </div>
+<div id="content" >
+    <div id="tools" style="max-height:100px;">
+            <div style="float:right;margin-right:5px;">      
+         <img src ="images2/kafe.png" width="340" height="200" alt="CSD" 
+    usemap="#csd">
+
+    <map name="csd">
+    <area shape="rect" coords="160,80,180,100" href = "#" title="H204" >
+    <area shape="rect" coords="200,10,240,50" href="#" title="Zoomin">
+    <area shape="rect" coords="580,80,620,120" href="#" title="Zoomout"> 
+    </map>        
+    </div>
+        
+    <div style="float:left;">
+       <h3>ΗΥ-113 φυσικη ΙΙ</h3></div>
+            <div style="float:right;">
+                <div class="gbutton"> <input type="submit" value=" Επιστροφή " onClick="history.go(-1);" style="position:absolute;width:80px; margin-top:-39px;margin-left:260px;margin-right:-100px;">
+           </div>
+       
+         
+        </div>
+        <div style="clear:both"></div>
+    </div>
+    <table border="0" style="position:absolute;margin:-40px 0 0 0;"><tr><td>Καθηγητής:</td><td>Χαλδούπης</td></tr>
+                    <tr><td>Τύπος:</td><td>Διάλεξη </td></td></tr>
+                    <tr><td>Ημ/νια-Ώρα:</td><td>2/6/2014  12:00</td></tr>
+                    <tr><td>Αίθουσα</td><td>Η204</td></tr>
+                    <tr><td>Ιστοσελίδα:</td><td><div class="kover">Φυσική ΙΙ</td></tr>
+    </table>
+    <br> <br> <br>
+    <div style="position:absolute;margin:60px 0 0 0px;">
+     Να σταλούν οδηγίες πρόσβασης για <br>την Η204 στο κινητό σου τηλέφωνο;</div><br>
+    <div>
+        
+
+        
+    
+    <div style="float:left;">
+                <div class="bbutton"> <input type="submit" value="  Ναι, στείλε! " style="position:absolute;width:100px; margin:80px 0 0 0px">
+           </div>
+    </div>
+   
+    </div>
+    </div>
+        
+ <div id="footer" style="position:absolute;margin:-50px 0 0 80px;">
+    <center>
+      Πανεπιστήμιο Κρήτης | Πανεπιστημιούπολη Βουτών | Τηλέφωνο: 2810393172 | Fax: 2810393031 | Ταχ Κώδικας: 70013 
+    </center>
+    </div>
+</div>
+</body>
+</html>

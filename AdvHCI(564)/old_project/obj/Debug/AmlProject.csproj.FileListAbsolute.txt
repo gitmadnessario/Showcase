@@ -1,0 +1,973 @@
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\bin\Debug\KinectInteraction180_32.dll
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\bin\Debug\KinectInteraction180_64.dll
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\bin\Debug\WpfApplication2.exe
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\bin\Debug\WpfApplication2.pdb
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\bin\Debug\Fizbin.Kinect.Gestures.dll
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\bin\Debug\zxing.dll
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\bin\Debug\zxing.xml
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\MainWindow.baml
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\screen1.baml
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\screen2.baml
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\MainWindow.g.cs
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\screen1.g.cs
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\screen2.g.cs
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\App.g.cs
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\WpfApplication2_Content.g.cs
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\WpfApplication2.exe
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\WpfApplication2.pdb
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\fscreen.baml
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\fscreen.g.cs
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\Window1.baml
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\Window1.g.cs
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\www1.baml
+C:\Users\winblvr\Source\Repos\564\WpfApplication2\obj\Debug\www1.g.cs
+D:\Library\Desktop\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
+D:\Library\Desktop\WpfApplication2\WpfApplication2\bin\Debug\KinectInteraction180_32.dll
+D:\Library\Desktop\WpfApplication2\WpfApplication2\bin\Debug\KinectInteraction180_64.dll
+D:\Library\Desktop\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe
+D:\Library\Desktop\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.pdb
+D:\Library\Desktop\WpfApplication2\WpfApplication2\bin\Debug\Fizbin.Kinect.Gestures.dll
+D:\Library\Desktop\WpfApplication2\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+D:\Library\Desktop\WpfApplication2\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.dll
+D:\Library\Desktop\WpfApplication2\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+D:\Library\Desktop\WpfApplication2\WpfApplication2\bin\Debug\zxing.dll
+D:\Library\Desktop\WpfApplication2\WpfApplication2\bin\Debug\zxing.xml
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\fscreen.baml
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\fscreen.g.cs
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_Content.g.cs
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\screen_0_loading_pref.baml
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\screen_5_fridge.baml
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\screen_0_notInIntermediate.baml
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\screen_1_home_logged_in.baml
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\screen_0_loading_pref.g.cs
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\screen_5_fridge.g.cs
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\screen_0_notInIntermediate.g.cs
+D:\Library\Desktop\WpfApplication2\WpfApplication2\obj\Debug\screen_1_home_logged_in.g.cs
+\\PARAWORLD-PC\Movies\564\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\WpfApplication2.exe
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\WpfApplication2.pdb
+\\PARAWORLD-PC\Movies\564\WpfApplication2\bin\Debug\KinectInteraction180_32.dll
+\\PARAWORLD-PC\Movies\564\WpfApplication2\bin\Debug\KinectInteraction180_64.dll
+\\PARAWORLD-PC\Movies\564\WpfApplication2\bin\Debug\WpfApplication2.exe
+\\PARAWORLD-PC\Movies\564\WpfApplication2\bin\Debug\WpfApplication2.pdb
+\\PARAWORLD-PC\Movies\564\WpfApplication2\bin\Debug\Fizbin.Kinect.Gestures.dll
+\\PARAWORLD-PC\Movies\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+\\PARAWORLD-PC\Movies\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.dll
+\\PARAWORLD-PC\Movies\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+\\PARAWORLD-PC\Movies\564\WpfApplication2\bin\Debug\zxing.dll
+\\PARAWORLD-PC\Movies\564\WpfApplication2\bin\Debug\zxing.xml
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\fscreen.baml
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\MainWindow.baml
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\screen_0_loading_pref.baml
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\screen_5_fridge.baml
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\screen_0_notInIntermediate.baml
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\screen_1_home_logged_in.baml
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\fscreen.g.cs
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\MainWindow.g.cs
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\screen_0_loading_pref.g.cs
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\screen_5_fridge.g.cs
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\screen_0_notInIntermediate.g.cs
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\screen_1_home_logged_in.g.cs
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\App.g.cs
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\WpfApplication2_Content.g.cs
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+\\PARAWORLD-PC\Movies\564\WpfApplication2\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+C:\Users\winblvr\Desktop\564\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\WpfApplication2.exe
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\WpfApplication2.pdb
+C:\Users\winblvr\Desktop\564\WpfApplication2\bin\Debug\KinectInteraction180_32.dll
+C:\Users\winblvr\Desktop\564\WpfApplication2\bin\Debug\KinectInteraction180_64.dll
+C:\Users\winblvr\Desktop\564\WpfApplication2\bin\Debug\WpfApplication2.exe
+C:\Users\winblvr\Desktop\564\WpfApplication2\bin\Debug\WpfApplication2.pdb
+C:\Users\winblvr\Desktop\564\WpfApplication2\bin\Debug\Fizbin.Kinect.Gestures.dll
+C:\Users\winblvr\Desktop\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\winblvr\Desktop\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\winblvr\Desktop\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\winblvr\Desktop\564\WpfApplication2\bin\Debug\zxing.dll
+C:\Users\winblvr\Desktop\564\WpfApplication2\bin\Debug\zxing.xml
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\fscreen.baml
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\MainWindow.baml
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\screen_0_loading_pref.baml
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\screen_5_fridge.baml
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\screen_0_notInIntermediate.baml
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\screen_1_home_logged_in.baml
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\fscreen.g.cs
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\MainWindow.g.cs
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\screen_0_loading_pref.g.cs
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\screen_5_fridge.g.cs
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\screen_0_notInIntermediate.g.cs
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\screen_1_home_logged_in.g.cs
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\App.g.cs
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\WpfApplication2_Content.g.cs
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+C:\Users\winblvr\Desktop\564\WpfApplication2\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.exe
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.pdb
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\bin\Debug\KinectInteraction180_32.dll
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\bin\Debug\KinectInteraction180_64.dll
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\bin\Debug\WpfApplication2.exe
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\bin\Debug\WpfApplication2.pdb
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Fizbin.Kinect.Gestures.dll
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\bin\Debug\zxing.dll
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\bin\Debug\zxing.xml
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\fscreen.baml
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\MainWindow.baml
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_loading_pref.baml
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_5_fridge.baml
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_notInIntermediate.baml
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_1_home_logged_in.baml
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\fscreen.g.cs
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\MainWindow.g.cs
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_loading_pref.g.cs
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_5_fridge.g.cs
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_notInIntermediate.g.cs
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_1_home_logged_in.g.cs
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\App.g.cs
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2_Content.g.cs
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\login.baml
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\login.g.cs
+D:\Dropbox\564\screens\564\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+D:\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.exe
+D:\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.pdb
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.exe
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.pdb
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\fscreen.baml
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\login.baml
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_loading_pref.baml
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_5_fridge.baml
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_notInIntermediate.baml
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_1_home_logged_in.baml
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\MainWindow.baml
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\fscreen.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\login.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_loading_pref.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_5_fridge.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_notInIntermediate.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_1_home_logged_in.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\MainWindow.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\App.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2_Content.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\KinectInteraction180_32.dll
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\KinectInteraction180_64.dll
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\WpfApplication2.exe
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\WpfApplication2.pdb
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Fizbin.Kinect.Gestures.dll
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.dll
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\zxing.dll
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\zxing.xml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.exe
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.pdb
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\KinectInteraction180_32.dll
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\KinectInteraction180_64.dll
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\WpfApplication2.exe
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\WpfApplication2.pdb
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Fizbin.Kinect.Gestures.dll
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\zxing.dll
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\bin\Debug\zxing.xml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\fscreen.baml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\login.baml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_loading_pref.baml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_5_fridge.baml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_notInIntermediate.baml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_1_home_logged_in.baml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\MainWindow.baml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\fscreen.g.cs
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\login.g.cs
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_loading_pref.g.cs
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_5_fridge.g.cs
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_notInIntermediate.g.cs
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_1_home_logged_in.g.cs
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\MainWindow.g.cs
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\App.g.cs
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2_Content.g.cs
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes.baml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_grid.baml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single.baml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_1.baml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_mid.baml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_3_store_ingredients.baml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes.g.cs
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_grid.g.cs
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single.g.cs
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_1.g.cs
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_3_store_ingredients.g.cs
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes.baml
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_grid.baml
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single.baml
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_1.baml
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_mid.baml
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_3_store_ingredients.baml
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes.g.cs
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_grid.g.cs
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single.g.cs
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_1.g.cs
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+C:\Users\plaisio\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_3_store_ingredients.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes.baml
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_grid.baml
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single.baml
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_1.baml
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_mid.baml
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_3_store_ingredients.baml
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_grid.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_1.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_3_store_ingredients.g.cs
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_3_shopping_List.baml
+D:\blvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_3_shopping_List.g.cs
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_3_shopping_List.baml
+C:\Users\winblvr\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_3_shopping_List.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\bin\Debug\KinectInteraction180_32.dll
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\bin\Debug\KinectInteraction180_64.dll
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\bin\Debug\WpfApplication2.exe
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\bin\Debug\WpfApplication2.pdb
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Fizbin.Kinect.Gestures.dll
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.dll
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\bin\Debug\zxing.dll
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\bin\Debug\zxing.xml
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\fscreen.baml
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\login.baml
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_loading_pref.baml
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes.baml
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_grid.baml
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single.baml
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_1.baml
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_mid.baml
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_3_shopping_List.baml
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_3_store_ingredients.baml
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_5_fridge.baml
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_notInIntermediate.baml
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_1_home_logged_in.baml
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\MainWindow.baml
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\fscreen.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\login.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_loading_pref.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_grid.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_1.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_3_shopping_List.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_3_store_ingredients.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_5_fridge.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_0_notInIntermediate.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\screen_1_home_logged_in.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\MainWindow.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\App.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2_Content.g.cs
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.exe
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\WpfApplication2.pdb
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\bin\Debug\KinectInteraction180_32.dll
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\bin\Debug\KinectInteraction180_64.dll
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\bin\Debug\WpfApplication2.exe
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\bin\Debug\WpfApplication2.pdb
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\bin\Debug\Fizbin.Kinect.Gestures.dll
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.dll
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\bin\Debug\zxing.dll
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\bin\Debug\zxing.xml
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\fscreen.baml
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\login.baml
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_0_loading_pref.baml
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_2_recipes.baml
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_2_recipes_grid.baml
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_2_recipes_single.baml
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_2_recipes_single_step_1.baml
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_2_recipes_single_step_mid.baml
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_3_shopping_List.baml
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_3_store_ingredients.baml
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_5_fridge.baml
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_0_notInIntermediate.baml
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_1_home_logged_in.baml
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\MainWindow.baml
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\fscreen.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\login.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_0_loading_pref.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_2_recipes.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_2_recipes_grid.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_2_recipes_single.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_2_recipes_single_step_1.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_3_shopping_List.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_3_store_ingredients.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_5_fridge.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_0_notInIntermediate.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\screen_1_home_logged_in.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\MainWindow.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\App.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\WpfApplication2_Content.g.cs
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\WpfApplication2.exe
+c:\Users\mrithail\Desktop\SmartKitchen\WpfApplication2\obj\Debug\WpfApplication2.pdb
+c:\Users\mrithail\Dropbox\564\screens\564\WpfApplication2\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+C:\final\bin\Debug\WpfApplication2.exe.config
+C:\final\obj\Debug\WpfApplication2.exe
+C:\final\obj\Debug\WpfApplication2.pdb
+C:\final\bin\Debug\KinectInteraction180_32.dll
+C:\final\bin\Debug\KinectInteraction180_64.dll
+C:\final\bin\Debug\WpfApplication2.exe
+C:\final\bin\Debug\WpfApplication2.pdb
+C:\final\bin\Debug\Fizbin.Kinect.Gestures.dll
+C:\final\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\final\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\final\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\final\bin\Debug\zxing.dll
+C:\final\bin\Debug\zxing.xml
+C:\final\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+C:\final\obj\Debug\fscreen.baml
+C:\final\obj\Debug\login.baml
+C:\final\obj\Debug\screen_0_loading_pref.baml
+C:\final\obj\Debug\screen_2_recipes.baml
+C:\final\obj\Debug\screen_2_recipes_grid.baml
+C:\final\obj\Debug\screen_2_recipes_single.baml
+C:\final\obj\Debug\screen_2_recipes_single_step_1.baml
+C:\final\obj\Debug\screen_2_recipes_single_step_mid.baml
+C:\final\obj\Debug\screen_3_shopping_List.baml
+C:\final\obj\Debug\screen_3_store_ingredients.baml
+C:\final\obj\Debug\screen_5_fridge.baml
+C:\final\obj\Debug\screen_0_notInIntermediate.baml
+C:\final\obj\Debug\screen_1_home_logged_in.baml
+C:\final\obj\Debug\MainWindow.baml
+C:\final\obj\Debug\fscreen.g.cs
+C:\final\obj\Debug\login.g.cs
+C:\final\obj\Debug\screen_0_loading_pref.g.cs
+C:\final\obj\Debug\screen_2_recipes.g.cs
+C:\final\obj\Debug\screen_2_recipes_grid.g.cs
+C:\final\obj\Debug\screen_2_recipes_single.g.cs
+C:\final\obj\Debug\screen_2_recipes_single_step_1.g.cs
+C:\final\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+C:\final\obj\Debug\screen_3_shopping_List.g.cs
+C:\final\obj\Debug\screen_3_store_ingredients.g.cs
+C:\final\obj\Debug\screen_5_fridge.g.cs
+C:\final\obj\Debug\screen_0_notInIntermediate.g.cs
+C:\final\obj\Debug\screen_1_home_logged_in.g.cs
+C:\final\obj\Debug\MainWindow.g.cs
+C:\final\obj\Debug\App.g.cs
+C:\final\obj\Debug\WpfApplication2_Content.g.cs
+C:\final\obj\Debug\WpfApplication2_MarkupCompile.cache
+C:\final\obj\Debug\WpfApplication2.g.resources
+C:\final\obj\Debug\WpfApplication2.Properties.Resources.resources
+C:\final\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+C:\final\obj\Debug\screen_4_calendar.baml
+C:\final\obj\Debug\screen_4_calendar.g.cs
+C:\final\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Library\Desktop\final\bin\Debug\WpfApplication2.exe.config
+D:\Library\Desktop\final\obj\Debug\WpfApplication2.exe
+D:\Library\Desktop\final\obj\Debug\WpfApplication2.pdb
+D:\Library\Desktop\final\bin\Debug\KinectInteraction180_32.dll
+D:\Library\Desktop\final\bin\Debug\KinectInteraction180_64.dll
+D:\Library\Desktop\final\bin\Debug\WpfApplication2.exe
+D:\Library\Desktop\final\bin\Debug\WpfApplication2.pdb
+D:\Library\Desktop\final\bin\Debug\Fizbin.Kinect.Gestures.dll
+D:\Library\Desktop\final\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+D:\Library\Desktop\final\bin\Debug\Microsoft.Kinect.Toolkit.dll
+D:\Library\Desktop\final\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+D:\Library\Desktop\final\bin\Debug\zxing.dll
+D:\Library\Desktop\final\bin\Debug\zxing.xml
+D:\Library\Desktop\final\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+D:\Library\Desktop\final\obj\Debug\fscreen.baml
+D:\Library\Desktop\final\obj\Debug\login.baml
+D:\Library\Desktop\final\obj\Debug\screen_0_loading_pref.baml
+D:\Library\Desktop\final\obj\Debug\screen_2_recipes.baml
+D:\Library\Desktop\final\obj\Debug\screen_2_recipes_grid.baml
+D:\Library\Desktop\final\obj\Debug\screen_2_recipes_single.baml
+D:\Library\Desktop\final\obj\Debug\screen_2_recipes_single_step_1.baml
+D:\Library\Desktop\final\obj\Debug\screen_2_recipes_single_step_mid.baml
+D:\Library\Desktop\final\obj\Debug\screen_3_shopping_List.baml
+D:\Library\Desktop\final\obj\Debug\screen_3_store_ingredients.baml
+D:\Library\Desktop\final\obj\Debug\screen_4_calendar.baml
+D:\Library\Desktop\final\obj\Debug\screen_5_fridge.baml
+D:\Library\Desktop\final\obj\Debug\screen_0_notInIntermediate.baml
+D:\Library\Desktop\final\obj\Debug\screen_1_home_logged_in.baml
+D:\Library\Desktop\final\obj\Debug\MainWindow.baml
+D:\Library\Desktop\final\obj\Debug\fscreen.g.cs
+D:\Library\Desktop\final\obj\Debug\login.g.cs
+D:\Library\Desktop\final\obj\Debug\screen_0_loading_pref.g.cs
+D:\Library\Desktop\final\obj\Debug\screen_2_recipes.g.cs
+D:\Library\Desktop\final\obj\Debug\screen_2_recipes_grid.g.cs
+D:\Library\Desktop\final\obj\Debug\screen_2_recipes_single.g.cs
+D:\Library\Desktop\final\obj\Debug\screen_2_recipes_single_step_1.g.cs
+D:\Library\Desktop\final\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+D:\Library\Desktop\final\obj\Debug\screen_3_shopping_List.g.cs
+D:\Library\Desktop\final\obj\Debug\screen_3_store_ingredients.g.cs
+D:\Library\Desktop\final\obj\Debug\screen_4_calendar.g.cs
+D:\Library\Desktop\final\obj\Debug\screen_5_fridge.g.cs
+D:\Library\Desktop\final\obj\Debug\screen_0_notInIntermediate.g.cs
+D:\Library\Desktop\final\obj\Debug\screen_1_home_logged_in.g.cs
+D:\Library\Desktop\final\obj\Debug\MainWindow.g.cs
+D:\Library\Desktop\final\obj\Debug\App.g.cs
+D:\Library\Desktop\final\obj\Debug\WpfApplication2_Content.g.cs
+D:\Library\Desktop\final\obj\Debug\WpfApplication2_MarkupCompile.cache
+D:\Library\Desktop\final\obj\Debug\WpfApplication2.g.resources
+D:\Library\Desktop\final\obj\Debug\WpfApplication2.Properties.Resources.resources
+D:\Library\Desktop\final\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\hy564\final\bin\Debug\WpfApplication2.exe.config
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\WpfApplication2.exe
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\WpfApplication2.pdb
+C:\Users\Administrator\Desktop\hy564\final\bin\Debug\KinectInteraction180_32.dll
+C:\Users\Administrator\Desktop\hy564\final\bin\Debug\KinectInteraction180_64.dll
+C:\Users\Administrator\Desktop\hy564\final\bin\Debug\WpfApplication2.exe
+C:\Users\Administrator\Desktop\hy564\final\bin\Debug\WpfApplication2.pdb
+C:\Users\Administrator\Desktop\hy564\final\bin\Debug\Fizbin.Kinect.Gestures.dll
+C:\Users\Administrator\Desktop\hy564\final\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Administrator\Desktop\hy564\final\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\Administrator\Desktop\hy564\final\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\Administrator\Desktop\hy564\final\bin\Debug\zxing.dll
+C:\Users\Administrator\Desktop\hy564\final\bin\Debug\zxing.xml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\fscreen.baml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\login.baml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_0_loading_pref.baml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_2_recipes.baml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_2_recipes_grid.baml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_2_recipes_single.baml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_2_recipes_single_step_1.baml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_2_recipes_single_step_mid.baml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_3_shopping_List.baml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_3_store_ingredients.baml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_4_calendar.baml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_5_fridge.baml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_0_notInIntermediate.baml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_1_home_logged_in.baml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\fscreen.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\login.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_0_loading_pref.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_2_recipes.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_2_recipes_grid.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_2_recipes_single.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_2_recipes_single_step_1.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_3_shopping_List.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_3_store_ingredients.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_4_calendar.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_5_fridge.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_0_notInIntermediate.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\screen_1_home_logged_in.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\WpfApplication2_Content.g.cs
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\WpfApplication2_MarkupCompile.cache
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\WpfApplication2.g.resources
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\WpfApplication2.Properties.Resources.resources
+C:\Users\Administrator\Desktop\hy564\final\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+D:\Library\Desktop\STEPS\one\hy564\final\bin\Debug\WpfApplication2.exe.config
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\WpfApplication2.exe
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\WpfApplication2.pdb
+D:\Library\Desktop\STEPS\one\hy564\final\bin\Debug\KinectInteraction180_32.dll
+D:\Library\Desktop\STEPS\one\hy564\final\bin\Debug\KinectInteraction180_64.dll
+D:\Library\Desktop\STEPS\one\hy564\final\bin\Debug\WpfApplication2.exe
+D:\Library\Desktop\STEPS\one\hy564\final\bin\Debug\WpfApplication2.pdb
+D:\Library\Desktop\STEPS\one\hy564\final\bin\Debug\Fizbin.Kinect.Gestures.dll
+D:\Library\Desktop\STEPS\one\hy564\final\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+D:\Library\Desktop\STEPS\one\hy564\final\bin\Debug\Microsoft.Kinect.Toolkit.dll
+D:\Library\Desktop\STEPS\one\hy564\final\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+D:\Library\Desktop\STEPS\one\hy564\final\bin\Debug\zxing.dll
+D:\Library\Desktop\STEPS\one\hy564\final\bin\Debug\zxing.xml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\fscreen.baml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\login.baml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_0_loading_pref.baml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_2_recipes.baml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_2_recipes_grid.baml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_2_recipes_single.baml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_2_recipes_single_step_1.baml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_2_recipes_single_step_mid.baml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_3_shopping_List.baml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_3_store_ingredients.baml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_4_calendar.baml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_5_fridge.baml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_0_notInIntermediate.baml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_1_home_logged_in.baml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\MainWindow.baml
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\fscreen.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\login.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_0_loading_pref.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_2_recipes.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_2_recipes_grid.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_2_recipes_single.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_2_recipes_single_step_1.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_3_shopping_List.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_3_store_ingredients.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_4_calendar.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_5_fridge.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_0_notInIntermediate.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\screen_1_home_logged_in.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\MainWindow.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\App.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\WpfApplication2_Content.g.cs
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\WpfApplication2_MarkupCompile.cache
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\WpfApplication2.g.resources
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\WpfApplication2.Properties.Resources.resources
+D:\Library\Desktop\STEPS\one\hy564\final\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+\\PARAWORLD-PC\Users\Public\STEPS\one\hy564\final\bin\Debug\WpfApplication2.exe.config
+\\PARAWORLD-PC\Users\Public\STEPS\one\hy564\final\obj\Debug\WpfApplication2.exe
+\\PARAWORLD-PC\Users\Public\STEPS\one\hy564\final\obj\Debug\WpfApplication2.pdb
+D:\User\Επιφάνεια εργασίας\final\bin\Debug\WpfApplication2.exe.config
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\WpfApplication2.exe
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\WpfApplication2.pdb
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\fscreen.baml
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\login.baml
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_0_loading_pref.baml
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_2_recipes.baml
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_2_recipes_grid.baml
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_2_recipes_single.baml
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_2_recipes_single_step_1.baml
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_2_recipes_single_step_mid.baml
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_3_shopping_List.baml
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_3_store_ingredients.baml
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_4_calendar.baml
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_5_fridge.baml
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_0_notInIntermediate.baml
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_1_home_logged_in.baml
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\MainWindow.baml
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\fscreen.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\login.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_0_loading_pref.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_2_recipes.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_2_recipes_grid.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_2_recipes_single.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_2_recipes_single_step_1.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_3_shopping_List.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_3_store_ingredients.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_4_calendar.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_5_fridge.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_0_notInIntermediate.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\screen_1_home_logged_in.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\MainWindow.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\App.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\WpfApplication2_Content.g.cs
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\WpfApplication2_MarkupCompile.cache
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\WpfApplication2.g.resources
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\WpfApplication2.Properties.Resources.resources
+D:\User\Επιφάνεια εργασίας\final\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+D:\User\Επιφάνεια εργασίας\final\bin\Debug\KinectInteraction180_32.dll
+D:\User\Επιφάνεια εργασίας\final\bin\Debug\KinectInteraction180_64.dll
+D:\User\Επιφάνεια εργασίας\final\bin\Debug\WpfApplication2.exe
+D:\User\Επιφάνεια εργασίας\final\bin\Debug\WpfApplication2.pdb
+D:\User\Επιφάνεια εργασίας\final\bin\Debug\Fizbin.Kinect.Gestures.dll
+D:\User\Επιφάνεια εργασίας\final\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+D:\User\Επιφάνεια εργασίας\final\bin\Debug\Microsoft.Kinect.Toolkit.dll
+D:\User\Επιφάνεια εργασίας\final\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+D:\User\Επιφάνεια εργασίας\final\bin\Debug\zxing.dll
+D:\User\Επιφάνεια εργασίας\final\bin\Debug\zxing.xml
+D:\User\Επιφάνεια εργασίας\td\final\bin\Debug\WpfApplication2.exe.config
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\WpfApplication2.exe
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\WpfApplication2.pdb
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\fscreen.baml
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\login.baml
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_0_loading_pref.baml
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_2_recipes.baml
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_2_recipes_grid.baml
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_2_recipes_single.baml
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_2_recipes_single_step_1.baml
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_2_recipes_single_step_mid.baml
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_3_shopping_List.baml
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_3_store_ingredients.baml
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_4_calendar.baml
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_5_fridge.baml
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_0_notInIntermediate.baml
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_1_home_logged_in.baml
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\MainWindow.baml
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\fscreen.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\login.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_0_loading_pref.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_2_recipes.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_2_recipes_grid.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_2_recipes_single.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_2_recipes_single_step_1.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_3_shopping_List.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_3_store_ingredients.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_4_calendar.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_5_fridge.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_0_notInIntermediate.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\screen_1_home_logged_in.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\MainWindow.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\App.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\WpfApplication2_Content.g.cs
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\WpfApplication2_MarkupCompile.cache
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\WpfApplication2.g.resources
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\WpfApplication2.Properties.Resources.resources
+D:\User\Επιφάνεια εργασίας\td\final\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+D:\User\Επιφάνεια εργασίας\td\final\bin\Debug\KinectInteraction180_32.dll
+D:\User\Επιφάνεια εργασίας\td\final\bin\Debug\KinectInteraction180_64.dll
+D:\User\Επιφάνεια εργασίας\td\final\bin\Debug\WpfApplication2.exe
+D:\User\Επιφάνεια εργασίας\td\final\bin\Debug\WpfApplication2.pdb
+D:\User\Επιφάνεια εργασίας\td\final\bin\Debug\Fizbin.Kinect.Gestures.dll
+D:\User\Επιφάνεια εργασίας\td\final\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+D:\User\Επιφάνεια εργασίας\td\final\bin\Debug\Microsoft.Kinect.Toolkit.dll
+D:\User\Επιφάνεια εργασίας\td\final\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+D:\User\Επιφάνεια εργασίας\td\final\bin\Debug\zxing.dll
+D:\User\Επιφάνεια εργασίας\td\final\bin\Debug\zxing.xml
+\\PARAWORLD-PC\Users\Public\td\td\final\bin\Debug\WpfApplication2.exe.config
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\WpfApplication2.exe
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\WpfApplication2.pdb
+\\PARAWORLD-PC\Users\Public\td\td\final\bin\Debug\KinectInteraction180_32.dll
+\\PARAWORLD-PC\Users\Public\td\td\final\bin\Debug\KinectInteraction180_64.dll
+\\PARAWORLD-PC\Users\Public\td\td\final\bin\Debug\WpfApplication2.exe
+\\PARAWORLD-PC\Users\Public\td\td\final\bin\Debug\WpfApplication2.pdb
+\\PARAWORLD-PC\Users\Public\td\td\final\bin\Debug\Fizbin.Kinect.Gestures.dll
+\\PARAWORLD-PC\Users\Public\td\td\final\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+\\PARAWORLD-PC\Users\Public\td\td\final\bin\Debug\Microsoft.Kinect.Toolkit.dll
+\\PARAWORLD-PC\Users\Public\td\td\final\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+\\PARAWORLD-PC\Users\Public\td\td\final\bin\Debug\zxing.dll
+\\PARAWORLD-PC\Users\Public\td\td\final\bin\Debug\zxing.xml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\fscreen.baml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\login.baml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_0_loading_pref.baml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_2_recipes.baml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_2_recipes_grid.baml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_2_recipes_single.baml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_2_recipes_single_step_1.baml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_2_recipes_single_step_mid.baml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_3_shopping_List.baml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_3_store_ingredients.baml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_4_calendar.baml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_5_fridge.baml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_0_notInIntermediate.baml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_1_home_logged_in.baml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\MainWindow.baml
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\fscreen.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\login.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_0_loading_pref.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_2_recipes.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_2_recipes_grid.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_2_recipes_single.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_2_recipes_single_step_1.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_3_shopping_List.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_3_store_ingredients.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_4_calendar.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_5_fridge.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_0_notInIntermediate.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\screen_1_home_logged_in.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\MainWindow.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\App.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\WpfApplication2_Content.g.cs
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\WpfApplication2_MarkupCompile.cache
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\WpfApplication2.g.resources
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\WpfApplication2.Properties.Resources.resources
+\\PARAWORLD-PC\Users\Public\td\td\final\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\final\bin\Debug\WpfApplication2.exe.config
+C:\Users\Administrator\Desktop\final\obj\Debug\WpfApplication2.exe
+C:\Users\Administrator\Desktop\final\obj\Debug\WpfApplication2.pdb
+C:\Users\Administrator\Desktop\final\bin\Debug\KinectInteraction180_32.dll
+C:\Users\Administrator\Desktop\final\bin\Debug\KinectInteraction180_64.dll
+C:\Users\Administrator\Desktop\final\bin\Debug\WpfApplication2.exe
+C:\Users\Administrator\Desktop\final\bin\Debug\WpfApplication2.pdb
+C:\Users\Administrator\Desktop\final\bin\Debug\Fizbin.Kinect.Gestures.dll
+C:\Users\Administrator\Desktop\final\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Administrator\Desktop\final\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\Administrator\Desktop\final\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\Administrator\Desktop\final\bin\Debug\zxing.dll
+C:\Users\Administrator\Desktop\final\bin\Debug\zxing.xml
+C:\Users\Administrator\Desktop\final\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\final\obj\Debug\fscreen.baml
+C:\Users\Administrator\Desktop\final\obj\Debug\login.baml
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_0_loading_pref.baml
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_2_recipes.baml
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_2_recipes_grid.baml
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_2_recipes_single.baml
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_2_recipes_single_step_1.baml
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_2_recipes_single_step_mid.baml
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_3_shopping_List.baml
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_3_store_ingredients.baml
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_4_calendar.baml
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_5_fridge.baml
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_0_notInIntermediate.baml
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_1_home_logged_in.baml
+C:\Users\Administrator\Desktop\final\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\final\obj\Debug\fscreen.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\login.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_0_loading_pref.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_2_recipes.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_2_recipes_grid.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_2_recipes_single.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_2_recipes_single_step_1.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_3_shopping_List.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_3_store_ingredients.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_4_calendar.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_5_fridge.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_0_notInIntermediate.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\screen_1_home_logged_in.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\WpfApplication2_Content.g.cs
+C:\Users\Administrator\Desktop\final\obj\Debug\WpfApplication2_MarkupCompile.cache
+C:\Users\Administrator\Desktop\final\obj\Debug\WpfApplication2.g.resources
+C:\Users\Administrator\Desktop\final\obj\Debug\WpfApplication2.Properties.Resources.resources
+C:\Users\Administrator\Desktop\final\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+D:\Projects\team2final\final\bin\Debug\WpfApplication2.exe.config
+D:\Projects\team2final\final\obj\Debug\WpfApplication2.exe
+D:\Projects\team2final\final\obj\Debug\WpfApplication2.pdb
+D:\Projects\team2final\final\bin\Debug\KinectInteraction180_32.dll
+D:\Projects\team2final\final\bin\Debug\KinectInteraction180_64.dll
+D:\Projects\team2final\final\bin\Debug\WpfApplication2.exe
+D:\Projects\team2final\final\bin\Debug\WpfApplication2.pdb
+D:\Projects\team2final\final\bin\Debug\Fizbin.Kinect.Gestures.dll
+D:\Projects\team2final\final\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+D:\Projects\team2final\final\bin\Debug\Microsoft.Kinect.Toolkit.dll
+D:\Projects\team2final\final\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+D:\Projects\team2final\final\bin\Debug\zxing.dll
+D:\Projects\team2final\final\bin\Debug\zxing.xml
+D:\Projects\team2final\final\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+D:\Projects\team2final\final\obj\Debug\fscreen.baml
+D:\Projects\team2final\final\obj\Debug\login.baml
+D:\Projects\team2final\final\obj\Debug\screen_0_loading_pref.baml
+D:\Projects\team2final\final\obj\Debug\screen_2_recipes.baml
+D:\Projects\team2final\final\obj\Debug\screen_2_recipes_grid.baml
+D:\Projects\team2final\final\obj\Debug\screen_2_recipes_single.baml
+D:\Projects\team2final\final\obj\Debug\screen_2_recipes_single_step_1.baml
+D:\Projects\team2final\final\obj\Debug\screen_2_recipes_single_step_mid.baml
+D:\Projects\team2final\final\obj\Debug\screen_3_shopping_List.baml
+D:\Projects\team2final\final\obj\Debug\screen_3_store_ingredients.baml
+D:\Projects\team2final\final\obj\Debug\screen_4_calendar.baml
+D:\Projects\team2final\final\obj\Debug\screen_5_fridge.baml
+D:\Projects\team2final\final\obj\Debug\screen_0_notInIntermediate.baml
+D:\Projects\team2final\final\obj\Debug\screen_1_home_logged_in.baml
+D:\Projects\team2final\final\obj\Debug\MainWindow.baml
+D:\Projects\team2final\final\obj\Debug\fscreen.g.cs
+D:\Projects\team2final\final\obj\Debug\login.g.cs
+D:\Projects\team2final\final\obj\Debug\screen_0_loading_pref.g.cs
+D:\Projects\team2final\final\obj\Debug\screen_2_recipes.g.cs
+D:\Projects\team2final\final\obj\Debug\screen_2_recipes_grid.g.cs
+D:\Projects\team2final\final\obj\Debug\screen_2_recipes_single.g.cs
+D:\Projects\team2final\final\obj\Debug\screen_2_recipes_single_step_1.g.cs
+D:\Projects\team2final\final\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+D:\Projects\team2final\final\obj\Debug\screen_3_shopping_List.g.cs
+D:\Projects\team2final\final\obj\Debug\screen_3_store_ingredients.g.cs
+D:\Projects\team2final\final\obj\Debug\screen_4_calendar.g.cs
+D:\Projects\team2final\final\obj\Debug\screen_5_fridge.g.cs
+D:\Projects\team2final\final\obj\Debug\screen_0_notInIntermediate.g.cs
+D:\Projects\team2final\final\obj\Debug\screen_1_home_logged_in.g.cs
+D:\Projects\team2final\final\obj\Debug\MainWindow.g.cs
+D:\Projects\team2final\final\obj\Debug\App.g.cs
+D:\Projects\team2final\final\obj\Debug\WpfApplication2_Content.g.cs
+D:\Projects\team2final\final\obj\Debug\WpfApplication2_MarkupCompile.cache
+D:\Projects\team2final\final\obj\Debug\WpfApplication2.g.resources
+D:\Projects\team2final\final\obj\Debug\WpfApplication2.Properties.Resources.resources
+D:\Projects\team2final\final\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+D:\User\Επιφάνεια εργασίας\final - Copy\bin\Debug\WpfApplication2.exe.config
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\WpfApplication2.exe
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\WpfApplication2.pdb
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\fscreen.baml
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\login.baml
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_0_loading_pref.baml
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_2_recipes.baml
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_2_recipes_grid.baml
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_2_recipes_single.baml
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_2_recipes_single_step_1.baml
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_2_recipes_single_step_mid.baml
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_3_shopping_List.baml
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_3_store_ingredients.baml
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_4_calendar.baml
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_5_fridge.baml
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_0_notInIntermediate.baml
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_1_home_logged_in.baml
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\MainWindow.baml
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\fscreen.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\login.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_0_loading_pref.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_2_recipes.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_2_recipes_grid.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_2_recipes_single.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_2_recipes_single_step_1.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_3_shopping_List.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_3_store_ingredients.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_4_calendar.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_5_fridge.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_0_notInIntermediate.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\screen_1_home_logged_in.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\MainWindow.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\App.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\WpfApplication2_Content.g.cs
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\WpfApplication2_MarkupCompile.cache
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\WpfApplication2.g.resources
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\WpfApplication2.Properties.Resources.resources
+D:\User\Επιφάνεια εργασίας\final - Copy\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+D:\User\Επιφάνεια εργασίας\final - Copy\bin\Debug\KinectInteraction180_32.dll
+D:\User\Επιφάνεια εργασίας\final - Copy\bin\Debug\KinectInteraction180_64.dll
+D:\User\Επιφάνεια εργασίας\final - Copy\bin\Debug\WpfApplication2.exe
+D:\User\Επιφάνεια εργασίας\final - Copy\bin\Debug\WpfApplication2.pdb
+D:\User\Επιφάνεια εργασίας\final - Copy\bin\Debug\Fizbin.Kinect.Gestures.dll
+D:\User\Επιφάνεια εργασίας\final - Copy\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+D:\User\Επιφάνεια εργασίας\final - Copy\bin\Debug\Microsoft.Kinect.Toolkit.dll
+D:\User\Επιφάνεια εργασίας\final - Copy\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+D:\User\Επιφάνεια εργασίας\final - Copy\bin\Debug\zxing.dll
+D:\User\Επιφάνεια εργασίας\final - Copy\bin\Debug\zxing.xml
+D:\Library\Desktop\1234\final - Copy\bin\Debug\WpfApplication2.exe.config
+D:\Library\Desktop\1234\final - Copy\obj\Debug\WpfApplication2.exe
+D:\Library\Desktop\1234\final - Copy\obj\Debug\WpfApplication2.pdb
+D:\Library\Desktop\1234\final - Copy\bin\Debug\KinectInteraction180_32.dll
+D:\Library\Desktop\1234\final - Copy\bin\Debug\KinectInteraction180_64.dll
+D:\Library\Desktop\1234\final - Copy\bin\Debug\WpfApplication2.exe
+D:\Library\Desktop\1234\final - Copy\bin\Debug\WpfApplication2.pdb
+D:\Library\Desktop\1234\final - Copy\bin\Debug\Fizbin.Kinect.Gestures.dll
+D:\Library\Desktop\1234\final - Copy\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+D:\Library\Desktop\1234\final - Copy\bin\Debug\Microsoft.Kinect.Toolkit.dll
+D:\Library\Desktop\1234\final - Copy\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+D:\Library\Desktop\1234\final - Copy\bin\Debug\zxing.dll
+D:\Library\Desktop\1234\final - Copy\bin\Debug\zxing.xml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+D:\Library\Desktop\1234\final - Copy\obj\Debug\fscreen.baml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\login.baml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_0_loading_pref.baml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_2_recipes.baml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_2_recipes_grid.baml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_2_recipes_single.baml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_2_recipes_single_step_1.baml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_2_recipes_single_step_mid.baml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_3_shopping_List.baml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_3_store_ingredients.baml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_4_calendar.baml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_5_fridge.baml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_0_notInIntermediate.baml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_1_home_logged_in.baml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\MainWindow.baml
+D:\Library\Desktop\1234\final - Copy\obj\Debug\fscreen.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\login.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_0_loading_pref.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_2_recipes.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_2_recipes_grid.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_2_recipes_single.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_2_recipes_single_step_1.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_3_shopping_List.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_3_store_ingredients.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_4_calendar.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_5_fridge.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_0_notInIntermediate.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\screen_1_home_logged_in.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\MainWindow.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\App.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\WpfApplication2_Content.g.cs
+D:\Library\Desktop\1234\final - Copy\obj\Debug\WpfApplication2_MarkupCompile.cache
+D:\Library\Desktop\1234\final - Copy\obj\Debug\WpfApplication2.g.resources
+D:\Library\Desktop\1234\final - Copy\obj\Debug\WpfApplication2.Properties.Resources.resources
+D:\Library\Desktop\1234\final - Copy\obj\Debug\AmlProject.csproj.GenerateResource.Cache
+D:\Library\Desktop\1234 - Copy\final - Copy\bin\Debug\WpfApplication2.exe.config
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\WpfApplication2.exe
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\WpfApplication2.pdb
+D:\Library\Desktop\1234 - Copy\final - Copy\bin\Debug\KinectInteraction180_32.dll
+D:\Library\Desktop\1234 - Copy\final - Copy\bin\Debug\KinectInteraction180_64.dll
+D:\Library\Desktop\1234 - Copy\final - Copy\bin\Debug\WpfApplication2.exe
+D:\Library\Desktop\1234 - Copy\final - Copy\bin\Debug\WpfApplication2.pdb
+D:\Library\Desktop\1234 - Copy\final - Copy\bin\Debug\Fizbin.Kinect.Gestures.dll
+D:\Library\Desktop\1234 - Copy\final - Copy\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+D:\Library\Desktop\1234 - Copy\final - Copy\bin\Debug\Microsoft.Kinect.Toolkit.dll
+D:\Library\Desktop\1234 - Copy\final - Copy\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+D:\Library\Desktop\1234 - Copy\final - Copy\bin\Debug\zxing.dll
+D:\Library\Desktop\1234 - Copy\final - Copy\bin\Debug\zxing.xml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\AmlProject.csprojResolveAssemblyReference.cache
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\fscreen.baml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\login.baml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_0_loading_pref.baml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_2_recipes.baml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_2_recipes_grid.baml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_2_recipes_single.baml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_2_recipes_single_step_1.baml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_2_recipes_single_step_mid.baml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_3_shopping_List.baml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_3_store_ingredients.baml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_4_calendar.baml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_5_fridge.baml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_0_notInIntermediate.baml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_1_home_logged_in.baml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\MainWindow.baml
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\fscreen.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\login.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_0_loading_pref.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_2_recipes.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_2_recipes_grid.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_2_recipes_single.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_2_recipes_single_step_1.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_2_recipes_single_step_mid.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_3_shopping_List.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_3_store_ingredients.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_4_calendar.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_5_fridge.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_0_notInIntermediate.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\screen_1_home_logged_in.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\MainWindow.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\App.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\WpfApplication2_Content.g.cs
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\WpfApplication2_MarkupCompile.cache
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\WpfApplication2.g.resources
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\WpfApplication2.Properties.Resources.resources
+D:\Library\Desktop\1234 - Copy\final - Copy\obj\Debug\AmlProject.csproj.GenerateResource.Cache

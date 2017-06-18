@@ -1,0 +1,9 @@
+div.dropdown(style ng-controller="ChatAppCtrl")
+  button.btn.btn-primary.dropdown-toggle.fullMobileWidth(type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true") Contacts
+    span.caret
+  ul.dropdown-menu.fullMobileWidth(aria-labelledby="dropdownMenu1")
+    li(ng-repeat='user in users')
+       img(ng-if="user.indexOf('1') > -1" src='/images/woman_icon.jpg' width="30px" height="30px" style="padding: 5px")
+       img(ng-if="user.indexOf('2') > -1" src='/images/man_icon.jpg' width="30px" height="30px" style="padding: 5px")
+       img(ng-if="user.indexOf('3') > -1" src='/images/avatar.jpeg' width="30px" height="30px" style="padding: 5px")
+       span {{user}}

@@ -1,0 +1,48 @@
+section.chat-view(ng-controller='ChatAppCtrl')
+    header.chat-view__header
+      div.cf
+        div.status
+          i.status__indicator--online
+          div.meta
+            div.meta__name {{name}}
+            div.meta__sub--light Adium style rocks!
+        ul.function-list
+          li.icon-cloud
+          li.icon-clock
+          li.icon-dots
+    section.message-view
+
+
+    div
+        div(ng-repeat='message in messages track by $index')
+            //
+                Received message
+            div(ng-if="message.user.indexOf(name) == -1").message
+                figure.message__avatar
+                        img(ng-if="message.user.indexOf('1') > -1" src='/images/woman_icon.jpg')
+                        img(ng-if="message.user.indexOf('2') > -1" src='/images/man_icon.jpg')
+                        img(ng-if="message.user.indexOf('3') > -1" src='/images/avatar.jpeg')
+                div.message__bubble {{message.text}}
+
+            //
+                Sent message
+            div(ng-if="message.user.indexOf(name) > -1").message--send
+                div.message__bubble--send {{message.text}}
+                figure.message__avatar
+                        img(ng-if="message.user.indexOf('1') > -1" src='/images/woman_icon.jpg')
+                        img(ng-if="message.user.indexOf('2') > -1" src='/images/man_icon.jpg')
+                        img(ng-if="message.user.indexOf('3') > -1" src='/images/avatar.jpeg')
+            div.cf
+
+
+    footer.chat-view__input
+      form(ng-submit='sendMessage()')
+        div.input
+          input.chatMessage(id="m" type="text" style="float:left" ng-model='message')
+          span.input__emoticon
+        div.status(style="float:right;")
+          figure.status__avatar--small
+            img(ng-if="name.indexOf('1') > -1" src='/images/woman_icon.jpg')
+            img(ng-if="name.indexOf('2') > -1" src='/images/man_icon.jpg')
+            img(ng-if="name.indexOf('3') > -1" src='/images/avatar.jpeg')
+            

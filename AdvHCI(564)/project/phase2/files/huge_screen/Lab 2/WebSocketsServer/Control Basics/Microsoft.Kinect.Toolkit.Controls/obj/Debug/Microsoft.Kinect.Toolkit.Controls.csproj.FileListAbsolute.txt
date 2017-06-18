@@ -1,0 +1,47 @@
+C:\Users\luludak\Desktop\Kinect example\WebSocketsServer\.Debug\KinectInteraction180_32.dll
+C:\Users\luludak\Desktop\Kinect example\WebSocketsServer\.Debug\KinectInteraction180_64.dll
+C:\Users\luludak\Desktop\Kinect example\WebSocketsServer\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\luludak\Desktop\Kinect example\WebSocketsServer\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\luludak\Desktop\Kinect example\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+C:\Users\luludak\Desktop\Kinect example\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\luludak\Desktop\Kinect example\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+C:\Users\luludak\Desktop\Kinect example\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+C:\Users\luludak\Desktop\Kinect example\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
+C:\Users\luludak\Desktop\Kinect example\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+C:\Users\luludak\Desktop\Kinect example\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\luludak\Desktop\Kinect example\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\Nick\Desktop\Lab1\WebSocketsServer\.Debug\KinectInteraction180_32.dll
+C:\Users\Nick\Desktop\Lab1\WebSocketsServer\.Debug\KinectInteraction180_64.dll
+C:\Users\Nick\Desktop\Lab1\WebSocketsServer\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Nick\Desktop\Lab1\WebSocketsServer\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\Nick\Desktop\Lab1\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Nick\Desktop\Lab1\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+C:\Users\Nick\Desktop\Lab1\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+C:\Users\Nick\Desktop\Lab1\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
+C:\Users\Nick\Desktop\Lab1\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+C:\Users\Nick\Desktop\Lab1\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Nick\Desktop\Lab1\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\Eirini\Desktop\WebSocketsServer\.Debug\KinectInteraction180_32.dll
+C:\Users\Eirini\Desktop\WebSocketsServer\.Debug\KinectInteraction180_64.dll
+C:\Users\Eirini\Desktop\WebSocketsServer\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Eirini\Desktop\WebSocketsServer\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\Eirini\Desktop\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+C:\Users\Eirini\Desktop\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Eirini\Desktop\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+C:\Users\Eirini\Desktop\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+C:\Users\Eirini\Desktop\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
+C:\Users\Eirini\Desktop\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+C:\Users\Eirini\Desktop\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Eirini\Desktop\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\DiaVoLos\Downloads\Lab 2\WebSocketsServer\.Debug\KinectInteraction180_32.dll
+C:\Users\DiaVoLos\Downloads\Lab 2\WebSocketsServer\.Debug\KinectInteraction180_64.dll
+C:\Users\DiaVoLos\Downloads\Lab 2\WebSocketsServer\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\DiaVoLos\Downloads\Lab 2\WebSocketsServer\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\DiaVoLos\Downloads\Lab 2\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+C:\Users\DiaVoLos\Downloads\Lab 2\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\DiaVoLos\Downloads\Lab 2\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+C:\Users\DiaVoLos\Downloads\Lab 2\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+C:\Users\DiaVoLos\Downloads\Lab 2\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
+C:\Users\DiaVoLos\Downloads\Lab 2\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+C:\Users\DiaVoLos\Downloads\Lab 2\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\DiaVoLos\Downloads\Lab 2\WebSocketsServer\Control Basics\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb

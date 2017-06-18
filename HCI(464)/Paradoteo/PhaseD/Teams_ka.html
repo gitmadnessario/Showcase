@@ -1,0 +1,141 @@
+<html>
+    <head>
+            <link rel="stylesheet" type="text/css" href="CSS/search_result.css">
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="JavaScripts/login.js"></script>
+    <script src="JavaScripts/search.js"></script>
+        <script src="JavaScripts/hide.js"></script>
+    <script src="JavaScripts/TeamCreation.js"></script>
+<script src="JavaScripts/Add_Members.js"></script>
+ 
+    </head><body>
+<table id="big_one">
+        
+        <tr>
+            <table id="team_table" class="sortable">
+                
+                <tbody>
+                   <tr id = "create"><td><input type=button onClick="create();" value='Create Team' class="project_button"></td></tr>  
+                    <tr id = "first"><br>
+                        <td class="name_column">
+                            <div>
+                                <a href="Ομάδα20_464_details.html" id="HY-340_project">ΗΥ464-Ομάδα01</a> (HY-464)Θέμα Α HCI Web Design<br>
+                                <br><div> Requests: 35</div>
+                                <div> Members (3/3)</div>
+                                <div> Invites</div>
+                            </div>
+                        </td>
+                        <td class="course_column">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        Applied
+                        </td>
+                        
+                        <td class="status_column">
+                            <div>
+                                <div class="difficulty">Closed Group </div>
+                                <a id="team_container" class="lock_dot"></a>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <input type=button onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'" value='DECLINED!' class="declined_button">
+                                <input type=button onclick="pSearch()" value="" class="declinedp_button"></a></span></li>
+                            </div>
+                            <div id="light" class="white_content">
+                            <table>
+                                <tr><td>Na pate alloy kyrie! emeis phrame.</td></tr>
+                                <tr><td><br><br></td></tr>
+                                <tr><td style="width:290px;text-align:right;">
+                            <input type="button"  href = "javascript:void(0)" onclick ="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" value="Close" class="popup_button" ></td></tr> 
+                            
+                                   
+                            </table>
+                            </div>
+                            
+                            <div id="fade" class="black_overlay"></div>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name_column">
+                            <div>
+                                <a href="HY-340_project.html" id="HY-340_project">HY340-Ομάδα01  </a>(HY-340)Compiler<br>
+                               <br><div> Requests: 45</div>
+                                <div> Members (2/3)</div>
+                                <div> Invites </div>
+                                
+                            </div>
+                        </td>
+                        <td id ="request_text"class="course_column">
+                        
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        Invited
+                        </td>
+                        
+                        <td class="status_column">
+                            <div>
+                                
+                                <div class="difficulty">Open Group </div>
+                                <a id="team_container" class="unlock_dot"></a>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+
+        
+                                <input id="accept" type=button onClick="hide_buttons_accept('accept','decline','request_text')" value='Accept' class="accept_button">
+                                <input id="decline" type=button onClick="hide_buttons_decline('accept','decline','request_text')" value='Decline' class="decline_button">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name_column">
+                            <div>
+                                <a href="TeamMember_ka.html"  id="HY-340_project">HY463-Ομάδα01 </a> (HY-463)Eng/Gr Text IRS<br>
+                                <br><div> Requests: 5</div>
+                                <div> Members (2/3)</div>
+                                <div> Invites 1</div>
+                            </div>
+                            
+                           
+                        </td>
+                        <td class="course_column" id="Leave_Team1_text"><br><br><br><br>Member</td>
+                        
+                        <td class="status_column">
+                            <div>
+                                <div class="difficulty">Open Group </div>
+                                <a id="team_container" class="unlock_dot"></a>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <input id="Leave_Team1"type=button onClick="document.getElementById('leave').style.display='block';document.getElementById('fade').style.display='block'" value='Leave Team' class="leave_button">
+                            </div>
+                            <div id="leave" class="white_content">
+                            <table>
+                                <tr><td><p>You are about to leave this Team. Note this will remove your admin previleges.</p> </td></tr>
+                                <tr><td></td></tr>
+                                <tr><td style="width:290px;text-align:right;" >
+                                
+                            <input type="button"  href = "javascript:void(0)" onclick ="document.getElementById('leave').style.display='none';document.getElementById('fade').style.display='none'" value="Cancel" class="popup_button" >
+                                <input type="button"  href = "javascript:void(0)" onclick ="document.getElementById('leave').style.display='none';document.getElementById('fade').style.display='none';hide_button('Leave_Team1','Leave_Team1_text')" value="Leave" class="popup_button" >    
+                                    </td></tr> 
+                            
+                                </div>     
+                            </table>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </tr>
+    </table>
+</body>
+</html>

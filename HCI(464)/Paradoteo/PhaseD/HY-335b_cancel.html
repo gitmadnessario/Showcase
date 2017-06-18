@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teams</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="CSS/index.css">
+  <link rel="stylesheet" type="text/css" href="CSS/left_side.css">
+  <link rel="stylesheet" type="text/css" href="CSS/right_side.css">
+  <link rel="stylesheet" type="text/css" href="CSS/footer.css">
+   <link rel="stylesheet" type="text/css" href="CSS/HY-340_project.css">
+        <link rel="stylesheet" type="text/css" href="CSS/search_result.css">
+    <link rel="stylesheet" type="text/css" href="CSS/stars.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="JavaScripts/login.js"></script>
+  <script src="JavaScripts/search.js"></script>
+  <script src="JavaScripts/browse_image.js"></script>
+    <script src="JavaScripts/comment.js"></script>
+    <script src="JavaScripts/Project_details.js"></script>
+    <script src="JavaScripts/comment.js"></script>
+    <script>
+        if (localStorage.getItem("remember")=="false"){
+            $(window).unload(function(){
+              localStorage.clear();
+            });
+        }
+    </script>
+  <!--<script src="JavaScripts/NavPath.js"></script>
+  <!--<style type="text/css">
+	body {
+		max-width: 1024px;
+		max-height: 768px;
+	}
+</style> -->
+</head>
+<body>
+
+<div id="index" style="width:1024px; max-height:768px; margin:0 auto;" align="center">
+<div id="header"></div>
+    
+    
+<div id="path">
+    <ul id="breadcrumb_path" class="breadcrumb">
+      <li><a class="home" href="Home.html" id="Home">Home</a></li>
+        <li> <b> > </b> </li>
+     <li><a class="home" href="Teams.html" id="Teams">Teams</a></li>
+        <li> <b> > </b> </li>
+      <li> <b>HY335b-Ομάδα01 </b></li>
+    </ul>
+</div>
+
+<div id="left_bar">
+<div id="left_side">
+<table>
+	<th> News feed </th>
+	<tr>
+        <td><a class="home" href="#" onclick="details464(document.URL)" id="HY-464_project">New project HY-464</a></td>
+	</tr>
+	<tr>
+		<td><a class="home" href="#" onclick="details464(document.URL)" id="HY-463_project">New project HY-463</a></td>
+	</tr>
+	<tr>
+		<td><a class="home" href="#" onclick="details464(document.URL)" id="HY-340_project">New project HY-340</a></td>
+	</tr>
+    <tr>
+        <td><a class="home" href="#" onclick="details464(document.URL)" id="HY-454_project">New project HY-454</a></td>
+    </tr>
+    <tr>
+        <td><a class="home" href="#" onclick="details464(document.URL)" id="HY-335b_project">New project HY-335b</a></td>
+    </tr>
+</table>
+ </div>
+</div>
+
+ <div id="content" style="width:600px">
+    <table id="big_one">
+        
+        <tr>
+            <table id="team_table" class="sortable">
+                
+                <tbody>
+                   
+                    <tr><br>
+                        <td style="width:370px" class="name_column">
+                            <div><a id="" class="lock_dot"></a></div>
+                            <!--<a href="HY-335b_cancel.html" id="HY-340_project">Ομάδα 35</a> (HY-335b)Server Implementation<br> -->
+                            <div>HY335b-Ομάδα01  <a href="#" onclick="details464(document.URL)" id="HY-340_project">Server Implementation</a></div>
+                            <br><br>
+                            <div>Members (3/3)</div>
+                            
+                            <div style="float:left; width: 180px;"  ><a href="#" onclick="showkaloyannis()" id="">Kaloyannis</a></div><div style="float:left">
+                            <a href="mailto:kaloyannis@csd.uoc.gr" id="">Kaloyannis@csd.uoc.gr </a></div>
+                            
+                            
+                            
+                            
+                            <div style="float:left; width:180px;">
+                                <a href="#" onclick="showkaloyannis()" id="">Dagalakis</a></div>
+                                <a href="mailto:dagalakis@csd.uoc.gr" id="">dagalakis@csd.uoc.gr </a>
+                            
+                            
+                            <br>
+                            <div>
+                            <div style="float:left; width: 180px;">
+                                <a href="#" onclick="showkaloyannis()" id="">Vardas</a></div><div style="float:left">
+                            <a href="mailto:vardas@csd.uoc.gr" id="">vardas@csd.uoc.gr </a></div>
+                            </div><br><br>
+                            <div>Project : <a href="http://www.pearsonhighered.com/cs-resources/products/series.html#series,series=Kurose" id="">Server Implementation.pdf</a></div>
+                            
+
+                        </td>
+                        <td class="course_column">
+
+                            <br><br>
+                        <br><br><div><a id="" class="red_dot"></a></div><div><br>
+                        <div><a id="team_container" class="red_dot"></a></div><br>
+                        <div><a id="team_container" class="green_dot"></a></div>
+                        
+                        </td>
+                        <td>   
+                            
+                        <input id="Leave_Team1"type=button onClick="document.getElementById('leave').style.display='block';document.getElementById('fade').style.display='block'" value='Cancel Request' class="leave_button">
+                            </div>
+                            <div id="leave" class="white_content">
+                            <table>
+                                <tr><td><p>You are about to cancel your request.</p> </td></tr>
+                                <tr><td></td></tr>
+                                <tr><td style="width:290px;text-align:right;" >
+                                
+                            <input type="button"  href = "javascript:void(0)" onclick ="document.getElementById('leave').style.display='none';document.getElementById('fade').style.display='none';" value="back" class="popup_button" >
+                                <input type="button"  href = "javascript:void(0)" onclick ="location.href='Teams.html';document.getElementById('leave').style.display='none';document.getElementById('fade').style.display='none';  " value="Cancel" class="popup_button" >    
+                            </div>
+
+                                </td>
+                        
+                            
+                            
+                    </table>
+                           </td>  
+                         <tr>
+                            
+                        <table id= "" style="margin-left: -14px;" > 
+                                 <td>
+                                    <table id="comments">
+                                    <th id="commentshead1" onclick="whatever()">Comments</th>
+                                    <th id="commentshead2" onclick="whatever2()">History</th>
+                                        <tr class="commentsfirst">
+                                            <td class="nickcom">karvouniaris:</td><td class="textcom">has left the team</td>
+                                        </tr>
+                                        <tr class="comentssecond">
+                                           <td class="nickcom">papalas:</td><td class="textcom">has left the team</td>
+                                        </tr>
+                                        <tr class="commentsfirst">
+                                            <td class="nickcom">kalokarras:</td><td class="textcom">has left the team</td>
+                                        </tr>
+                                        <tr class="comentssecond">
+                                           <td class="nickcom">pastas:</td><td class="textcom">has left the team</td>
+                                        </tr>
+                                        <tr class="commentsfirst">
+                                            <td class="nickcom">Dio:</td><td class="textcom">declined the invitation</td>
+                                        </tr>
+                                        <tr class="comentssecond">
+                                           <td class="nickcom">hacker</td><td class="textcom">has left the team</td>
+                                        </tr>
+                                        <tr class="commentsfirst">
+                                            <td class="nickcom">(2010)karvouno said:</td><td class="textcom">pos einai to project paidia???</td>
+                                        </tr>
+                                        <tr class="comentssecond">
+                                           <td class="nickcom">(2012)papala said:</td><td class="textcom">normal to kobo</td>
+                                        </tr>
+                                </table>
+                                     <table  style="margin-left: -5px;" >
+                                        <tr>
+                                                <td>
+                                                <form id="leaveComment" onsubmit="return addcomment()">
+                                                    <input id="comment_area" type="text" name="comment" value="" class="comment">
+                                                    <input type="submit" value="Comment" id="comment_button">
+                                                </form>
+                                                </td>
+                                            </tr>
+                                     
+                                     </table>
+                                    </td>
+                                
+                                
+                        </table>
+                        
+                        </tr>
+                    
+                    
+                </tbody>
+                
+            </table>
+        </tr>
+    </table>
+    </div>
+
+
+ 
+    <div id="right_bar">
+ <div id="right_side">
+    
+ </div>
+    </div>
+ 
+<div id="footer" style="width:975px;">
+    Πανεπιστήμιο Κρήτης &#169; 2015
+</div>
+
+</div>
+<script> 
+     $(function(){ $("#header").load("header.html") });
+    //$(function(){ $("#right_side").load("form.html") });
+    /* $(function(){ $("#right_side").load("right_side_kaloyannis.html") }); */
+   </script>
+</body>
+</html>

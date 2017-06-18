@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html ng-app="">
+<head>
+    <title>Admin_tablet</title>
+    <meta charset="utf-8"/>
+    
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    
+    
+     
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+    
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script src="JS/angular.js"></script>
+    <script src="JS/jquery.ui.touch-punch.min.js"></script>
+    <meta name="vieport" content="width=device-width , initial-scale=1">
+    
+    <link rel="stylesheet" href="css/tablet.css">
+    
+    
+    <!--Header-->
+    
+
+</head>
+
+<body >
+    
+	<!--Menu-->
+    
+<nav class=" navbar-default menu_bar header" id="">
+    <div class="container-fluid menu_bar" style="">
+
+            <ul class="nav navbar-nav">
+                <li> <div class="button" ><a href = "hy564_home.html" ><span  class="glyphicon glyphicon-chevron-left"></span>  </a></div></li>
+            </ul>
+            <div class="navbar-header"> <font size="2" ><b>Knights Of The Round Table </font></div>
+        
+         <!-- Setting drop down -->
+        
+    </div>
+
+</nav>
+
+
+<div class="row">
+    
+    <div class="col-xs-1" style="height:100%;display:block;position: absolute;" >
+        <br>
+        <br><br>
+        <button onclick="set_div();" type="button" class="btn btn-default" id="settings_but" style="background:transparent;border:none"><span  class="glyphicon glyphicon-cog"></span></button>
+        
+        <br><br>
+        <button onclick="chat_div();" type="button" class="btn btn-default" style="background:transparent;border:none"><img src="images/1448152506_speech-bubble-dots-outline.png" style="height:20px" class="img-responsive"> </button>
+        <br><br>
+        <button onclick="contacts_div();" type="button" class="btn btn-default"  style="background:transparent;border:none;width:50px" id="contacts_click"><span  class="glyphicon glyphicon-user"></span></button>
+        <br><br>
+        <button onclick="video();" type="button" class="btn btn-default " id="video" style=" background:transparent;border:none"><img src="images/1448159869_17.Brush.png" style="height:21px;padding:0px" ></span></button>
+        <br><br>
+        <button onclick="file_div();" type="button" class="btn btn-default" id="files_but" style="background:transparent;border:none"><span  class="glyphicon glyphicon-folder-open"></span></button>
+
+    </div>
+
+    <div class="col-xs-10 col-xs-offset-1 " style="border:1px solid black;border-radius:5%;margin-top:20px;height:350px;z-index:1;position:apsolute" id="presentation">
+            
+            <div id="display_contact" class="hidden" style="">
+                <button type="button" class="close" onclick="$('#display_contact').toggleClass('hidden');$('#myCarousel').toggleClass('hidden');" id="close"><span aria-hidden="true">&times;</span></button>
+
+                <img src="images/Marvel_Heroes_Artwork_Thor.jpg"   class="img-responsive drag" style="height:80%;width:100%">
+                <h4>John Smith</h4>
+            </div>
+            <div id="myCarousel"class="carousel slide pause container-fluid " data-interval="false" style="height:90%;width:100%;margin-top:15px" >
+                <ol class="carousel-indicators " >
+                    
+                    <li data-target ="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target ="#myCarousel" data-slide-to="1" ></li>
+                    <li data-target ="#myCarousel" data-slide-to="2" ></li>
+                </ol>
+                
+                <div class="carousel-inner" style="height:100%;width:100%;">
+                    <div class="item active"><img src="images/galaxy_universe-normal.jpg" style="width:100%;height:100%" class="img-responsive" ></div>
+                    <div class="item" style="width:100%;height:100%"><img src="images/AMoaoW6.jpg"   class="img-responsive" ></div>
+                    <div class="item" style="width:100%;height:100%"><img src="images/Conference-Room-Setup-Styles-Design-Idea-9.jpg"   class="img-responsive" ></div>
+                </div>
+
+
+                <a style="margin-left:14px"  class="carousel-control left " href="#myCarousel" data-slide="prev"><span class="buttons icon prev" id="swipe_left" ></span></a>
+                <a  style="margin-right:14px" class="carousel-control right" href="#myCarousel" data-slide="next" ><span class="buttons icon next"  id="swipe_right" ></span></a>
+            </div>
+
+    </div>
+
+    <div id = "chat" class="col-xs-6 col-xs-offset-1" style="">
+
+                <button type="button" class="close" onclick="$('#chat').slideToggle();$('#chat').toggleClass('active');" id="close"><span aria-hidden="true">&times;</span></button>
+                <iframe id="testframe" src="http://192.168.1.124:3000/" style="width:100%; height:90%;">
+                </iframe>
+            
+
+    </div>
+
+    <div id = "settings" class="col-xs-6 col-xs-offset-1" style="">
+            <button type="button" class="close" onclick="$('#settings').slideToggle();$('#settings').toggleClass('active');" id="close"><span aria-hidden="true">&times;</span></button>
+            <!--                                              -->
+                <div id="CarouselSettings"class="carousel slide pause container-fluid" data-interval="false" style="height:90%;width:100%;margin-top:15px" >
+                    <ol class="carousel-indicators " >
+                        
+                        <li data-target ="#CarouselSettings" data-slide-to="0" class="active"></li>
+                        <li data-target ="#CarouselSettings" data-slide-to="1" ></li>
+                        <li data-target ="#CarouselSettings" data-slide-to="2" ></li>
+                    </ol>
+                    
+                    <div class="carousel-inner" style="height:100%;width:100%;">
+                        <div class="item active">
+                            <br><br>
+                            <table style="height:100%;width:100%;">
+
+                                <tr style="text-align: center;">
+                                    <td style="width:25%"><img src="images/1445212877_volume-24.png" style="height:90px;margin:10px"> </td>
+                                    <td style="width:50%"><img src="images/1445213617_idea.png" style="height:180px ;margin:10px;border-radius:25px;border:2px solid black"> </td>
+                                    <td style="width:25%"><img src="images/1445213654_weather_icons-64.png" style="height:120px;margin:10px"> </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" >
+                                        
+                                        <div class="progress" style="margin:40px">
+                                            <div class="progress-bar progress_bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                                <div class="test"></div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="item" style="width:100%;height:100%">
+                            
+                            <br><br>
+                            <table style="height:100%;width:100%;">
+
+                                <tr style="text-align: center;">
+                                    <td style="width:25%"><img src="images/1445213617_idea.png" style="height:90px;margin:10px"> </td>
+                                    <td style="width:50%;"><img src="images/1445212877_volume-24.png" style="height:160px ;padding:15px;border-radius:25px;border:2px solid black"> </td>
+                                    <td style="width:25%"><img src="images/1445213654_weather_icons-64.png" style="height:120px;margin:10px"> </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" >
+                                        
+                                        <div class="progress" style="margin:40px">
+                                            <div class="progress-bar progress_bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                                <div class="test"></div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </div>
+                        <div class="item" >
+                            <br><br>
+                            <table style="height:100%;width:100%;">
+
+                                <tr style="text-align: center;">
+                                    <td style="width:25%"><img src="images/1445213617_idea.png" style="height:90px;margin:10px"> </td>
+                                    <td style="width:50%;"><img src="images/1445213654_weather_icons-64.png" style="height:180px ;margin:10px;border-radius:25px;border:2px solid black"> </td>
+                                    <td style="width:25%"><img src="images/1445212877_volume-24.png" style="height:120px;margin:10px"> </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" >
+                                        
+                                        <div class="progress" style="margin:40px">
+                                            <div class="progress-bar progress_bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                                <div class="test"></div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                            
+                        </div>
+
+
+                    
+                </div>
+
+
+
+            <!--                                              -->
+    </div>
+
+    <div id = "contacts" class="col-xs-6 col-xs-offset-1" style="">
+            <button type="button" class="close" onclick="$('#contacts').slideToggle();$('#contacts').toggleClass('active');" id="close"><span aria-hidden="true">&times;</span></button>
+            <br>
+            <table>
+            <tr>
+            <td class="cont"><div class="drag" align="center" style="margin:10px"><img src="images/1445122348_user.png" style="height:35px" ><br> Stayros Dag <br> (Admin)</div></td>
+            <td class="cont"><div class="drag" align="center" style="margin:10px"><img src="images/1445122348_user.png" style="height:35px"  ><br> Miss Joker <br> (Remote)</div></td>
+            <td class="cont"><div class="drag" align="center" style="margin:20px"><img src="images/1445122348_user.png" style="height:35px" ><br> SaSha L.<br> (Remote)</div></td>
+            <td class="cont"  id="cont"><div class="drag" align="center" style="margin:10px"><img src="images/1445122348_user.png" style="height:35px"><br> John Smith </div></td>
+            <td class="cont"><div class="drag" align="center" style="margin:20px"><img src="images/1445122348_user.png" style="height:35px"><br> Happy Colique <br> (Remote)</div></td>
+            </tr>
+            <tr>
+               
+            <td class="cont"><div class="drag" align="center" style="margin:20px"><img src="images/1445122348_user.png" style="height:35px"><br> Conference Room</div></td> 
+            </tr>
+            </table>
+                
+
+    </div>
+
+    <div id = "files" class="col-xs-6 col-xs-offset-1" style="">
+       
+            <button type="button" class="close" onclick="$('#files').slideToggle();$('#files').toggleClass('active');" ><span aria-hidden="true">&times;</span></button>           
+            <br>
+            <table>
+            <tr>
+            <td style="margin:10px"><div class="drag" align="center" style="margin:15px;resize:both;"><img src="images/1443317733_folder.png" style="height:45px;"><br> Meeting Files </div></td>
+            <td style="margin:10px"><div class="drag" align="center" style="margin:15px"><img src="images/1443317733_folder.png" style="height:45px;"><br> Other Files </div></td>
+            <td style="margin:10px"><div class="drag" align="center" style="margin:15px"><img src="images/Corp_logo.png" style="height:45px"><br>Shield_logo.jpg</div></td>
+            </tr>
+            </table>
+    </div>
+    
+</body>
+
+
+
+
+<script type="text/javascript">
+
+    $(
+
+        function() {
+        $( ".drag" ).draggable({
+            cursor: 'move',
+            containment: 'document',
+            appendTo:'body',
+
+            helper: function (){
+                if($('#settings').hasClass('active')){
+                    $('#settings').slideToggle();
+                    $('#settings').toggleClass('active');
+                }
+                if($('#files').hasClass('active')){
+                    $('#files').slideToggle();
+                    $('#files').toggleClass('active');
+                }
+                if($('#contacts').hasClass('active')){
+                    $('#contacts').slideToggle();
+                    $('#contacts').toggleClass('active');
+                }
+                if($('#chat').hasClass('active')){
+                    $('#chat').slideToggle();
+                    $('#chat').toggleClass('active');
+                }
+                var temp = $("<div class='helper' id='Na' ></div>").append($(this).clone());
+                temp.id=temp.text();
+                console.log(temp.text()+" ");
+                return temp;
+            }
+
+            });
+
+        $("#presentation").droppable({
+            hoverClass: 'hovered',
+            drop: handledrop
+        });
+
+        $("#contacts_click").droppable({
+            hoverClass: 'hovered',
+            over: handledropC
+        });
+
+        $("#cont").droppable({
+            hoverClass: 'hovered',
+            over: handledropA,
+            drop: handledropA1
+        });
+        
+        /*$(function() {
+            $( '.drag' ).sortable({
+              connectWith: ".connectedSortable"
+            }).disableSelection();
+        });*/
+    
+    });
+    
+    /*$(".remove").click(function() {
+        $('.duplicate').remove();
+    });*/
+    function handledropC(event , ui){
+        $(this).click();
+    }
+
+    function handledropA(event , ui){
+        console.log("Sending File to Kwstas Mad  ");
+        
+    }
+
+    function handledropA1(event , ui){
+        console.log("File to Kwstas Mad  ");
+        $("#contacts_click").click();
+
+
+        
+    }
+
+    function handledrop(event , ui){  
+        /*ui.draggable.draggable( 'disable' );
+        $(this).droppable( 'disable' );
+        $(this).append(ui.draggable.clone(true));*/
+        if(!($('#contacts').hasClass('active'))){
+                $('#display_contact').toggleClass('hidden');
+                $('#myCarousel').toggleClass('hidden');
+        }
+        console.log("Droped : "+ui.draggable.id+ " " + this.id);    
+        ui.draggable.draggable( 'option', 'revert', false );
+        
+    }
+
+    $("#cont").hover(function(){
+        console.log("Boys");
+    })
+     
+    
+      
+</script>
+
+<script >
+    $(document).ready(function() {
+        $("#myCarousel").swiperight(function(e) {
+            console.log("right");
+        $("#myCarousel").carousel('prev');
+            e.preventDefault();
+        });
+        $("#myCarousel").swipeleft(function(e) {
+            console.log("left");
+        $("#myCarousel").carousel('next');
+            e.preventDefault();
+        });
+    });
+
+    $(document).ready(function() {
+        $("#CarouselSettings").swiperight(function(e) {
+            console.log("right");
+        $("#CarouselSettings").carousel('prev');
+            e.preventDefault();
+        });
+        $("#CarouselSettings").swipeleft(function(e) {
+            console.log("left");
+        $("#CarouselSettings").carousel('next');
+            e.preventDefault();
+        });
+    });
+</script>
+
+<script type="text/javascript">
+
+        
+
+        
+        
+        
+        
+       
+        function chat_div () {
+            
+            if($('#settings').hasClass('active')){
+                $('#settings').slideToggle();
+                $('#settings').toggleClass('active');
+            }
+            if($('#files').hasClass('active')){
+                $('#files').slideToggle();
+                $('#files').toggleClass('active');
+            }
+            if($('#contacts').hasClass('active')){
+                $('#contacts').slideToggle();
+                $('#contacts').toggleClass('active');
+            }
+            $('#chat').slideToggle();
+            $('#chat').toggleClass('active');
+        }
+
+        function set_div () {
+            if($('#chat').hasClass('active')){
+                $('#chat').slideToggle();
+                $('#chat').toggleClass('active');
+            }
+            if($('#files').hasClass('active')){
+                $('#files').slideToggle();
+                $('#files').toggleClass('active');
+            }
+            if($('#contacts').hasClass('active')){
+                $('#contacts').slideToggle();
+                $('#contacts').toggleClass('active');
+            }
+            $('#settings').slideToggle();
+            $('#settings').toggleClass('active');
+        }
+
+        function file_div () {
+            if($('#chat').hasClass('active')){
+                $('#chat').slideToggle();
+                $('#chat').toggleClass('active');
+            }
+            if($('#settings').hasClass('active')){
+                $('#settings').slideToggle();
+                $('#settings').toggleClass('active');
+            }
+            if($('#contacts').hasClass('active')){
+                $('#contacts').slideToggle();
+                $('#contacts').toggleClass('active');
+            }
+
+            $('#files').slideToggle();
+            $('#files').toggleClass('active');
+        }
+
+
+        function contacts_div () {
+            if($('#chat').hasClass('active')){
+                $('#chat').slideToggle();
+                $('#chat').toggleClass('active');
+            }
+            if($('#files').hasClass('active')){
+                $('#files').slideToggle();
+                $('#files').toggleClass('active');
+            }
+
+            if($('#settings').hasClass('active')){
+                $('#settings').slideToggle();
+                $('#settings').toggleClass('active');
+            }
+            $('#contacts').slideToggle();
+            $('#contacts').toggleClass('active');
+        }
+
+       
+
+</script>
+
+
+
+
+</html>

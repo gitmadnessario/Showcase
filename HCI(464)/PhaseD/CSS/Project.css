@@ -1,0 +1,283 @@
+#big_one{
+    float: left;
+}
+
+#big_one tr{
+    float: left;
+}
+
+#p_search_bar{
+    list-style-type: none;
+}
+
+#p_search_bar li{
+    display: inline;
+}
+
+
+
+.p_Container{
+    background-color: #000000;
+    border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+    margin-left: -305px;
+    height: 150px;
+}
+
+.p_search_field{
+    border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border: 2px solid;
+    height: 18px;
+    width: 160px;
+}
+
+.p_search_button{
+    background-image: url(../Icons/arrow-forward-24.png);
+	background-position:  0px -2px;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	width: 24px;
+	height: 24px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border: 2px solid;
+	margin-left: -2px;
+}
+
+.pSelect_Container{
+    border: 2px solid #000;
+    margin-left: -108px;
+    height: 18px;
+}
+
+
+#selection_list{
+    height: 18px;
+    
+}
+
+
+#project_table{   
+    float: left;
+    margin-left: 10px;
+    width: 570px;
+    border-collapse: collapse;
+}
+
+#project_table tr:hover{
+    background-color:#A0A0A0 ;
+}
+
+#project_table tr{
+    border-bottom: 2px solid #000;   
+}
+
+
+#project_table td{
+    float: left;
+}
+
+#projects_head{
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000; 
+    float: left;
+    width: 570px;
+}
+
+
+#project_name{
+    float: left;
+    width: 34%;
+    text-align: left;
+}
+
+#course{
+    float: left;
+    width: 10%;
+}
+
+#professor{
+    float: left;
+    width: 37%;
+}
+
+#status{
+    float: left;
+    width: 10%;
+}
+
+.name_column{
+    width: 197px;
+}
+
+.course_column{
+    width:60px;
+   
+}
+
+.professor_column{
+    width: 201px;
+}
+
+.status_column{
+    width: 95px;
+}
+
+/* Sortable tables */
+table.sortable thead {
+    cursor: default;
+}
+
+.difficulty{
+    float: left;
+}
+
+
+.project_button{
+    border-radius: 3px;
+    border: 1px solid #000;
+    background-color: #3366FF;
+    color: white;
+    width: 85px;
+    cursor:pointer;
+}
+
+.first_column{
+    float: left;
+    width: 195px;
+    margin-left: 10px;
+}
+
+
+#table454{
+    margin-top: 15px;  
+    float: left;
+}
+
+#table454 a{
+    text-decoration: none;
+}
+
+#table4542 a{
+    text-decoration: none;
+}
+
+#table4542{
+    margin-top: 15px;
+    float: left;
+    margin-left: 
+}
+
+
+#rightbutton{
+    float: right;
+    margin-left: 143px;   
+}
+
+#membersrow{
+    margin-top: 20px;   
+}
+
+#table464head{
+    float: left;  
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+#table464{
+    float: left;
+    margin-top: 10px;
+}
+
+.namefirstcol{
+    width:290px;  
+}
+
+.buttonright{
+    float: right;
+    margin-left: 107px;   
+}
+
+#mybutton{
+    border-radius: 3px;
+    border: 1px solid #000;
+    background-color: #3366FF;
+    color: white;    
+}
+
+#textarea{
+    background-color: white;
+    border: none;
+    color: black;
+    width: 560px;
+    margin-bottom: 10px;
+}
+
+#table464teams{
+    width:560px;
+    float: left;
+    margin-left: 12px;
+    border-collapse: collapse;
+}
+
+#innerteamshead{
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000; 
+}
+
+#table464teams tbody td{
+    border: 1px solide #000;   
+}
+
+#uprow{
+   
+}
+
+#downrow{
+     background-color:darkgrey;   
+}
+
+.one{
+   width: 120px;
+}
+
+.twoen{
+   width: auto;
+   text-align: center;
+}
+
+.twodis{
+   width: auto;
+   text-align: center;
+}
+
+.three{
+    text-align: center;
+}
+
+.four{
+   width: 5%;
+   text-align: center;
+}
+
+.five{
+   width: 20%;
+   text-align: center;
+}
+
+.six{
+   width: 10%; 
+}
+
+#spanstars{
+    margin-left: 13px;
+    margin-top: 10px;
+}

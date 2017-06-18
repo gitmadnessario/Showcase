@@ -1,0 +1,3 @@
+function browseimg(){
+    alert("correct");  
+}

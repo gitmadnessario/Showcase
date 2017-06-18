@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teams</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="CSS/index.css">
+  <link rel="stylesheet" type="text/css" href="CSS/left_side.css">
+  <link rel="stylesheet" type="text/css" href="CSS/right_side.css">
+  <link rel="stylesheet" type="text/css" href="CSS/footer.css">
+  <link rel="stylesheet" type="text/css" href="CSS/HY-340_project.css">
+    <link rel="stylesheet" type="text/css" href="CSS/stars.css">
+    <link rel="stylesheet" type="text/css" href="CSS/search_result.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="JavaScripts/login.js"></script>
+  <script src="JavaScripts/search.js"></script>
+  <script src="JavaScripts/browse_image.js"></script>
+    <script src="JavaScripts/Project_details.js"></script>
+    <script src="JavaScripts/comment.js"></script>
+    <script>
+        if (localStorage.getItem("remember")=="false"){
+            $(window).unload(function(){
+              localStorage.clear();
+            });
+        }
+    </script>
+  <!--<script src="JavaScripts/NavPath.js"></script>
+  <!--<style type="text/css">
+	body {
+		max-width: 1024px;
+		max-height: 768px;
+	}
+</style> -->
+</head>
+<body>
+
+<div id="index" style="width:1024px; max-height:768px; margin:0 auto;" align="center">
+<div id="header"></div>
+    
+    
+<div id="path">
+    <ul id="breadcrumb_path" class="breadcrumb">
+      <li><a class="home" href="Home.html" id="Home">Home</a></li>
+        <li> <b> > </b> </li>
+     <li><a class="home" href="Teams.html" id="Teams">Teams</a></li>
+        <li> <b> > </b> </li>
+      <li> <b>ΗΥ463-Ομάδα01  </b></li>
+    </ul>
+</div>
+
+<div id="left_bar">
+<div id="left_side">
+<table>
+	<th> News feed </th>
+	<tr>
+        <td><a class="home" href="#" onclick="details464(document.URL)" id="HY-464_project">New project HY-464</a></td>
+	</tr>
+	<tr>
+		<td><a class="home" href="#" onclick="details464(document.URL)" id="HY-463_project">New project HY-463</a></td>
+	</tr>
+	<tr>
+		<td><a class="home" href="#" onclick="details464(document.URL)" id="HY-340_project">New project HY-340</a></td>
+	</tr>
+    <tr>
+        <td><a class="home" href="#" onclick="details454(document.URL)" id="HY-454_project">New project HY-454</a></td>
+    </tr>
+    <tr>
+        <td><a class="home" href="#" onclick="details464(document.URL)" id="HY-335b_project">New project HY-335b</a></td>
+    </tr>
+</table>
+ </div>
+</div>
+
+ <div id="content" style="width:600px">
+    <table id="big_one">
+        
+        <tr>
+            <table id="team_table" class="sortable">
+                
+                <tbody>
+                   
+                    <tr>
+                        <td class="name_column">
+                            <div><a id="" class="unlock_dot"></a></div>
+                            <div>ΗΥ463-Ομάδα01 <a href="#" onclick="details464(document.URL)" id="HY-340_project"> Eng/Gr Text IRS</a>
+                             <input style="width:90px;float:right;" type=button onClick="location.href='project_team_creation.html'" value='Add Member' class="leave_button"></div> 
+                            <br><br>
+                            <div>Members (3/3)</div>
+                            
+                            <div style="float:left; width: 200px;"  >
+                                <a href="#" onclick="showkaloyannis()" id="">Kaloyannis</a></div><div style="float:left">
+                            <a href="mailto:kaloyannis@csd.uoc.gr" id="">Kaloyannis@csd.uoc.gr </a></div>
+                            
+                            
+                            
+                            
+                            <div style="float:left; width:200px;">
+                                <a href="#" onclick="showkaloyannis()" id="">Dagalakis</a></div>
+                                <a href="mailto:dagalakis@csd.uoc.gr" id="">dagalakis@csd.uoc.gr </a>
+                            
+                            
+                            <br>
+                            <div>
+                            <div style="float:left; width: 200px;">
+                                <a href="#" onclick="showkaloyannis()" id="">Vardas</a></div><div style="float:left">
+                            <a href="mailto:vardas@csd.uoc.gr" id="">vardas@csd.uoc.gr </a></div>
+                            </div><br><br>
+                            <div>Project : <a href="HY-464_project.html" id="">Θέμα Α HCI Web Desig.pdf</a></div>
+                            
+
+                        </td>
+                        <td class="course_column">
+                         <input style="width:90px;float:right;margin-right:4px;" type=button onClick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"  value='Leave Team' class="leave_button">
+                             <div id="light" class="white_content">
+                            <table>
+                                <tr><td>You are about to leave team.</td></tr>
+                                <tr><td><br><br></td></tr>
+                                <tr><td style="width:290px;text-align:right;">
+                            <input type="button"  href = "javascript:void(0)" onclick ="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" value="Close" class="popup_button" >
+                              <input type="button"   onclick ="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none';location.href='Teams.html';"  value="Leave" class="popup_button" >      
+                                    
+                                    </td></tr> 
+                                                             
+                            </table>
+                            </div>
+                            
+                            <div id="fade" class="black_overlay"></div>
+                            <br><br>
+                        <br><br>
+                        <div><a id="team_container" class="green_dot"></a></div><br>
+                        <div><a id="team_container" class="red_dot"></a></div><br>
+                        <div><a id="team_container" class="green_dot"></a></div>
+                        
+                        </td>
+                        
+                        <td class="status_column">
+                            <div>
+                                <input style="" type=button onClick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"  value='Submit' class="leave_button">
+                                <div id="light" class="white_content">
+                            <table>
+                                <tr><td>You are about to submit your team.</td></tr>
+                                <tr><td><br><br></td></tr>
+                                <tr><td style="width:290px;text-align:right;">
+                            <input type="button"  href = "javascript:void(0)" onclick ="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" value="Close" class="popup_button" >
+                               <input type="button"   onclick ="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none';location.href='Teams.html';"  value="Submit" class="popup_button" > 
+                                    
+                                    </td></tr> 
+                                                             
+                            </table>
+                            </div>
+                            
+                            <div id="fade" class="black_overlay"></div>
+                                
+                                
+                            </div>
+                            
+                         
+                        </td>
+                        </tr>
+                        <tr><br></tr>
+                        <tr>
+                            <br>
+                            <table id="members_table">
+                                <thead>
+                                    <tr id="innerteamshead">
+                                        <th>Login</th>
+                                        <th>Applied/Invited</th>
+                                        <th>Actions</th>
+                                        <th>Status</th>
+                                        
+                                        
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr  ><td><a style="float:left;" href="kaloyannis.html" id="">Stayrakoma8iakakhs </a></div></td>
+                                    <td>Applied</td>
+                                    <td>
+                                        <input style="width:60px;background-color:red;" type=button onClick="location.href='project_team_creation.html'" value='Decline' class="accept_button">
+                                        <input style="width:60px;" type=button onClick="location.href='project_team_creation.html'" value='Accept' class="accept_button">
+                                        
+                                    </td>
+                                    <td>Pending...</td>
+                                    </tr>
+                                    <tr style="background-color:white;"><td><a style="float:left;" href="kaloyannis.html" id="">Dagalakis </a></div></td>
+                                    <td>Applied</td>
+                                    <td>
+  
+                                        
+                                    </td>
+                                    <td>Accepted</td>
+                                    </tr>
+                                    <tr  ><td><a style="float:left;" href="kaloyannis.html" id="">Mimikos </a></div></td>
+                                    <td>Invited</td>
+                                    <td>
+                                        
+                                        <input style="width:60px;margin-right:33px;" type=button onClick="location.href='project_team_creation.html'" value='Remove' class="Apply_button">
+                                        
+                                    </td>
+                                    <td>Pending...</td>
+                                    </tr>
+                                    <tr style="background-color:white;"><td><a style="float:left;" href="kaloyannis.html" id="">Karas </a></div></td>
+                                    <td>Invited</td>
+                                    <td>
+  
+                                        
+                                    </td>
+                                    <td>Accepted</td>
+                                    </tr>
+                                    <tr ><td><a style="float:left;" href="kaloyannis.html" id="">Dio </a></div></td>
+                                    <td>Invited</td>
+                                    <td>
+  
+                                        
+                                    </td>
+                                    <td>Declined</td>
+                                    </tr>
+    
+                                </tbody>
+                            </table>
+                            
+                            
+                            
+                        </tr>
+                        <tr>
+                            
+                        <table id= "" style="margin-left: -14px;" > 
+                                 <td>
+                                    <table id="comments">
+                <th id="commentshead1" onclick="whatever()">Comments</th>
+                <th id="commentshead2" onclick="whatever2()">History</th>
+                    <tr class="commentsfirst">
+                        <td class="nickcom">karvouniaris:</td><td class="textcom">has left the team</td>
+                    </tr>
+                    <tr class="comentssecond">
+                       <td class="nickcom">papalas:</td><td class="textcom">has left the team</td>
+                    </tr>
+                    <tr class="commentsfirst">
+                        <td class="nickcom">kalokarras:</td><td class="textcom">has left the team</td>
+                    </tr>
+                    <tr class="comentssecond">
+                       <td class="nickcom">pastas:</td><td class="textcom">has left the team</td>
+                    </tr>
+                    <tr class="commentsfirst">
+                        <td class="nickcom">Dio:</td><td class="textcom">declined the invitation</td>
+                    </tr>
+                    <tr class="comentssecond">
+                       <td class="nickcom">hacker</td><td class="textcom">has left the team</td>
+                    </tr>
+                    <tr class="commentsfirst">
+                        <td class="nickcom">(2010)karvouno said:</td><td class="textcom">pos einai to project paidia???</td>
+                    </tr>
+                    <tr class="comentssecond">
+                       <td class="nickcom">(2012)papala said:</td><td class="textcom">normal to kobo</td>
+                    </tr>
+            </table>
+                                     <table  style="margin-left: -5px;" >
+                                        <tr>
+                                                <td>
+                                                <form id="leaveComment" onsubmit="return addcomment()">
+                                                    <input id="comment_area" type="text" name="comment" value="" class="comment">
+                                                    <input type="submit" value="Comment" id="comment_button">
+                                                </form>
+                                                </td>
+                                            </tr>
+                                     
+                                     </table>
+                                    </td>
+                                
+                                
+                        </table>
+                        
+                        </tr>
+                    
+                    
+                </tbody>
+                
+            </table>
+        </tr>
+    </table>
+    </div>
+
+
+ 
+    <div id="right_bar">
+ <div id="right_side">
+    
+ </div>
+    </div>
+ 
+<div id="footer" style="width:975px;">
+    Πανεπιστήμιο Κρήτης &#169; 2015
+</div>
+
+</div>
+<script> 
+     $(function(){ $("#header").load("header.html") });
+    //$(function(){ $("#right_side").load("form.html") });
+    /* $(function(){ $("#right_side").load("right_side_kaloyannis.html") }); */
+   </script>
+</body>
+</html>

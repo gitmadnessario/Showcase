@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:k="http://schemas.microsoft.com/kinect/2013"
+        Title="MainWindow" Height="350" Width="525"
+        WindowStyle = "None" 
+        WindowState="Maximized">
+
+    <Grid Name="mainContent">
+        <k:KinectSensorChooserUI HorizontalAlignment="Center" VerticalAlignment="Top" Name="sensorChooserUi" Margin="238,0,239,0" />
+
+
+    </Grid>
+</Window>

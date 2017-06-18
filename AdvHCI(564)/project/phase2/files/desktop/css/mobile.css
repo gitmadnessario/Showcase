@@ -1,0 +1,186 @@
+/* Global css */
+@media only screen and (max-width: 480px){
+	.header{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.menu_bar{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	#sidebar-wraper{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+@media only screen and (min-width: 480px){
+	#top-section{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+/* Calendar css
+=================================================================== */
+@media only screen and (max-width: 480px){
+	.calnote{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.calplus{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.tdhidden{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.caltable{
+		height: 280px;
+		width: 231px;
+		padding:0px;
+		margin:0px;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.caltable td{
+		height: 20px;
+		width: 25px;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.date{
+		text-align: center;
+		vertical-align: middle;
+	}
+}
+
+@media only screen and (min-width: 480px){
+	#calhidden{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+@media only screen and (min-width: 480px){
+	#calspecial{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+@media only screen and (min-width: 480px){
+	#calsum{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+
+/* Meeting list css
+=================================================================== */
+
+@media only screen and (max-width: 480px){
+	.mlisthead{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.widem{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+@media only screen and (min-width:480px){
+	#myCarousel{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+@media only screen and (max-width:480px){
+	.item{
+		font-size:12px;
+	}
+}
+
+@media only screen and (max-width:480px){
+	.item td{
+		border-bottom: 1px solid black;
+	}
+}
+
+/* Create Meeting css
+=================================================================== */
+@media only screen and (max-width:480px){
+	#myForm{
+		width:231px;
+		margin-left: -40px;
+	}
+}
+
+@media only screen and (min-width:480px){
+	.createbut{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+@media only screen and (max-width:480px){
+	p {
+		font-weight: bold;
+	}
+}
+
+/* Meeting Details
+=================================================================== */
+@media only screen and (min-width:480px){
+	#descexp{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+@media only screen and (max-width:480px){
+	#descfiles,#descpart,#descdesc, #descdesc2{
+		font-size:12px;
+		font-weight:bold;
+	}
+}
+
+/* In meeting
+=================================================================== */
+@media only screen and (min-width:480px){
+	.android-indi{
+		display:none;
+		visibility:hidden;
+	}
+}
+
+@media only screen and (min-width:480px){
+	.videobutton{
+		display:none;
+		visibility:hidden;
+	}
+}

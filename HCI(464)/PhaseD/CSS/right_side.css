@@ -1,0 +1,83 @@
+#right_side {
+ background-color: #E0E0E0   
+}
+
+#right_side label{
+    float:left;
+    margin-left: 15px;
+}
+
+#right_side form{  
+    padding-bottom: 10px;
+    box-shadow: 0px 24px 3px -24px #000;  
+}
+
+form{
+ margin-top: 15px;   
+}
+
+.user{
+     width: 150px;
+     border-radius: 5px;
+     border: 1px solid #000;
+}
+
+.pass{
+     width: 150px;
+     border-radius: 5px;
+     border: 1px solid #000;
+}
+
+.submit{
+    border-radius: 3px;
+    border: 1px solid #000;
+    background-color: #3366FF;
+    color: white;
+}
+
+#right_side #first_one{
+    box-shadow: 0px 24px 3px -24px #000;     
+}
+
+#right_side td a{
+    text-decoration: none;   
+}
+
+#username{
+    font-size: 20px; 
+    padding-top: 5px;
+}
+
+#logout{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+#AM{
+    vertical-align: top;
+    font-size: 13px;   
+}
+
+#profile_image{
+    padding-left: 50px;
+}
+
+#course_list{
+    float:left;
+    margin: 0px;
+    padding-left: 20px; 
+}
+
+#dagon{
+    padding-left: 35px;
+    padding-top: 7px;
+}
+
+#right_side #second_one #notification{
+    margin: 0px;
+    padding: 0px;
+}
+
+#right_side #second_one td{
+    padding-left: 7px;   
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projects</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="CSS/index.css">
+  <link rel="stylesheet" type="text/css" href="CSS/left_side.css">
+  <link rel="stylesheet" type="text/css" href="CSS/right_side.css">
+  <link rel="stylesheet" type="text/css" href="CSS/footer.css">
+  <link rel="stylesheet" type="text/css" href="CSS/Project.css">
+  <link rel="stylesheet" type="text/css" href="CSS/TeamCreation.css">
+    <link rel="stylesheet" type="text/css" href="CSS/add_members.css">
+  <link rel="stylesheet" type="text/css" href="CSS/stars.css">
+        <link rel="stylesheet" type="text/css" href="CSS/search_result.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="JavaScripts/login.js"></script>
+  <script src="JavaScripts/search.js"></script>
+  <script src="JavaScripts/browse_image.js"></script>
+  <script src="JavaScripts/Project_content.js" </script>
+    <script src="JavaScripts/comment.js"></script>
+    <script>
+        if (localStorage.getItem("remember")=="false"){
+            $(window).unload(function(){
+              localStorage.clear();
+            });
+        }
+    </script>
+</head>
+<body>
+
+<div id="index" style="width:1024px; max-height:768px; margin:0 auto;" align="center">
+<div id="header"></div>
+    
+    
+<div id="path">
+    <ul id="breadcrumb_path" class="breadcrumb">
+      <li><a class="home" href="Home.html" id="Home">Home</a></li>
+        <li> <b> > </b> </li>
+      <li> <b>Projects </b></li>
+    </ul>
+</div>
+
+<div id="left_bar">
+<div id="left_side">
+<table>
+	<th> News feed </th>
+	<tr>
+        <td><a class="home" href="#" onclick="details464(document.URL)" id="HY-464_project">New project HY-464</a></td>
+	</tr>
+	<tr>
+		<td><a class="home" href="#" onclick="details464(document.URL)" id="HY-463_project">New project HY-463</a></td>
+	</tr>
+	<tr>
+		<td><a class="home" href="#" onclick="details464(document.URL)" id="HY-340_project">New project HY-340</a></td>
+	</tr>
+    <tr>
+        <td><a class="home" href="#" onclick="details454(document.URL)" id="HY-454_project">New project HY-454</a></td>
+    </tr>
+    <tr>
+        <td><a class="home" href="#" onclick="details464(document.URL)" id="HY-335b_project">New project HY-335b</a></td>
+    </tr>
+</table>
+ </div>
+</div>
+
+    <div id="content" style="width:600px">
+        
+    </div>
+ 
+    <div id="right_bar">
+ <div id="right_side">
+    
+ </div>
+    </div>
+ 
+<div id="footer" style="width:975px;">
+    Πανεπιστήμιο Κρήτης &#169; 2015
+</div>
+
+</div>
+<script> 
+     $(function(){ $("#header").load("header.html") });
+   </script>
+</body>
+</html>

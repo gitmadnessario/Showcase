@@ -1,0 +1,234 @@
+﻿<UserControl x:Class="WpfApplication2.screen_2_recipes"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:k="http://schemas.microsoft.com/kinect/2013"
+             mc:Ignorable="d" 
+             d:DesignHeight="1000" d:DesignWidth="1000">
+
+    <k:KinectRegion Name="kinectRegion">
+        <Grid Background="DarkGray">
+            <!--" Grid.Background>
+            <ImageBrush ImageSource="resources/0_0_guest.png" />
+        </-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="8.8*"/>
+                <RowDefinition Height="0.2*"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="14*"/>
+                <ColumnDefinition Width="71*"/>
+                <ColumnDefinition Width="14*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <Grid Grid.Column="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50*"/>
+                    <RowDefinition Height="50*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="9*"/>
+
+                </Grid.ColumnDefinitions>
+                <Grid  Grid.Row="0" Grid.Column="0">
+
+
+                </Grid>
+
+
+
+
+                <TextBlock FontFamily="tahoma" Name="top" Grid.Row="0"  Grid.Column="1"   Text=""  Foreground="White" FontSize="17" FontWeight="Bold"  VerticalAlignment="Center" Margin="0,-6,0,0" Grid.RowSpan="2"   />
+
+
+
+            </Grid>
+
+            <Grid Grid.Row="1" Grid.Column="0" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="25*"/>
+                </Grid.RowDefinitions>
+
+                <!--home-->
+                <Border x:Name="homeBorder" BorderBrush="Gray"  Grid.Row="0"    BorderThickness="2" Margin="4,0,0,0">
+                    <Border.Background>
+                        <ImageBrush ImageSource="Resources/colors/2E8C00.png" />
+                    </Border.Background>
+                    <k:KinectTileButton BorderBrush="Transparent" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="home" Click="KinectPressButton" Focusable="False"  >
+                        <k:KinectTileButton.Background>
+                            <ImageBrush ImageSource="Resources/home2.png"/>
+                        </k:KinectTileButton.Background>
+                    </k:KinectTileButton>
+                </Border>
+                <!--recipes-->
+
+                <Border x:Name="recipeBorder" BorderBrush="Gray"  Grid.Row="1"   BorderThickness="2" Margin="4,0,0,0">
+                    <Border.Background>
+                        <ImageBrush ImageSource="Resources/colors/2E8C00.png" />
+                    </Border.Background>
+                    <k:KinectTileButton BorderBrush="Transparent" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="recipes" Click="KinectPressButton" Focusable="False" >
+                        <k:KinectTileButton.Background>
+                            <ImageBrush ImageSource="Resources/recipes2.png"/>
+                        </k:KinectTileButton.Background>
+                    </k:KinectTileButton>
+                </Border>
+
+                <!--Shopping-->
+
+                <Border x:Name="shoppingBorder" BorderBrush="Gray"  Grid.Row="2"    BorderThickness="2" Margin="4,0,0,0">
+                    <Border.Background>
+                        <ImageBrush ImageSource="Resources/colors/2E8C00.png" />
+                    </Border.Background>
+                    <k:KinectTileButton BorderBrush="Transparent" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="shopping" Click="KinectPressButton" Focusable="False" >
+                        <k:KinectTileButton.Background>
+                            <ImageBrush ImageSource="Resources/shoppingcart2.png"/>
+                        </k:KinectTileButton.Background>
+                    </k:KinectTileButton>
+                </Border>
+
+                <!--Scheduling-->
+
+                <Border x:Name="scheduleBorder" BorderBrush="Gray"  Grid.Row="3"    BorderThickness="2" Margin="4,0,0,0">
+                    <Border.Background>
+                        <ImageBrush ImageSource="Resources/colors/2E8C00.png" />
+                    </Border.Background>
+                    <k:KinectTileButton BorderBrush="Transparent" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="schedule" Click="KinectPressButton" Focusable="False" >
+                        <k:KinectTileButton.Background>
+                            <ImageBrush ImageSource="Resources/scheduling.png"/>
+                        </k:KinectTileButton.Background>
+                    </k:KinectTileButton>
+                </Border>
+                <!--end of left navigation-->
+            </Grid>
+            <!--mid-->
+            <Grid Grid.Row="1" Grid.Column="1" Margin="8,0,8,0" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="50*"/>
+                    <RowDefinition Height="25*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="12.5*"/>
+                    <ColumnDefinition Width="25*"/>
+                    <ColumnDefinition Width="25*"/>
+                    <ColumnDefinition Width="25*"/>
+                    <ColumnDefinition Width="12.5*"/>
+                </Grid.ColumnDefinitions>
+                <!-- browse all -->
+                <Border  BorderBrush="Gray"  Grid.Row="1" Grid.Column="1"   BorderThickness="2" Margin="0,0,4,2">
+                    <Border.Background>
+                        <ImageBrush ImageSource="Resources/colors/darkgreen.png" />
+                    </Border.Background>
+                    <k:KinectTileButton BorderBrush="Transparent" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="time" Click="KinectPressButton"  >
+                        <k:KinectTileButton.Background>
+                            <ImageBrush ImageSource="Resources\rectime.png"/>
+                        </k:KinectTileButton.Background>
+                        
+                    </k:KinectTileButton>
+                </Border>
+
+               
+                <!--end browse all -->
+                <!--available -->
+                <Border  BorderBrush="Gray"  Grid.Row="1" Grid.Column="2"   BorderThickness="2" Margin="0,0,4,2">
+                    <Border.Background>
+                        <ImageBrush ImageSource="Resources/colors/darkgreen.png" />
+                    </Border.Background>
+                    <k:KinectTileButton BorderBrush="Transparent" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="available" Click="KinectPressButton"  >
+                        <k:KinectTileButton.Background>
+                            <ImageBrush ImageSource="Resources/recavai.png"/>
+                        </k:KinectTileButton.Background>
+                    </k:KinectTileButton>
+                </Border>
+                <!--end available -->
+                <!-- time -->
+                <Border  BorderBrush="Gray"  Grid.Row="1" Grid.Column="3"   BorderThickness="2" Margin="0,0,4,2">
+                    <Border.Background>
+                        <ImageBrush ImageSource="Resources/colors/darkgreen.png" />
+                    </Border.Background>
+                    <k:KinectTileButton BorderBrush="Transparent" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="browse_all" Click="KinectPressButton"  >
+                        <k:KinectTileButton.Background>
+                            <ImageBrush ImageSource="Resources/recall.png"/>
+                        </k:KinectTileButton.Background>
+                    </k:KinectTileButton>
+                </Border>
+                <!--end time -->
+
+                <!--endOfMid-->
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="3" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="25*"/>
+                </Grid.RowDefinitions>
+
+                <!--fridge-->
+
+                <Border x:Name="fridgeBorder" BorderBrush="Gray"  Grid.Row="0"    BorderThickness="2" Margin="0,0,4,0">
+                    <Border.Background>
+                        <ImageBrush ImageSource="Resources/colors/2E8C00.png" />
+                    </Border.Background>
+                    <k:KinectTileButton Focusable="False" BorderBrush="Transparent" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="fridgeMenu" Click="KinectPressButton"  >
+                        <k:KinectTileButton.Background>
+                            <ImageBrush ImageSource="Resources/fridge2.png"/>
+                        </k:KinectTileButton.Background>
+                    </k:KinectTileButton>
+                </Border>
+
+                <!--alarms-->
+
+                <Border x:Name="alarmBorder" BorderBrush="Gray"  Grid.Row="1"    BorderThickness="2" Margin="0,0,4,0">
+                    <Border.Background>
+                        <ImageBrush ImageSource="Resources/colors/2E8C00.png" />
+                    </Border.Background>
+                    <k:KinectTileButton BorderBrush="Transparent" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="alarms" Click="KinectPressButton" Focusable="False"  >
+                        <k:KinectTileButton.Background>
+                            <ImageBrush ImageSource="Resources/alarms2.png"/>
+                        </k:KinectTileButton.Background>
+                    </k:KinectTileButton>
+                </Border>
+                <!--preferences-->
+
+                <Border  x:Name="preferencesBorder" BorderBrush="Gray"  Grid.Row="2"    BorderThickness="2" Margin="0,0,4,0">
+                    <Border.Background>
+                        <ImageBrush ImageSource="Resources/colors/2E8C00.png" />
+                    </Border.Background>
+                    <k:KinectTileButton BorderBrush="Transparent" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="preferences" Click="KinectPressButton" Focusable="False" >
+                        <k:KinectTileButton.Background>
+                            <ImageBrush ImageSource="Resources/preferences2.png"/>
+                        </k:KinectTileButton.Background>
+                    </k:KinectTileButton>
+                </Border>
+                <!--logout-->
+
+
+                <Border x:Name="logoutBorder" BorderBrush="Gray"  Grid.Row="32"    BorderThickness="2" Margin="0,0,4,0">
+                    <Border.Background>
+                        <ImageBrush ImageSource="Resources/colors/2E8C00.png" />
+                    </Border.Background>
+                    <k:KinectTileButton BorderBrush="Transparent" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="logout" Click="KinectPressButton" Focusable="False" >
+                        <k:KinectTileButton.Background>
+                            <ImageBrush ImageSource="Resources/logout2.png"/>
+                        </k:KinectTileButton.Background>
+                    </k:KinectTileButton>
+                </Border>
+                <!--right-->
+
+
+            </Grid>
+
+        </Grid>
+
+
+    </k:KinectRegion>
+</UserControl>

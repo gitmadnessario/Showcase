@@ -1,0 +1,29 @@
+.cursor
+{
+	background-image: url("../images/hand_cursor.png"); 
+	height: 80px; 
+	width: 80px;
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 10;
+	
+}
+
+.progressLoading
+{
+	padding-left: 22px;
+	padding-top: 35px;
+	height: 40px; 
+	width: 40px;
+
+}
+
+.buttons
+{
+	width:100px;
+	height:50px;
+	margin: 300px 100px;
+	position: relative;
+	
+}

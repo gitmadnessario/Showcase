@@ -1,0 +1,45 @@
+#add_members{
+    
+   
+}
+
+#p_search_bar{
+    margin-left: 300px;   
+}
+
+#add_members_inner{
+    
+    margin-left: 12px;
+    border-collapse: collapse;
+}
+
+.addfirst{
+    
+}
+
+.addsecond{
+    background-color: lightgray;
+}
+
+.addname{
+    width: 195px;
+}
+
+.addbutton{
+    
+}
+
+.myaddmemberbutton{
+    border-radius: 3px;
+    border: 1px solid #000;
+    background-color: #3366FF;
+    color: white;
+    width: 90px;
+}
+
+.mycreateTeamButton{
+    border-radius: 3px;
+    border: 1px solid #000;
+    background-color: #3366FF;
+    color: white;
+}

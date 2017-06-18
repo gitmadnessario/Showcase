@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html ng-app="">
+<head>
+    <title>hy564</title>
+    <meta charset="utf-8"/>
+    
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    
+    
+     
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+    
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script src="JS/angular.js"></script>
+    <script src="JS/jquery.ui.touch-punch.min.js"></script>
+    <meta name="vieport" content="width=device-width , initial-scale=1">
+    
+    
+    <!--Header-->
+    
+
+    
+</head>
+
+<body >
+    
+	<!--Menu-->
+    
+<nav class=" navbar-default menu_bar header" id="">
+    <div class="container-fluid menu_bar">
+
+            <ul class="nav navbar-nav">
+                <li> <div class="button" ><a href = "hy564_home.html" ><span  class="glyphicon glyphicon-chevron-left"></span>  </a></div></li>
+            </ul>
+            <div class="navbar-header"> <font size="2" ><b>Knights Of The Round Table </font></div>
+        
+         <!-- Setting drop down -->
+        
+    </div>
+
+</nav>
+
+
+
+
+<div style="height:432px;">
+    <table class=""  id="test">
+        
+        <tr style="height:5%">
+            <td style="float:left"><button onclick="hide_func();" type="button" class="btn btn-default" id="files_but" style="background:transparent;border:none"><span  class="glyphicon glyphicon-folder-open"></span></button></td>
+            <td style="text-align:center"><button onclick="microphone();" type="button" class="btn btn-default" id="microphone" style="background:transparent;border:none"><img src="images/1448148939_tv.png" style="height:20px" class="img-responsive"> </button></td>
+            <td style="float:right"><button onclick="settings();" type="button" class="btn btn-default" id="settings_but" style="background:transparent;border:none"><span  class="glyphicon glyphicon-cog"></span></button></td>
+
+        </tr>
+
+        <tr style="height:338px; text-align:center" >
+            <td style="width:20%">
+            <div id="file_div" class="hidden">
+                <table  class="table table-striped">
+                    <tr>
+                    
+                    <td><div class="drag"><img src="folder.png" style="height:20px; "><br>Meeting Files</div></td>
+                    <tr>
+                    <td><div class="drag"><img src="folder.png" style="height:20px"><br>Other Files</div></td>
+                    </tr>
+                    <tr>
+                    <td ><div class="drag"><img src="Shield_logo.jpg" style="height:20px"><br>Shield_logo.jpg</div></td>
+                    </tr>
+                    
+                </table>
+            </div>
+
+            </td>
+            <td >
+
+                <table style="height:338px;width:60%"align="center" >
+                    
+                    
+                        <tr>
+                            
+                            <td style="border:0px solid black"  align="center" >
+                                <div id="presentation">
+                                    <br><br><br>
+                                    <div id="myCarousel"class="carousel slide pause container-fluid" data-interval="false" style="height:190px;width:300px;margin-top:10px" >
+                                        <ol class="carousel-indicators " >
+                                            
+                                            <li data-target ="#myCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target ="#myCarousel" data-slide-to="1" ></li>
+                                            <li data-target ="#myCarousel" data-slide-to="2" ></li>
+                                        </ol>
+                                        
+                                        <div class="carousel-inner" style="height:100%;width:100%;">
+                                            <div class="item active"><img src="images/download (1).jpg " style="width:100%;height:100%" class="img-responsive" ></div>
+                                            <div class="item" style="width:100%;height:100%"><img src="images/Conference-Room-Setup-Styles-Design-Idea-9.jpg"   class="img-responsive" ></div>
+                                            <div class="item" >
+                                                <div class="embed-responsive embed-responsive-16by9">
+                                                        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/qUlK3S_9IOo" style="width:100%;height:100%"></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        <a style="margin-left:14px"  class="carousel-control left " href="#myCarousel" data-slide="prev"><span class="buttons icon prev" id="swipe_left" ></span></a>
+                                        <a  style="margin-right:14px" class="carousel-control right" href="#myCarousel" data-slide="next" ><span class="buttons icon next"  id="swipe_right" ></span></a>
+                                    </div>
+
+
+                                </div>
+                                
+                            </td>
+                            
+                        </tr>
+                        
+
+                </table>
+
+            </td>
+            <td id="left_side"style="width:20%;" class="">
+
+            <div id="settings" class="hidden ">
+                <ul id="set_list">
+                    <li><img src="images/1445212877_volume-24.png" style="height:30px;padding:5px" ></li>
+                    <li><img src="images/1445213617_idea.png" style="height:30px;padding:5px" ></li>
+                    <li><img src="images/1445213654_weather_icons-64.png" style="height:35px" ></li>
+                    <li><img src="images/1448159869_17.Brush.png" style="height:30px;padding:5px" ></li>
+
+                    
+                </ul>
+            </div>
+
+            <div id="participants" class="hidden ">
+                <ul id="parts" class="connectedSortable">
+                    
+                <li class="btn btn-default drag" onclick="$('#contact_settings').slideToggle()" type="button"><img src="1445743931_photo.png" ><br> Stayros Dag
+                <div id="contact_settings">
+                    <table class="table table-condenced table-hover" id="kati">
+                    <tbody >
+                       
+                    <tr>
+                        <td class="btn">Mute</td>
+                    </tr>
+                    <tr>
+                        <td class="btn">Send File</td>
+                    </tr>
+                    <tr>
+                        <td class="btn">Speak</td>
+                    </tr>
+                    <tr>
+                        <td class="btn">Place On Presentation</td>
+                    </tr>
+                    </tbody>
+
+                    </table>
+                </div>
+                </li>
+                <li ><img src="1445743931_photo.png" ><br> Kwstas Madness</li>
+                <li><img src="1445743931_photo.png" ><br> Giannhs Kalaitzos</li>
+                <li><img src="1445743931_photo.png" ><br> Conference Room</li>
+               
+                </ul>
+
+            </div>
+            </td>           
+
+
+        </tr>
+
+        <tr style="height:5%;">
+            <div id = "chat" style="margin-left:10%">
+
+                <button type="button" class="close" onclick="$('#chat').slideToggle();" id="close"><span aria-hidden="true">&times;</span></button>
+                <iframe id="testframe" src="http://localhost:3000/" style="width:100%; height:90%;">
+                </iframe>
+            </div>
+            <td style="float:left"><button onclick="video();" type="button" class="btn btn-default" id="video" style="background:transparent;border:none"><span  class="glyphicon glyphicon-trash"></span></button>
+            
+            </td>
+             <td style="text-align:center"><button onclick="chat_div();" type="button" class="btn btn-default" style="background:transparent;border:none"><img src="images/1448152506_speech-bubble-dots-outline.png" style="height:20px" class="img-responsive"> </button>
+
+             </td>
+            <td style="float:right"><button onclick="participants();" type="button" class="btn btn-default" id="video" style="background:transparent;border:none"><span  class="glyphicon glyphicon-user"></span></button></td>
+            
+           
+        </tr>
+        
+    </table>
+    
+</div>
+    
+    
+
+
+
+    
+    
+</body>
+
+
+
+
+<script type="text/javascript">
+
+    $(
+
+        function() {
+        $( ".drag" ).draggable({
+            cursor: 'move',
+            containment: 'document',
+            revert: true,
+            helper: function (){return $("<div class='helper '></div>").append($(this).clone());}
+            });
+
+        $("#participants").droppable({
+            hoverClass: 'hovered',
+            drop: handledrop
+        });
+
+          $(function() {
+            $( '.drag' ).sortable({
+              connectWith: ".connectedSortable"
+            }).disableSelection();
+          });
+        });
+    
+    $(".remove").click(function() {
+        $('.duplicate').remove();
+    });
+
+    function handledrop(event , ui){
+        ui.draggable.draggable( 'disable' );
+        $(this).droppable( 'disable' );
+        $(this).append(ui.draggable.clone(true));
+        ui.draggable.draggable( 'option', 'revert', false );
+        
+    }
+      
+</script>
+
+<script >
+    $(document).ready(function() {
+        $("#myCarousel").swiperight(function(e) {
+            console.log("right");
+        $("#myCarousel").carousel('prev');
+            e.preventDefault();
+        });
+        $("#myCarousel").swipeleft(function(e) {
+            console.log("left");
+        $("#myCarousel").carousel('next');
+            e.preventDefault();
+        });
+    });
+</script>
+
+<script type="text/javascript">
+
+        
+        function hide_func(){
+            $('#files_but').toggleClass('active');
+            $('#file_div').toggleClass('hidden');
+            
+            
+        }
+
+        function speak_func(){
+            $('#speak_but').toggleClass('btn-success');
+        }
+
+        function draw_func(){
+            $('#draw_but').toggleClass('active');
+            $('#draw_mode').toggleClass('hidden'); 
+            $('#myCarousel').toggleClass('hidden') ;          
+        }
+
+        
+        function settings(){
+
+            if(!($('#participants').hasClass('hidden'))){
+                $('#participants').toggleClass('hidden');
+                $('#left_side').toggleClass('align_bot');
+                $('#participants').toggleClass('active');
+            }
+            $('#settings').toggleClass('hidden');
+            $('#left_side').toggleClass('align_top');
+            $('#settings').toggleClass('active');
+        }
+        function participants(){
+            if(!($('#settings').hasClass('hidden'))){
+                $('#settings').toggleClass('hidden');
+                $('#left_side').toggleClass('align_top');
+                $('#settings').toggleClass('active');
+            }
+            $('#participants').toggleClass('hidden');
+            $('#participants').toggleClass('active');
+            $('#left_side').toggleClass('align_bot');
+
+        }
+        function sound(){
+
+            $('#sound').toggleClass('active');
+            
+        }
+
+       
+        function chat_div () {
+            $('#chat').slideToggle();
+        }
+       
+
+</script>
+
+
+
+
+</html>

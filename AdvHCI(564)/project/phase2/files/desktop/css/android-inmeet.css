@@ -1,0 +1,61 @@
+#menu{
+	box-sizing:content-box;
+	width:16px;
+}
+
+#meadmin{
+	text-align: right;
+	right:0;
+	margin-left: 65%;
+}
+
+.android-indi{
+	margin-top: 20px;
+	position:static !important;
+}
+
+#inmgroup{
+	margin-left:-98px;
+}
+
+#carbut1{
+	width:78px;
+}
+
+#carbut2{
+	width:78px;
+	padding-top:6px;
+}
+
+#carbut3{
+	width:78px;
+	padding-top:1px;
+	padding-left:2px;
+}
+
+#inmeetcar{
+	width:231px;
+	height:100px !important;
+	margin-left:-15px;
+	margin-top: -10px;
+}
+
+#videoset{
+	margin-left:24%;
+	
+}
+
+#video{
+	border:0px;
+	background-color:white;
+}
+
+#microphone{
+	border:0px;
+	background-color:white;
+}
+
+#sound{
+	border:0px;
+	background-color:white;
+}

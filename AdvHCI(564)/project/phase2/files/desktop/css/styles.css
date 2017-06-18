@@ -1,0 +1,184 @@
+.header{
+	background-image: linear-gradient(180deg, #FF9900, #FFFFFF);
+	
+	padding: 5px 25px 15px 25px;
+}
+
+body {
+	background-color: #F0F0F0;
+}
+li  {list-style-type: none;}
+
+.container {
+	background-color: #fff;
+}
+
+.main {
+	padding: 25px;
+}
+
+.footer{
+	background-color: #414237;
+	color: #fff;
+	padding: 15px 25px 5px 25px;
+}
+
+.bg-grey {
+    background-color: #f9f9f9;
+}
+
+#profile_img {
+    
+    height: 50px;
+
+}
+# Menu_but {
+    
+    width: 200px;
+}
+
+body {
+     font-size: 18px !important;
+}
+
+.menu_bar{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu_button{
+    text-align: center;
+    width: 248px;
+   
+}
+
+#sidebar-wraper {
+    align-content: center;
+    padding: 00px;  
+    text-align: center;
+    border-right: 2px solid black;
+    background-color: #FFFFFF ;
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+#workshop{
+    background-color: #FFF;
+    height: 100%;
+    padding-left: 10px;
+    display: block;
+    position: absolute;
+}
+
+#meeting_list {
+    border-bottom: 2px solid black;
+    background: #FFF;
+    
+}
+
+#create_meet{
+	font-size:18px;
+	padding:0px;
+	padding-right:4px;
+	padding-left:4px;
+}
+
+#name_head:hover{
+	cursor: pointer; cursor: hand;
+}
+
+#date_head:hover{
+	cursor: pointer; cursor: hand;
+}
+
+#status_head:hover{
+	cursor: pointer; cursor: hand;
+}
+
+#logo_col{
+	width:17px;
+}
+
+.status_col{
+	text-align:center;
+}
+
+.attend_col{
+	text-align:right;
+}
+
+.imgselect > input {
+	display:none;
+}
+
+#divimage{
+	cursor: pointer;
+	width:120px;
+	height:90px;
+	background-image: url('../empty.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+#fiorder > input{
+	display:none;
+}
+
+
+#participants {
+
+    text-content: center;
+    padding: 0px;  
+    text-align: center;
+    border-left: 2px solid black;
+    background-color: #FFF ;
+    height: 100%;
+    display: block;
+    position: absolute;    
+}
+
+#file_div {
+    background-color: #FFF ;
+}
+
+#participants-list {
+    padding: 0px;
+}
+
+#participants-list li{
+    text-align: center;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid black;
+}
+
+#presentation {
+    padding: 00px;  
+    text-align: center;
+    background-color: #FFF;
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+.hidden {
+    display: block;
+    line-height:0;
+    height: 0;
+    overflow: hidden;
+}
+
+#section_line{
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+.customa:hover{
+	cursor: pointer;
+}

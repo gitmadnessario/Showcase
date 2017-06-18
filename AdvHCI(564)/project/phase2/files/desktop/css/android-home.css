@@ -1,0 +1,184 @@
+body{
+	font-size: 12px !important;
+}
+
+#top-section{
+	background-image: linear-gradient(180deg, #FF9900, #FFFFFF);
+	height:55px;
+	width:231px;
+	margin-left:-10px;
+	font-size: 12px !important;
+}
+
+.top_label{
+	width:115px;	
+}
+
+#profile{	
+	margin-right: 14px;
+	margin-left:-7px;
+}
+
+#refresh{
+	margin-left:15px;
+}
+
+#menu{
+	margin-left: 3px;
+}
+
+.table{
+	width:240px !important;
+	margin-left:-14px !important;
+}
+
+.meeting-text{
+	font-size: 13px;
+	text-align: left;
+}
+
+#mstatus{
+	margin-right: -5px;
+}
+
+.carousel-inner{
+	height:100%;
+}
+
+.carousel-indicators{
+	bottom: auto;
+	left: auto;
+	margin-left: -5%;
+	position:fixed;
+}
+
+.carousel-indicators .active{
+	width: 26%;
+	height:43px;
+	color: black;
+	border-color: black;
+}
+
+.carbut{
+	width: 26%;
+	margin:0px;
+	padding:0px;
+	float:left;
+	font-size:13px;
+	height:43px;
+	background-color: white;
+	color: black;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	
+}
+
+.carbut:hover{
+	background-color: white;
+	color: black;
+	border-color: black;
+}
+
+
+.mframe{
+	width:231px;
+	height:317px;
+}
+
+#framecont2{
+	width: 237px;
+}
+
+#framecont1{
+	width: 237px;
+}
+
+.calenote{
+	vertical-align: top;
+	float:right;
+}
+
+#calhidden{
+	border-bottom:1px solid black;
+	font-size:13px;
+	margin-left: -15px !important; 
+	left: 0 !important;
+}
+
+#calspecial{
+	border-bottom: 1px solid black;
+	font-size:13px;
+	margin-left: -15px !important; 
+	left: 0 !important;
+}
+
+#calsum{
+	border-bottom: 1px solid black;
+	font-size:13px;
+	margin-left: -15px !important; 
+	left: 0 !important;
+}
+
+#top_right{
+	margin-top: -40px;
+}
+
+#fbutton{
+	width: 208px;
+	margin-top:5px;
+}
+
+#sbutton{
+	width: 99px;
+}
+
+#tbutton{
+	margin-left: -4px;
+}
+
+#details_img{
+	margin-left: -7px;
+}
+
+#descdesc{
+	margin-top: 210px;
+}
+
+#descdesc2{
+	margin-top: 240px;
+}
+
+.enter-button{
+	margin-top: 10px;
+	margin-right: 122px;
+	font-size: 12px;
+}
+
+@media screen and (max-width:480px){
+        #myForm{
+          display:flex;
+          flex-flow: column;
+        }
+		#forder{order:1;}
+        #sorder{order:2;}
+        #torder{order:3;}
+		#foorder{order:4;}
+		#fiorder{order:5;}
+		#siorder{order:6;}
+		#seorder{order:7;}
+}
+
+#formbuttons{
+	text-align:left !important;
+	width:235px;
+	margin-left: -40px;
+}
+
+.helper{
+    z-index: 999;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 4px;
+    background: lightgray;
+
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teams</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="CSS/index.css">
+  <link rel="stylesheet" type="text/css" href="CSS/left_side.css">
+  <link rel="stylesheet" type="text/css" href="CSS/right_side.css">
+  <link rel="stylesheet" type="text/css" href="CSS/footer.css">
+  <link rel="stylesheet" type="text/css" href="CSS/kaloyannis-view.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="JavaScripts/login.js"></script>
+  <script src="JavaScripts/search.js"></script>
+  <script src="JavaScripts/comment.js"></script>
+    <script src="JavaScripts/eye.js"></script>
+  <script src="JavaScripts/browse_image.js"></script>
+  <script>
+        if (localStorage.getItem("remember")=="false"){
+            $(window).unload(function(){
+              localStorage.clear();
+            });
+        }
+    </script>
+</head>
+<body>
+
+<div id="index" style="width:1024px; max-height:768px; margin:0 auto;" align="center">
+<div id="header"></div>
+    
+    
+<div id="path">
+    <ul id="breadcrumb_path" class="breadcrumb">
+      <li><a class="home" href="Home.html" id="Home">Home</a></li>
+        <li> <b> > </b>
+      <li> <b>Kaloyannis </b></li>
+    </ul>
+</div>
+
+<div id="left_bar">
+<div id="left_side">
+<table>
+	<th> News feed </th>
+	<tr>
+        <td><a class="home" href="#" onclick="details464(document.URL)" id="HY-464_project">New project HY-464</a></td>
+	</tr>
+	<tr>
+		<td><a class="home" href="#" onclick="details464(document.URL)" id="HY-463_project">New project HY-463</a></td>
+	</tr>
+	<tr>
+		<td><a class="home" href="#" onclick="details464(document.URL)" id="HY-340_project">New project HY-340</a></td>
+	</tr>
+    <tr>
+        <td><a class="home" href="#" onclick="details454(document.URL)" id="HY-454_project">New project HY-454</a></td>
+    </tr>
+    <tr>
+        <td><a class="home" href="#" onclick="details464(document.URL)" id="HY-335b_project">New project HY-335b</a></td>
+    </tr>
+</table>
+ </div>
+</div>
+
+ <div id="content" style="width:600px">
+    <table id="big_one">
+        
+        <tr>
+            <table id="profil_table" class="sortable">
+                
+                <tbody>
+                    <tr><br></tr>
+                    
+                    <tr>
+                        <td id="contact">Contact Information :</div><a id=""  class="plus"></a> </td>  
+                        <td id="vissible" ><div  >Vissible:</div>
+                        </td><td id="meeting"><div >Meeting Hours:</div></td>
+
+                    </tr>
+        
+                    
+                </tbody>
+                
+            </table>
+            <table id= "contact_info">
+    
+                    <tr>
+                        <td class= "first" >Email:<div style="float:right;"></td>
+                        <td class= "second">kaloyannis@csd.uoc.gr</td>
+                        <td class= "third"   > <input style="" type=button onClick="toggle(this)"  class="eye_button" id="eye1" > </td>
+                        
+                        <td class="forth" rowspan="4">
+                            <textarea rows="3;">Me boleyei deytera paraskeyh apo 1-4 am</textarea>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class= "first"  >Facebook:</td><td class= "second">kaloyannis@facebook</td>
+                        <td class= "third" > <input style="" type=button onClick="toggle(this)"  class="eye_button"></div> </td>
+                    </tr>
+    
+                    <tr>
+                        <td class= "first"  >Mobile:</td>
+                        <td class= "second" > 6955555555 </td>
+                        <td class= "third"   > <input style="" type=button onClick="toggle(this)"  class="eye_button"> </td>
+                    </tr>
+    
+                    <tr>
+                        <td class= "first"  >Skype:</td>
+                        <td class= "second" > Kaloyannis </td>
+                        <td class= "third"   > <input style="" type=button onClick="toggle(this)"  class="eye_button"> </td>
+                    </tr>
+                    
+                     <tr>
+                         
+                        <td class= "first"  >Skills:</td>
+                        <td class= "second" ><textarea rows="3;">Expert in java even better at C not good at Html</textarea>  </td>
+                        <td class= "third"   > <input style="" type=button onClick="toggle(this)"  class="eye_button"> </td>
+                          <td class="forth" rowspan="4">
+                             <table id="profilecomments">
+                                 
+                            </table>
+                              <form id="proForm" onsubmit="return addcommentprof()">
+                                <input width="10px;" id="commentprof" type="text" name="comment" value="" class="commentprof">
+                                <input type="submit" value="Endorse" id="comment_buttonprof">
+                                         </form>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td class= "first"  >Courses:</td>
+                        <td class= "second" >  </td>
+                        <td class= "third"   > <input style="" type=button onClick="toggle(this)"  class="eye_button"> </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="first">
+                            <ul>
+                                <li style="margin-left:-20px;"><a href="#" onclick="details464(document.URL)" > HY-464 </a></li>
+                                <li style="margin-left:-20px;"><a href="#" onclick="details464(document.URL)" > HY-463 </a></li>
+                                <li style="margin-left:-20px;"><a href="#" onclick="details464(document.URL)" > HY-340 </a></li>
+                            </ul>
+                        
+                        </td>
+                        
+                        <td class="second">
+                            <ul>
+                                <li style="list-style-type:none;">Project</li>
+                                <li style="list-style-type:none;">Project</li>
+                                <li style="list-style-type:none;">Project</li>
+                            </ul>
+                        </td>
+                        <td class= "third"> 
+                            <input style="" type=button onClick="toggle(this)"  class="eye_button"><br>
+                            <input style="" type=button onClick="toggle(this)"  class="eye_button"><br>
+                            <input style="" type=button onClick="toggle(this)"  class="eye_button">
+                        
+                        </td>
+                    </tr>
+            </table>
+    
+            <table id="csd_table">
+                    
+                
+                    <tr>
+                        <thead>
+                                    <tr >
+                                        <th>Project</th>
+                                        <th>Course</th>
+                                        <th>Date</th>
+                                        
+                                    </tr>
+                        </thead>
+                        
+                            <tbody>
+                                <table id="kwstas" style="margin-left:-10px;">
+                                    <tbody>
+                                        <tr>   
+                                        <td style="width:45%;"><a style="float:left;text-decoration:none;" href="#" onclick="details464(document.URL)" id="">Super Mario </a></td>
+                                        <td style="width:30%;"><a style="float:left;text-decoration:none;" href="#" onclick="details464(document.URL)" id="">Hy454 </a></td>
+                                        <td style="width:25%;">12/04/2014</td>
+                                        </tr>
+                                        
+                                        <tr style="background-color : white;">   
+                                        <td style="width:25%;"><a style="float:left;text-decoration:none;" href="#" onclick="details464(document.URL)" id="">Socketed Threads </a></td>
+                                        <td style="width:23%;"><a style="float:left;text-decoration:none;" href="#" onclick="details464(document.URL)" id="">Hy335b </a></td>
+                                        <td style="width:25%;">22/01/2014</td>
+                                        </tr>
+                                        
+                                    </tbody>
+
+                                </table>
+                            </tbody>
+                        
+                        
+                    </tr>
+                    
+            </table>
+        </tr>
+
+    </table>
+
+    <table id="csd_table">
+                    
+                
+                    <tr>
+                        <thead id="csd">
+                                    <tr >
+                                        <th>Team</th>
+                                        <th>Completed</th>
+                                        <th>Creator</th>
+                                        <th>Applied/Invited</th>
+                                        <th>Actions</th>
+                                        <th>Status</th>
+                                        
+                                    </tr>
+                        </thead>
+                        
+                            <tbody>
+                                <table id="kwstas" style="margin-left:-10px;">
+                                    <tbody>
+                                        <tr>   
+                                        <td style="width:110px"><a style="float:left;text-decoration:none;" href="#" onclick="details464(document.URL)" id="">Hy464-Ομάδα01 </a></td>
+                                        <td style="float:left;width:95px"><a id="" class="unlock_dot"></a></td>
+                                        <td style="float:left;width:105px"></td>
+                                        <td style="float:left;width:75px">Invited</td>
+                                        <td style="float:left;width:115px"> <input style="" type=button onClick=""  class="small_accept_button" value="Accept"> <input style="" type=button onClick=""  class="small_decline_button" value="Decline"></a></td>
+                                        <td style="float:left;width:px">Pending</a></td>
+                                        </tr>
+                                        
+                                        <tr style="background-color : white;">   
+                                        <td style="width:110px"><a style="float:left;text-decoration:none;" href="#" onclick="details464(document.URL)" id="">Hy340-Ομάδα01 </a></td>
+                                        <td style="float:left;width:95px"><a id="" class="lock_dot"></a></td>
+                                        <td style="float:left;width:105px"><a id="" class="tick"></td>
+                                        <td style="float:left;width:75px"></td>
+                                        <td style="float:left;width:110px"> <input style="" type=button onClick=""  class="Apply_button" value="Leave"></a></td>
+                                        <td style="float:left;width:px">Member</a></td>
+                                        </tr>
+                                        
+                                        <tr>   
+                                        <td style="width:110px"><a style="float:left;text-decoration:none;" href="#" onclick="details464(document.URL)" id="">Hy463-Ομάδα03 </a></td>
+                                        <td style="float:left;width:95px"><a id="" class="unlock_dot"></a></td>
+                                        <td style="float:left;width:105px"></td>
+                                        <td style="float:left;width:75px">Applied</td>
+                                        <td style="float:left;width:110px"> <input style="" type=button onClick=""  class="Apply_button" value="Cancel"></a></td>
+                                        <td style="float:left;width:px">Pending</a></td>
+                                        </tr>
+
+                                    </tbody>
+
+                                </table>
+                            </tbody>
+                        
+                        
+                    </tr>
+                    
+            </table>
+        </tr>
+    </table>
+
+
+
+    </div>
+
+
+ 
+    <div id="right_bar">
+ <div id="right_side">
+    
+ </div>
+    </div>
+ 
+<div id="footer" style="width:975px;">
+    Πανεπιστήμιο Κρήτης &#169; 2015
+</div>
+
+</div>
+<script> 
+     $(function(){ $("#header").load("header.html") });
+    //$(function(){ $("#right_side").load("form.html") });
+    /* $(function(){ $("#right_side").load("right_side_kaloyannis.html") }); */
+   </script>
+</body>
+</html>

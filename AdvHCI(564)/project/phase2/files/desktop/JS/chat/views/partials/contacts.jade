@@ -1,0 +1,20 @@
+div.conv-list-view
+    header.conv-list-view__header
+        div.cf
+            ul.close-button-list
+                li
+                li
+                li
+            ul.function-list
+              li.icon-lupe
+    ul.conv-list(ng-controller="ChatAppCtrl")
+        li(ng-repeat='user in users')
+          div.status 
+            i.status__indicator--unread-message
+            figure.status__avatar
+                img(ng-if="user.indexOf('1') > -1" src='/images/woman_icon.jpg')
+                img(ng-if="user.indexOf('2') > -1" src='/images/man_icon.jpg')
+                img(ng-if="user.indexOf('3') > -1" src='/images/avatar.jpeg')
+            div.meta
+              div.meta__name {{user}}
+              div.meta__sub--dark AEK

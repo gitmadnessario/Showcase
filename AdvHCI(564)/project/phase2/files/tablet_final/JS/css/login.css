@@ -1,0 +1,43 @@
+
+body{
+ background-image: linear-gradient(180deg, #FF9900, #FFFFFF);
+ background-attachment:fixed;
+}
+
+.central_login{ 
+ text-align: center;
+ margin-top: 8%;
+}
+
+
+#myForm{
+ margin-top: 15px;  
+ margin-left: auto;
+ margin-right: auto; 
+}
+
+.user{
+     width: 200px;
+     border-radius: 5px;
+     border: 2px solid #000;
+}
+
+.pass{
+     width: 200px;
+     border-radius: 5px;
+     border: 2px solid #000;
+	 margin-top:10px;
+}
+
+#remember_me{
+	margin-top:10px;
+	margin-left: -80px;
+}
+
+.submit{
+    border-radius: 3px;
+    border: 1px solid #000;
+    background-color: #C0C0C0;
+    color: black;
+	font-weight: 700;
+}

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html ng-app="meeting_app">
+<head>
+    <title>hy564</title>
+    <meta charset="utf-8"/>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+	<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="datetimepicker-master/jquery.datetimepicker.css"/ >
+	<script src="datetimepicker-master/jquery.js"></script>
+	<script src="datetimepicker-master/build/jquery.datetimepicker.full.min.js"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<script src="JS/Meeting_list.js"></script>
+    <meta name="vieport" content="width=device-width , initial-scale=1">
+    <link   rel="stylesheet" href="css/styles.css">
+ 	<link rel="stylesheet" href="css/android-home.css" media="screen and (max-width: 480px)">
+	<link rel="stylesheet" href="css/mobile.css">
+	<link rel="stylesheet" href="css/android-create.css" media="screen and (max-width: 480px)">
+		
+    <!--Header-->
+    <div class="header container-fluid" >
+        <div class="row">
+            <div class="col-md-1" ><img src="Corp_logo.png" style="height:100px"></div>
+            
+            
+			<div class="col-md-4"style="padding-left:40px">
+                
+                <h2>Shield Corporation</h2>
+                <h4>Fortify your Needs</h4>
+                </dl>
+            </div>
+        </div>
+    </div>
+  
+</head>
+
+<body style="background-color: white;">
+    
+	<!--Menu-->
+    
+
+<nav class="navbar navbar-default menu_bar">
+    <div class="container-fluid menu_bar">
+
+        <ul class="nav navbar-nav">
+            <li class=" menu_button" ><a href = "hy564_home.html" > <font size="3" > Home </font> </a></li>
+            <li class=" menu_button"><a href = "hy564_calendar.html " > <font size="3" > Calendar </font> </a></li>
+            <li class="active menu_button"><a href = "hy564_meetings.html" ><font size="3" >Meetings</font></a></li>
+        </ul>
+         <!-- Setting drop down -->
+        <ul class="nav navbar-nav navbar-right">
+            
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="align:float-right">Settings <span class="glyphicon glyphicon-cog"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="login.html" onclick='localStorage.setItem("login","none");'>Logout</a></li>
+                    <li><a href="#">Some other settings</a></li>
+                </ul>
+                
+            </li>
+        </ul>
+    </div>
+
+</nav>
+<div class="container-fluid " >
+<div class="row " style="height:100%">
+
+    
+    <!--Sidebar-->
+    <div class="col-md-2 "  id="sidebar-wraper">
+        <br>
+        <img src="Shield_logo.jpg" class=" img-circle " style="height: 40px " align="center" >
+        
+        <h4>Kwstas Mad</h4> <br>
+        <h4 align="left" ><b>Contacts :</b></h4>
+        
+        <table class="table table-bordered">
+            <tbody align="left">
+                <tr><td><img src="1445743931_photo.png" align="left"> <font size="4" style="padding-left:10px "> Stayros Dag</font> </td></tr>
+                <tr><td><img src="1445743931_photo.png" align="left"> <font size="4" style="padding-left:10px "> Giannhs Omorfos</font> </td></tr>
+                <tr><td><img src="1445743931_photo.png" align="left"> <font size="4" style="padding-left:10px "> Blind Maiden</font> </td></tr>
+               
+            </tbody>
+        </table>
+		
+		<hr id="section_line" class="calnote"></hr>
+
+		<h4 align="left"><b>News Feed:</b></h4>
+		<table class="table table-bordered">
+			<tbody align="left">
+                <tr><td><img src="expmark.png" align="left"><font size="4" style="padding-left:10px "><b>Blind Maiden:</b><span aria-hidden="true" style="margin-left:45px;" onclick="hide_not()">&times;</span><br>Added you as a Friend</font> </td></tr>
+                <tr><td><img src="expmark.png" align="left"><font size="4" style="padding-left:10px"><b>Blind Maiden:</b><span aria-hidden="true" style="margin-left:45px;" onclick="hide_not()">&times;</span><br>Added you as a Friend</font> </td></tr>
+                <tr><td><img src="expmark.png" align="left"><font size="4" style="padding-left:10px"> <b>Blind Maiden:</b><span aria-hidden="true" style="margin-left:45px;" onclick="hide_not()">&times;</span><br><a href="" >Meeting invitation</a> </font> </td></tr>
+               
+            </tbody>
+        </table>
+    </div>
+    
+    <!-- Work Shop -->   
+    <div class="col-md-10 col-md-offset-2 col-xs-12" id="workshop"> 
+        <div class="container-fluid" id="fromcarousel">
+            
+            <div class="row "><h4 style="align:right; border-bottom: 1px solid black" class="calnote"> Create Meeting </h4></div>
+			<div ng-controller="meeting_app_controller">
+            <form novalidate="" class="col-md-5 nopadding" id="myForm" ng-submit="submit" name="myForm">
+                <div class="form-group imgselect" id="seorder">
+                    <p>Meeting Image</p>
+					 <label for="img-input">
+						<div id="divimage" title="If not specified,default corp logo will be used"></div>
+					</label>
+                    <input type="file" class="file" id="img-input" accept="image/*" onchange="angular.element(this).scope().setFile(this)">
+                </div>
+              
+                <div class="form-group" id="forder">
+                   <p style="padding:0px">Meeting Name : <font size="4px" style="color:red;">*</font> </p>
+                   <input type="text" class="form-control" placeholder="Meeting name..." id="name-input" ng-model="meeting.name" required name="mname">
+                </div>                         
+                <div class="form-group" id="sorder">
+					<p>Add Description :<font size="4px" style="color:red;">*</font> </p>
+					<textarea class="form-control" rows="3" placeholder="Meeting Decription..." id="desc-input" ng-model="meeting.desc" required name="mdesc"></textarea>
+                </div>
+				
+				<div class="form-group" id="siorder">
+                <p>Meeting Place :</p>
+                <div class="input-group">                   
+                  <input type="text" class="form-control" placeholder="Meeting Place..." id="place-input" ng-model="meeting.place">
+                  <span class="input-group-addon glyphicon glyphicon-map-marker"></span>
+                </div>
+                </div>
+				
+				<div class="form-group" id="torder">
+                <p>Meeting Date/Time :<font size="4px" style="color:red;">*</font> </p>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="datetimepicker" placeholder="Meeting date/time..." ng-model="meeting.datetime" required name="mdate">
+                  <span class="input-group-addon glyphicon glyphicon-time" id="datetimeicon"></span>
+                </div>
+                </div>
+				
+				<div class="form-group" id="foorder">
+                <p id="clist">Contacts :</p>
+                <div class="input-group">               
+					<input list="contacts" class="form-control" placeholder="Contacts..." id="contactsfield">
+					<datalist id="contacts">
+						<option value="Stayros Dag">
+						<option value="Giannhs Omorfos">
+						<option value="Blind Maiden">
+					</datalist>
+					<span class="input-group-addon glyphicon glyphicon-user"></span>
+                </div>
+				</div>
+                 
+                <div class="input-group" id="fiorder">  
+                    <p>Meeting Files :
+					<label for="fileupload">
+						<img id="fimage" src="plus_sign.png"></img>
+					</label></p>
+                    <input type="file" class="file" multiple="" id="fileupload">
+					
+					<output id="flist"></output>
+                </div>
+				
+            </form>
+			<div class="col-md-3 col-md-offset-9" style="color: black" id="formbuttons">  
+				<button type="submit" class="btn btn-default btn-md" style="width:100px;padding:2px" id="submit" ng-click="submit(meeting)" ng-disabled="myForm.mname.$pristine || myForm.mname.$invalid || myForm.mdesc.$pristine || myForm.mdesc.$invalid || myForm.mdate.$pristine || myForm.mdate.$invalid"><font size="4" color="#484848">Create</font></button>
+				<button type="button" class="btn btn-default btn-md calnote"  align="right" style="width:100px;padding:2px" onclick="location.href='hy564_meetings.html'"><font size="4" color="#484848">Cancel</font></button>
+				<button type="button" class="btn btn-default btn-md createbut"  align="right" style="width:100px;padding:2px" onclick="clearInput()"><font size="4" color="#484848">Clear</font></button>
+			</div>
+			</div>			
+		</div> 
+	</div>     
+</body>
+
+<script>
+$('html,body').animate({
+    scrollTop: window.scrollY + window.innerHeight
+}, 1000);
+
+$("#fromcarousel").on('swipedown',function(){alert("swipedown..");} );
+$("#fromcarousel").on('swipeup',function(){alert("swipeup..");} );
+
+</script>
+<script>
+//Changes the picture per user selection
+$('#img-input').change(function(e){
+	document.getElementById("divimage").style.backgroundImage="url("+$(this).val()+")";
+});
+</script>
+
+
+<script>
+// Populates the contact list
+$('#contactsfield').on('input',function(e){
+	var value = $(this).val();
+	var obj = $("#contacts").find("option[value='"+value+"']")
+	var previous = document.getElementById("clist").innerHTML;
+    var output = [];
+	output.push(previous);
+	if (obj!=null && obj.length > 0){
+		output.push(value);
+		$(this).val("");
+	}
+	document.getElementById('clist').innerHTML = output.join(' ');
+});
+</script>
+
+<script>
+//Populates the files list
+$('input[type=file]').change(function(e){
+	var files = $("#fileupload")[0].files;
+	var previous = document.getElementById("flist").innerHTML;
+	var output = [];
+	if (previous!=""){
+		var edited = previous.slice(0,previous.length-5);
+		output.push(edited);
+	}
+	for (var i = 0; i < files.length; i++){
+		output.push('<li>',files[i].name,'</li>');
+	}
+	document.getElementById('flist').innerHTML = '<ul>' + output.join('') + '</ul>';
+	if (previous==""){
+		document.getElementById('flist').innerHTML = '<ul>' + output.join('') + '</ul>';
+	}
+	else{
+		document.getElementById('flist').innerHTML = output.join('') + '</ul>';
+	}
+});
+</script>
+
+<script>
+//handles the date and time input
+jQuery('#datetimepicker').datetimepicker({
+	timepicker:true,
+	format:'d/m/Y H:i',
+	minDate: '-1970/01/01',
+	onselect: function(){
+		var day1 = $("#datetimepicker").meeting.datetime('getDate').getDate();                 
+		var month1 = $("#datetimepicker").meeting.datetime('getDate').getMonth() + 1;             
+		var year1 = $("#datetimepicker").meeting.datetime('getDate').getFullYear();
+		var fullDate = year1 + "-" + month1 + "-" + day1;
+		
+		var elem = document.getElementById("datetimepicker");
+		elem.value = fullDate;
+	}
+});
+
+jQuery('#datetimeicon').click(function(){
+  jQuery('#datetimepicker').datetimepicker('show');
+});
+
+function clearInput(){
+	$("input#name-input").val("");
+	$("textarea#desc-input").val("");
+	$("input#datetimepicker").val("");
+	$("input#place-input").val("");
+	$("input#contactsfield").val("");
+	$("output#flist").val("");
+	document.getElementById('clist').innerHTML = "";
+}
+</script>
+
+
+</html>

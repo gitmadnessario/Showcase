@@ -1,0 +1,55 @@
+        private WriteableBitmap _outputBitmap = null;
+        private byte[] _pixelData = new byte[0];
+
+        public void UpdateKinectFrame(ColorImageFrame kinectRGB_Input)
+        {
+            // Checks if the length is 0 (first time we receive a frame)
+            if (_pixelData.Length == 0)
+            {
+                // Creates a buffer long enough to receive all the data of a frame
+                _pixelData = new byte[kinectRGB_Input.PixelDataLength];
+
+                // Initialize new WriteableBitmap
+                _outputBitmap = new WriteableBitmap(kinectRGB_Input.Width,
+                                                    kinectRGB_Input.Height,
+
+                                                    // Standard DPI
+                                                    96, 96,
+
+                                                    // Current format for the ColorImageFormat
+                                                    PixelFormats.Bgr32,
+
+                                                    // BitmapPalette
+                                                    null);
+
+                // Assign the writeablebitmap to the imagecontrol
+                Screen2_Image.Source = _outputBitmap;
+            }
+            #region Update Kinect Image
+            // Copies the data from the frame to the pixelData array
+            kinectRGB_Input.CopyPixelDataTo(_pixelData);
+
+            // Update the writeable bitmap
+            _outputBitmap.WritePixels(
+
+                // Represents the size of our image
+                new Int32Rect(0, 0, kinectRGB_Input.Width, kinectRGB_Input.Height),
+
+                // Our image data
+                _pixelData,
+
+                // Stride - How much bytes are there in a single row?
+                kinectRGB_Input.Width * kinectRGB_Input.BytesPerPixel,
+
+                // Offset for the buffer, where does he need to start
+                0);
+            #endregion
+
+            var qr_Result = barcodeReader.Decode(kinectRGB_Input.GetRawPixelData(), kinectRGB_Input.Width, kinectRGB_Input.Height,
+                                                        ZXing.RGBLuminanceSource.BitmapFormat.RGB32);
+
+            if (qr_Result != null)
+            {
+                this.ScreenLabel.Content = qr_Result.Text;
+            }
+        }

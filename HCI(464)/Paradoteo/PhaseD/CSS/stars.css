@@ -1,0 +1,85 @@
+.ratings_stars {
+    background: url(../Icons/678064-star-20.png) no-repeat;
+    float:      left;
+    height:     24px;
+    padding:    0px;
+    width:      24px;
+}
+
+.rating_stars{
+    background: url(../Icons/star-20.png) no-repeat;
+    float:      left;
+    height:     24px;
+    padding:    0px;
+    width:      24px;
+}
+
+.ratings_vote {
+    background: url('../Icons/678064-star-20.png') no-repeat;
+}
+.ratings_over {
+    background: url('../Icons/678064-star-20.png') no-repeat;
+}
+
+#comments{
+    overflow:hidden
+    float:left;
+    margin-top: 20px;
+    margin-left: 9px;
+    -webkit-box-shadow: inset 0 0 2px 1px #000;
+    -moz-box-shadow: inset 0 0 2px 1px #000;
+    box-shadow: inset 0 0 2px 1px #000; 
+    border-collapse: collapse;
+}
+
+.nickcom{
+    float: left; 
+    width:150px;
+    margin-left: 5px;
+}
+
+.textcom{
+    float:left;
+    width: 405px;
+}
+
+#leaveComment{
+    float: left;   
+}
+
+#comment_area{
+    float: left;
+    border: 1px solid #000;
+    margin-left: 9px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 490px;
+}
+
+#comment_button{
+    float: right;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #000;
+    background-color: #3366FF;
+    color: white;   
+}
+
+.commentsfirst{
+    background-color: white; 
+}
+
+.comentssecond{
+   background-color:lightgray;
+}
+
+#commentshead1{
+    float: left;
+    border-bottom: 1px solid #000;
+}
+
+#commentshead2{
+    float: left;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}

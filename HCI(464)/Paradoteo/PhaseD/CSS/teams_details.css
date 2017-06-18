@@ -1,0 +1,247 @@
+#big_one{
+    float: left;
+}
+
+#big_one tr{
+    float: left;
+}
+
+#p_search_bar{
+    list-style-type: none;
+}
+
+#p_search_bar li{
+    display: inline;
+}
+
+
+
+.p_Container{
+    background-color: #000000;
+    border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+    margin-left: -305px;
+    height: 150px;
+}
+
+
+
+
+.unlock_dot{
+    background-image: url(../Icons/1430837728_bullet_green.png);
+    margin-top: 4px;
+    margin-right: 6px;
+    height: 16px;
+    width: 16px;
+    float: left;
+}
+.lock_dot{
+    background-image: url(../Icons/1430867355_91-16.png);
+    margin-top: 2px;
+    margin-right: 2px;
+    height: 16px;
+    width: 16px;
+    float: left;
+}
+
+.green_dot{
+    background-image: url(../Icons/1430837728_bullet_green.png);
+    margin-top: 4px;
+    margin-right: 6px;
+    height: 16px;
+    width: 16px;
+    float: left;
+}
+.red_dot{
+    background-image: url(../Icons/1430837684_bullet_red.png);
+    margin-top: 2px;
+    margin-right: 2px;
+    height: 16px;
+    width: 16px;
+    float: left;
+}
+
+
+
+#member{
+    float : left;
+    margin-left: -139px;
+}
+
+#member1{
+    float : left;
+    margin-left: -163px;
+}
+#member2{
+    float : left;
+    margin-left: -188px;
+}
+#member3{
+    float : left;
+    margin-left: -188px;
+}
+#selection_list{
+    height: 18px;
+    
+}
+
+
+#team_table{   
+    float: left;
+    margin-left: 10px;
+    width: 570px;
+    border-collapse: collapse;
+    
+}
+
+
+
+#team_table tr{
+    border-bottom: 2px solid #000;   
+}
+#team_table a{
+    text-decoration: none;
+}
+
+#team_table td{
+    float: left;
+    border: px solid #000;
+}
+
+#team_head{
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000; 
+    float: left;
+    width: 570px;
+}
+
+
+#team_name{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+#course{
+    float: left;
+    width: 10%;
+}
+
+#professor{
+    float: left;
+    width: 37%;
+}
+
+#status{
+    float: left;
+    width: 10%;
+}
+
+.name_column{
+    width: 380px;
+}
+
+.course_column{
+    width:90px;
+   
+}
+
+
+
+.status_column{
+    width: 85px;
+    float: left;
+}
+
+.row_left {
+    width: 189px;
+    float: right;
+}
+
+/* Sortable tables */
+
+
+.difficulty{
+    float: left;
+}
+
+.ratings_stars {
+    background: url(../Icons/678064-star-20.png) no-repeat;
+    float:      left;
+    height:     24px;
+    padding:    0px;
+    width:      24px;
+    
+}
+
+.accept_button{
+    border-radius: 3px;
+    border: 1px solid #000;
+    background-color: #3366FF;
+    color: white;
+    width: 55px;
+    
+}
+.Apply_button{
+    border-radius: 4px;
+    border: 1px solid #000;
+    background-color: #3366FF;
+    color: white;
+    width: 55px;
+    margin-top: 1px;
+    margin-right: 1px;
+    float: right;
+    
+}
+
+
+
+
+.decline_button{
+    border-radius: 3px;
+    border: 1px solid #000;
+    background-color: #3366FF;
+    color: white;
+    width: 55px;
+    margin: 0px;
+}
+
+.leave_button{
+    border-radius: 3px;
+    border: 1px solid #000;
+    background-color: #3366FF;
+    color: white;
+    width: 114px;
+}
+
+.cancel_button{
+    border-radius: 3px;
+    border: 1px solid #000;
+    background-color: #3366FF;
+    color: white;
+    width: 114px;
+    
+}
+.declined_button{
+    border-radius: 0px;
+    border: 0px solid #000;
+    background-color: inherit;
+    color: red;
+    align-items: flex-end;
+    width: 75px;
+    height: 18px;
+    
+}
+.declinedp_button{
+    border-radius: 0px;
+    border: 0px solid #000;
+    background-image: url(../Icons/1430787333_ic_keyboard_arrow_right_48px-20.png);
+    background-color: inherit;
+    
+    width: 18px;
+	height: 18px;
+    margin: -4px;
+    
+}

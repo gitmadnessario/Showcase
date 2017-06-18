@@ -1,0 +1,159 @@
+<html>
+<head>
+    <script src="JavaScripts/sorttable.js"></script>
+    <script src="JavaScripts/TeamCreation.js"></script>
+    <script src="JavaScripts/Project_details.js"></script>
+    </head>
+<body>
+
+<table id="big_one">
+        <tr>
+            <ul id="p_search_bar">
+                <li><span id="project_container" class="p_Container"><a class="home" id="p_Search_field"><input type="text" name="search" class="p_search_field"></a><a class="home" id="p_Search_button"><input type="submit"                      onclick="pSearch()" value="" class="p_search_button"></a></span></li>
+                <li><span class="pSelect_Container">
+                    <select id="selection_list">
+                      <option value="all" selected="selected">Show All</option>
+                      <option value="hy">HY-XXX</option>
+                      <option value="prof">Professor</option>
+                      <option value="stat">Status</option>
+                    </select></span></li>
+            </ul>
+        </tr>
+        <tr>
+            <table id="project_table" class="sortable">
+                <thead>
+                    <tr id="projects_head">
+                        <th id="project_name" class="sorttable_alpha">Project Name</th>
+                        <th id="course" class="sorttable_alpha">Course</th>
+                        <th id="professor" class="sorttable_alpha">Professor</th>
+                        <th id="status">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="name_column">
+                            <div>
+                                <a href="#" onclick="details464(document.URL);" id="HY-464_project">Θέμα Α HCI Web Design</a>
+                                <div class="difficulty">Difficulty: </div>
+                                <div class="star_1 ratings_stars"></div>
+                                <div class="star_2 ratings_stars"></div>
+                                <div class="star_3 ratings_stars"></div>
+                                <div class="star_4 ratings_stars"></div>
+                                <div class="star_5 ratings_stars"></div>
+                                Members: 3
+                            </div>
+                        </td>
+                        <td class="course_column">HY-464</td>
+                        <td class="professor_column">Κωνσταντίνος Στεφανίδης</td>
+                        <td class="status_column">
+                            <div>
+                                <div class="difficulty">Attending </div>
+                                <br>
+                                <br>
+                                <br>
+                                <input type=button onClick="create464('Projects','Projects');" value='Create Team' class="project_button">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name_column">
+                            <div>
+                                <a href="HY-340_project.html" id="HY-340_project">Compiler</a><br>
+                                <div class="difficulty">Difficulty: </div>
+                                <div class="star_1 ratings_stars"></div>
+                                <div class="star_2 ratings_stars"></div>
+                                <div class="star_3 ratings_stars"></div>
+                                <div class="star_4 ratings_stars"></div>
+                                <div class="star_5 ratings_stars"></div>
+                                Members: 3
+                            </div>
+                        </td>
+                        <td class="course_column">HY-340</td>
+                        <td class="professor_column">Αντώνης Σαββίδης</td>
+                        <td class="status_column">
+                            <div>
+                                <div class="difficulty">Attending </div>
+                                <br>
+                                <br>
+                                <br>
+                                <input type=button onClick="create340();" value='Create Team' class="project_button">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name_column">
+                            <div>
+                                <a href="HY-463_project.html" id="HY-463_project">Eng/Gr Text IRS</a><br>
+                                <div class="difficulty">Difficulty: </div>
+                                <div class="star_1 ratings_stars"></div>
+                                <div class="star_2 ratings_stars"></div>
+                                <div class="star_3 ratings_stars"></div>
+                                <div class="star_4 ratings_stars"></div>
+                                Members: 2
+                            </div>
+                        </td>
+                        <td class="course_column">HY-463</td>
+                        <td class="professor_column">Γιάννης Τζίτζικας</td>
+                        <td class="status_column">
+                            <div>
+                                <div class="difficulty">Attending </div>
+                                <br>
+                                <br>
+                                <br>
+                                <input type=button onClick="create463();" value='Create Team' class="project_button">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name_column">
+                            <div>
+                                <a href="HY-335b_project.html" id="HY-335b_project">Server Implementation</a><br>
+                                <div class="difficulty">Difficulty: </div>
+                                <div class="star_1 ratings_stars"></div>
+                                <div class="star_2 ratings_stars"></div>
+                                <div class="star_3 ratings_stars"></div>
+                                Members: 1
+                            </div>
+                        </td>
+                        <td class="course_column">HY-335b</td>
+                        <td class="professor_column">Ξενοφών Δημητρόπουλος</td>
+                        <td class="status_column">
+                            <div>
+                                <div class="difficulty">Not attending </div>
+                                <br>
+                                <br>
+                                <br>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr id="last_tr">
+                        <td class="name_column">
+                            <div>
+                               <a href="#" onclick="details454();" id="HY-454_project">Super Mario</a><br>
+                                <div class="difficulty">Difficulty: </div>
+                                <div class="star_1 ratings_stars"></div>
+                                <div class="star_2 ratings_stars"></div>
+                                <div class="star_3 ratings_stars"></div>
+                                <div class="star_4 ratings_stars"></div>
+                                Members: 3
+                            </div>
+                        </td>
+                        <td class="course_column">HY-454</td>
+                        <td class="professor_column">Αντώνης Σαββίδης</td>
+                        <td class="status_column">
+                            <div>
+                                <div class="difficulty">Not attending </div>
+                                <br>
+                                <br>
+                                <br>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </tr>
+    </table>
+    
+    </body>
+</html>

@@ -1,0 +1,82 @@
+.header{
+	background-image: linear-gradient(180deg, #FF9900, #FFFFFF);
+	
+	padding: 5px 25px 15px 25px;
+}
+body {
+	background-color: #F0F0F0;
+}
+
+.container {
+	background-color: #fff;
+}
+
+.main {
+	padding: 25px;
+}
+
+.footer{
+	background-color: #414237;
+	color: #fff;
+	padding: 15px 25px 5px 25px;
+}
+
+.bg-grey {
+    background-color: #f9f9f9;
+}
+
+#profile_img {
+    
+    height: 50px;
+
+}
+# Menu_but {
+    
+    width: 200px;
+}
+
+body {
+     font-size: 18px !important;
+}
+
+.menu_bar{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu_button{
+    text-align: center;
+    width: 248px;
+   
+}
+
+#sidebar-wraper {
+    align-content: center;
+    padding: 00px;  
+    text-align: center;
+    border-right: 2px solid black;
+    background-color: #FFFFFF ;
+    height: 100%;
+    display: block;
+    position: absolute;
+    
+    
+}
+
+
+
+#workshop{
+    
+     
+    background-color: #FFF;
+    height: 100%;
+    padding-left: 10px;
+    display: block;
+    position: absolute;
+}
+
+#meeting_list {
+    border-bottom: 2px solid black;
+    background: #FFF;
+    
+}

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>hy564</title>
+    <meta charset="utf-8"/>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="JS/calendar.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <meta name="vieport" content="width=device-width , initial-scale=1">
+    <link   rel="stylesheet" href="css/layout.css">
+	<link   rel="stylesheet" href="css/mobile.css">
+	<link rel="stylesheet" href="css/android-home.css" media="screen and (max-width: 480px)">
+	
+	<script src="JS/jquery.mobile.custom.min.js"></script>
+	<script src="JS/swipeUD.js"></script>
+    <!--Header-->
+    <div class="header container-fluid" >
+        <div class="row">
+            <div class="col-md-1" ><img src="Corp_logo.png" style="height:100px"></div>
+            
+            
+			<div class="col-md-4"style="padding-left:40px">
+                
+                <h2>Shield Corporation</h2>
+                <h4>Fortify your Needs</h4>
+                </dl>
+            </div>
+        </div>
+    </div>
+    
+</head>
+
+<body style="background-color:white">
+
+  
+	<!--Menu-->
+    
+
+<nav class="navbar navbar-default menu_bar">
+    <div class="container-fluid menu_bar">
+
+        <ul class="nav navbar-nav">
+            <li class="menu_button" ><a href = "hy564_home.html"  > Home  <span class="notification-count">3</span> <!-- <div class="noti_bubble" style="align:center">2</div> --> <font size="3"  >
+																   </font> </a></li>
+            <li class="active menu_button"><a href = "hy564_calendar.html " > <font size="3" > Calendar </font> </a></li>
+            <li class="menu_button"><a href = "hy564_meetings.html" ><font size="3" >Meetings</font></a></li>
+        </ul>
+         <!-- Setting drop down -->
+        <ul class="nav navbar-nav navbar-right">
+            
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="align:float-right">Settings <span class="glyphicon glyphicon-cog"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="login.html" onclick='localStorage.setItem("login","none");'>Logout</a></li>
+                    <li><a href="#">Some other settings</a></li>
+                </ul>
+                
+            </li>
+        </ul>
+    </div>
+
+</nav>
+<div class="container-fluid" >
+<div class="row ">
+
+    
+    <!--Sidebar-->
+    <div class="col-md-2 "  id="sidebar-wraper">
+        <br>
+        <img src="Shield_logo.jpg" class=" img-circle " style="height: 40px " align="center" >
+        
+        <h4>Kwstas Mad</h4> <br>
+        <h4 align="left" ><b>Contacts :</b></h4>
+        
+        <table class="table table-bordered">
+            <tbody align="left">
+                <tr><td><img src="1445743931_photo.png" align="left"> <font size="4" style="padding-left:10px "> Stayros Dag</font> </td></tr>
+                <tr><td><img src="1445743931_photo.png" align="left"> <font size="4" style="padding-left:10px "> Giannhs Omorfos</font> </td></tr>
+                <tr><td><img src="1445743931_photo.png" align="left"> <font size="4" style="padding-left:10px "> Blind Maiden</font> </td></tr>
+               
+            </tbody>
+        </table>
+		
+		<hr id="section_line" class="calnote"></hr>
+
+		<h4 align="left"><b>News Feed:</b></h4>
+		<table class="table table-bordered">
+			<tbody align="left">
+                <tr><td><img src="expmark.png" align="left"><font size="4" style="padding-left:10px "><b>Blind Maiden:</b><span aria-hidden="true" style="margin-left:22px;" onclick="hide_not()">&times;</span><br>Added you as a Friend</font> </td></tr>
+                <tr><td><img src="expmark.png" align="left"><font size="4" style="padding-left:10px"><b>Blind Maiden:</b><span aria-hidden="true" style="margin-left:22px;" onclick="hide_not()">&times;</span><br>Added you as a Friend</font> </td></tr>
+                <tr><td><img src="expmark.png" align="left"><font size="4" style="padding-left:10px"> <b>Blind Maiden:</b><span aria-hidden="true" style="margin-left:22px;" onclick="hide_not()">&times;</span><br><a href="" >Meeting invitation</a> </font> </td></tr>
+               
+            </tbody>
+        </table>
+    </div>
+	
+	<div class="event"> <a href="#"  class="calnote" data-toggle="modal"  data-target="#myModal1">				
+		<div class="modal fade " id="myModal1" role="dialog">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content container-fluid" style="width : 400px">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h5 class="modal-title"><a href="#">Create note or meeting</a></h5>
+					</div>
+					<div class="modal-body">
+						<textarea id="notearea" placeholder="Write note" style="width:100%"></textarea>
+					</div>
+					<div class="modal-footer " >
+						<button type="button" class="btn btn-default" data-dismiss="modal" onClick="fuck()">Add note</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal"> Create meeting</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal" style="color:red"> Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    <!-- Work Shop -->    
+    <div class="col-md-10 col-md-offset-2 col-xs-12 col-xs-offset-0"  style="padding:0px"> 
+	<div class="container-fluid table-responsive">
+      <table class="table table-hover caltable" style="padding=0px" id="myCalTable">
+            
+            <thead>
+                <tr >
+                    <th style="background-color:DodgerBlue">Sunday</th>
+                    <th style="background-color:DodgerBlue">Monday</th>
+                    <th style="background-color:DodgerBlue">Tuesday</th>
+                    <th style="background-color:DodgerBlue">Wednesday</th>
+                    <th style="background-color:DodgerBlue">Thursday</th>
+                    <th style="background-color:DodgerBlue">Friday</th>
+                    <th style="background-color:DodgerBlue">Saturday</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td onclick="showExtra(-1)"><span class="date">&nbsp;</span></td>
+                    <td onclick="showExtra(-1)"><span class="date">&nbsp;</span></td>
+                    <td onclick="showExtra(-1)"><span class="date">&nbsp;</span></td>
+                    <td onclick="showExtra(-1)"><span class="date">&nbsp;</span></td>
+                    <td onclick="showExtra(1)"><span class="date">1<img src="plus_sign.png" onClick="myFunction(1)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(2)"><span class="date">2<img src="plus_sign.png" onClick="myFunction(2)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(3)"><span class="date">3<img src="plus_sign.png" onClick="myFunction(3)" class="calplus" align="right"></span><br><span></span></td>
+                </tr>
+                <tr>
+                    <td onclick="showExtra(4)"><span class="date">4<img src="plus_sign.png" onClick="myFunction(4)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(5)"><span class="date">5<img src="plus_sign.png" onClick="myFunction(5)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(6)"><span class="date">6<img src="plus_sign.png" onClick="myFunction(6)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(7)"><span class="date">7<img src="plus_sign.png" onClick="myFunction(7)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(8)"><span class="date">8<img src="plus_sign.png" onClick="myFunction(8)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(9)"><span class="date">9<img src="plus_sign.png" onClick="myFunction(9)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(10)"><span class="date">10<img src="plus_sign.png" onClick="myFunction(10)" class="calplus" align="right"></span><br><span></span></td>
+                </tr>
+                <tr>
+                    <td onclick="showExtra(11)"><span class="date">11<img src="plus_sign.png" onClick="myFunction(11)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(12)"><span class="date">12<img src="plus_sign.png" onClick="myFunction(12)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(13)"><span class="date">13<img src="plus_sign.png" onClick="myFunction(13)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(14)"><span class="date">14<img src="plus_sign.png" onClick="myFunction(14)" class="calplus" align="right"></span>
+						<div class="event"><a href="#" class="calnote">Περασμένο γεγονός</a></div></td>
+                    <td onclick="showExtra(15)"><span class="date">15<img src="plus_sign.png" onClick="myFunction(15)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(16)"><span class="date">16<img src="plus_sign.png" onClick="myFunction(16)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(17)"><span class="date">17<img src="plus_sign.png" onClick="myFunction(17)" class="calplus" align="right"></span><br><span></span></td>
+                </tr>
+                <tr>
+                	<td onclick="showExtra(18)"><span class="date">18<img src="plus_sign.png" onClick="myFunction(18)" class="calplus" align="right"></span></td>
+                    <td onclick="showExtra(19)"><span class="date">19<img src="plus_sign.png" onClick="myFunction(19)" class="calplus" align="right"></span>
+						<div class="event"> <a href="#"  data-toggle="modal"  data-target="#myModal" class="calnote">
+						Knights of the square table</a>
+					
+						<div class="modal fade " id="myModal" role="dialog">
+							<div class="modal-dialog modal-sm">
+								<div class="modal-content container-fluid" style="width : 400px">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h5 class="modal-title"><a href="#">Arthurs Speech</a></h5>
+									</div>
+									<div class="modal-body">
+										<p>From Stayros Dag</p>
+										<p>Meeting Room 13:55</p>
+									</div>
+									<div class="modal-footer " >
+										<button type="button" class="btn btn-default" data-dismiss="modal">Remote Attend</button>
+										<button type="button" class="btn btn-default" data-dismiss="modal"> Attend</button>
+										<button type="button" class="btn btn-default" data-dismiss="modal" style="color:red"> Decline</button>
+									</div>
+								</div>
+							</div>
+						</div>		
+					</div></td>
+                    <td onclick="showExtra(20)"><span class="date">20<img src="plus_sign.png" onClick="myFunction(20)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(21)"><span class="date">21<img src="plus_sign.png" onClick="myFunction(21)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(22)"><span class="date">22<img src="plus_sign.png" onClick="myFunction(22)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(23)"><span class="date">23<img src="plus_sign.png" onClick="myFunction(23)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(24)"><span class="date">24<img src="plus_sign.png" onClick="myFunction(24)" class="calplus" align="right"></span><br><span></span></td>
+                </tr>
+                <tr>
+                	<td onclick="showExtra(25)"><span class="date">25<img src="plus_sign.png" onClick="myFunction(25)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(26)"><span class="date">26<img src="plus_sign.png" onClick="myFunction(26)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(27)"><span class="date">27<img src="plus_sign.png" onClick="myFunction(27)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(28)"><span class="date">28<img src="plus_sign.png" onClick="myFunction(28)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(29)"><span class="date">29<img src="plus_sign.png" onClick="myFunction(29)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(30)"><span class="date">30<img src="plus_sign.png" onClick="myFunction(30)" class="calplus" align="right"></span><br><span></span></td>
+                    <td onclick="showExtra(31)"><span class="date">31<img src="plus_sign.png" onClick="myFunction(31)" class="calplus" align="right"></span>
+						<br><span class="calnote">Paycheck day</span></td>
+                </tr>   
+				<tr>
+					<td onclick="showExtra(-1)"><span class="date">&nbsp;</span></td>
+					<td onclick="showExtra(-1)"><span class="date">&nbsp; </span></td>
+					<td onclick="showExtra(0)" colspan="3"><span class="date calnote"><h4 style="font-style:italic;">Notes<img src="plus_sign.png" onClick="myFunction(32)" class="calplus" align="right"></h4></span>
+									<span class="calnote">
+									<h5>Paycheck day </h5><h5>1 meeting in total</h5>
+									</span></td>
+					<td onclick="showExtra(-1)" colspan="2"><span class="date calnote"></span></td>
+				</tr>
+				
+                
+            </tbody>
+        </table>
+		<div id="calhidden" class="hidden"></div>
+		<div id="calspecial" class="hidden">
+			<a href = "#" >Knights of the Square table</a> <br>19/11/2015 15:00<br>Meeting room
+		</div>
+		<div id="calsum" class="hidden">
+			Paycheck day <br> 1 meeting in total
+		</div>
+    </div> 
+    </div>
+</div>
+    
+</div>
+    
+
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+
+
+$(".foo").hover(function () {
+    $(this).popover({
+        title: "Arthurs Speech",
+        content: "Line 1 <br /> Line 2 <br /> Line 3",
+        html: true
+    }).popover('show');
+}, function () {
+    $(this).popover('hide');
+});
+
+$(document).ready(function(){
+	var screen = $( window ).width();
+	if (screen<480){
+		$(".caltable").find("th").each(function(){
+			var temp = $(this).html();
+			temp = temp.substring(0,1);
+			$(this).text(temp);
+		});
+	}
+});
+
+$("#myCalTable").swiperight(function () {
+			console.log("cal right");
+            $.mobile.changePage("hy564_create_meeting.html", { transition: "slide" });
+        });
+		
+$("#myCalTable").swipeleft(function () {
+			console.log("cal left");
+            $.mobile.changePage("hy564_meetings.html", { transition: "slide" });
+        });
+
+function myFunction(td) {	
+	$('#notearea').attr('name', td);	
+	$('#myModal1').modal('toggle');
+}
+function fuck(){	
+	var  val = document.getElementById("notearea").value;
+	document.getElementById("notearea").value = ""; //revert text to nothing
+	var which= document.getElementById("notearea").getAttribute('name');
+	var flag;
+	var temp;
+	$('.caltable').find('span').each(function(){
+		if (flag){ //already found
+			temp = $(this).text();
+			if (temp == "") //first time
+				$(this).html(val);
+			else //already there
+				$(this).html(temp + "<br>" + val);
+			return false;
+		}
+		if (which==32 && $(this).text().indexOf('Notes') > -1){ //notes section
+			flag = true;
+			return true;
+		}
+		if($(this).text() === which) //days section
+		{
+			flag = true;	
+			return true;
+		}	
+	});	
+}		
+		
+</script>
+      
+    
+</body>
+
+</html>

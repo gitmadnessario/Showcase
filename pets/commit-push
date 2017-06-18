@@ -1,0 +1,9 @@
+#!/bin/bash
+
+COMMIT_TIMESTAMP=`date +'%Y-%m-%d %H:%M:%S'`
+message="$1"
+
+cd Backend
+git add .
+git commit -m "$COMMIT_TIMESTAMP ${message}"
+git push

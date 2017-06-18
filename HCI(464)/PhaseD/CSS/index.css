@@ -1,0 +1,99 @@
+#header {
+    position: relative;
+    top: 0;
+    width: 1024px;
+	height: 50px;
+}
+
+#path {
+    float: left;
+    width: 1024px;
+    height: 30px;
+    margin-bottom: 6px;
+    margin-top: 0px;
+}
+
+
+.breadcrumb { 
+	list-style: none; 
+	overflow: hidden; 
+    padding-left: 200px;
+}
+.breadcrumb li { 
+	float: left; 
+    padding-right: 5px;
+}
+.breadcrumb li a {
+	position: relative; 
+	display: block;
+	float: left;
+}
+
+.breadcrumb li a:visited{
+    color: blue;
+}
+
+#content_table {
+    margin-top: 15px;   
+    margin-left: 10px;
+}
+
+
+#content_table td{
+    vertical-align: top; 
+}
+
+#content_table td a{
+    text-decoration: none;
+}
+
+#left_side{
+	float: left;
+    width: 186px;
+	height: auto;
+    min-height: 300px;
+    /*border-bottom: 2px solid #000; */
+}
+
+#left_bar{
+    float: left;
+    border-bottom: 2px solid #000; 
+    height: auto;
+    width: auto;
+    padding-bottom: 10px;
+}
+
+#content{
+    float: left;
+    background-color: white;
+    width : 664px;
+    min-height: 400px;
+
+}
+
+#right_side{
+	position: relative;
+    float: left;
+    background-color:green;
+    width: 186px;
+    height: auto;
+    min-height: 300px;
+    /*border-bottom: 2px solid #000;*/
+}
+
+#right_bar{
+    float: left;
+    border-bottom: 2px solid #000; 
+    height: auto;
+    width: auto;
+    padding-bottom: 10px;   
+}
+
+#footer{
+	position: relative;
+    background-color:white;
+    float: left;
+    min-width: 1024;
+    margin-top: 20px;
+}
+

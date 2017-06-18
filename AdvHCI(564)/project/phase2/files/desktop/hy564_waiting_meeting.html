@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html ng-app="meeting_app">
+<head>
+    <title>hy564</title>
+    <meta charset="utf-8"/>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+	<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="datetimepicker-master/jquery.datetimepicker.css"/ >
+	<script src="datetimepicker-master/jquery.js"></script>
+	<script src="datetimepicker-master/build/jquery.datetimepicker.full.min.js"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<script src="JS/Meeting_list.js"></script>
+	<script src="JS/calendar.js"></script>
+    <meta name="vieport" content="width=device-width , initial-scale=1">
+    <link   rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/details.css">
+	<link rel="stylesheet" href="css/mobile.css">
+	<link rel="stylesheet" href="css/android-home.css" media="screen and (max-width: 480px)">
+		
+    <!--Header-->
+    <div class="header container-fluid" >
+        <div class="row">
+            <div class="col-md-1" ><img src="Corp_logo.png" style="height:100px"></div>
+            
+            
+			<div class="col-md-4"style="padding-left:40px">
+                
+                <h2>Shield Corporation</h2>
+                <h4>Fortify your Needs</h4>
+                </dl>
+            </div>
+        </div>
+    </div>
+    
+</head>
+
+<body style="background-color: white;">
+    
+	<!--Menu-->
+    
+
+<nav class="navbar navbar-default menu_bar">
+    <div class="container-fluid menu_bar">
+
+        <ul class="nav navbar-nav">
+            <li class=" menu_button" ><a href = "hy564_home.html" > <font size="3" > Home </font> </a></li>
+            <li class=" menu_button"><a href = "hy564_calendar.html " > <font size="3" > Calendar </font> </a></li>
+            <li class="active menu_button"><a href = "hy564_meetings.html" ><font size="3" >Meetings</font></a></li>
+        </ul>
+         <!-- Setting drop down -->
+        <ul class="nav navbar-nav navbar-right">
+            
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="align:float-right">Settings <span class="glyphicon glyphicon-cog"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="login.html" onclick='localStorage.setItem("login","none");'>Logout</a></li>
+                    <li><a href="#">Some other settings</a></li>
+                </ul>
+                
+            </li>
+        </ul>
+    </div>
+
+</nav>
+<div class="container-fluid " >
+<div class="row " style="height:100%">
+
+    
+    <!--Sidebar-->
+    <div class="col-md-2 "  id="sidebar-wraper">
+        <br>
+        <img src="Shield_logo.jpg" class=" img-circle " style="height: 40px " align="center" >
+        
+        <h4>Kwstas Mad</h4> <br>
+        <h4 align="left" ><b>Contacts :</b></h4>
+        
+        <table class="table table-bordered">
+            <tbody align="left">
+                <tr><td><img src="1445743931_photo.png" align="left"> <font size="4" style="padding-left:10px "> Stayros Dag</font> </td></tr>
+                <tr><td><img src="1445743931_photo.png" align="left"> <font size="4" style="padding-left:10px "> Giannhs Omorfos</font> </td></tr>
+                <tr><td><img src="1445743931_photo.png" align="left"> <font size="4" style="padding-left:10px "> Blind Maiden</font> </td></tr>
+               
+            </tbody>
+        </table>
+		
+		<hr id="section_line" class="calnote"></hr>
+
+		<h4 align="left"><b>News Feed:</b></h4>
+		<table class="table table-bordered">
+			
+            <tbody align="left">
+                <tr><td><img src="expmark.png" align="left"><font size="4" style="padding-left:10px "><b>Blind Maiden:</b><span aria-hidden="true" style="margin-left:45px;" onclick="hide_not()">&times;</span><br>Added you as a Friend</font> </td></tr>
+                <tr><td><img src="expmark.png" align="left"><font size="4" style="padding-left:10px"><b>Blind Maiden:</b><span aria-hidden="true" style="margin-left:45px;" onclick="hide_not()">&times;</span><br>Added you as a Friend</font> </td></tr>
+                <tr><td><img src="expmark.png" align="left"><font size="4" style="padding-left:10px"> <b>Blind Maiden:</b><span aria-hidden="true" style="margin-left:45px;" onclick="hide_not()">&times;</span><br><a href="" >Meeting invitation</a> </font> </td></tr>
+               
+            </tbody>
+			
+        </table>
+    </div>
+    
+    <!-- Work Shop -->   
+    <div class="col-md-10 col-md-offset-2 " id="workshop">
+			<div class="col-xs-6" id="top-section">
+				<br>
+				<img src="profile_button.png" id="profile"></img>
+				<label class="top_label"><b>Meeting details</b></label>
+				<img src="refresh_button.png" id="refresh" onclick="irefresh(0)"></img>
+				<img src="menu_button.png" id="menu"></img>
+			</div>
+            <div id="details_top">
+				<div id="top_left">
+					<img id="details_img" src= "1443455160_linux-server-system-platform-os-computer-penguin.png">
+					<b>Knights of the square table</b><br>
+					5/10/2015 15:00 <br>
+					Meeting room
+				</div>
+				<div id="top_right">
+					<br><br>
+					<button type="button" class="btn btn-default btn-md enter-button" onclick="window.location.href='hy564_In_meeting.html'"><b>Enter meeting ></b></button>
+				</div>
+			</div>
+			<div id="details_content">
+				<h4 id="descdesc"><b>Description:</b></h4>
+				<div class="calplus">
+					In order to become a Knight of the Round Table, a knight had to prove he was chivalrous (polite) enough. In the legend, the knights swore a Code of Chivalry, which is much like an oath is today. This meant that they promised to uphold the rules given to them once they became a Knight of the Round Table.
+				</div>
+				<div id="descexp">
+					In order to become a Knight of the Round Table, a knight <span id="descexpand" style="display:none">had to prove he was chivalrous (polite) enough. In the legend, the knights swore a Code of Chivalry, which is much like an oath is today. This meant that they promised to uphold the rules given to them once they became a Knight of the Round Table.
+					</span><span class="glyphicon glyphicon-arrow-down" id="toggleDesc"></span>
+				</div>
+				<br>
+				<h4 id="descfiles"><b>Files:</b></h4>
+				<table>
+					<tr>
+						<td><a href="oath.pdf"><img src="pdfdraaien.png" style="width:100px; height:80px;"></a></td>
+						<td><a href="round.png"><img src="round.png" style="width:100px; height:80px;"></a></td>
+					</tr>
+					<tr>
+						<td align="center">Oath</td>
+						<td align="center">position</td>
+					</tr>
+				</table>
+				<br>
+					<h4 id="descpart"><br>Participants:</br></h4>
+					<button type="button" class="btn btn-default btn-md partbuttons" style="border-radius:20px;">Stayros Dag</button>
+					<button type="button" class="btn btn-default btn-md partbuttons" style="border-radius:20px;">Giannhs Omorfos</button>
+					<button type="button" class="btn btn-default btn-md partbuttons" style="border-radius:20px;">Blind Maiden</button>
+			</div>
+		</div> 
+	</div>     
+</body>
+
+<script>
+$("#toggleDesc").click(function(){
+	var curclass = $(this).attr("class");
+	if (curclass.indexOf("down") >= 0)
+		$(this).toggleClass('glyphicon-arrow-down glyphicon-arrow-up');
+	else
+		$(this).toggleClass('glyphicon-arrow-up glyphicon-arrow-down');
+	$("#descexpand").slideToggle( "slow" );
+});
+</script>
+
+<script>
+function hide_not(){
+	alert($(this).parents('td'));
+	$(this).parents('td').hide();
+}
+
+</script>
+
+</html>

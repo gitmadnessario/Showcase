@@ -1,0 +1,84 @@
+ <html>
+     <head>
+        <script>
+            $(".myaddmemberbutton").click(function(){
+                if ($(this).attr("value")=="Remove"){
+                    $(this).prop('value', 'Add Member');
+                }
+                else{
+                    $(this).prop('value', 'Remove');
+                }
+            });
+         </script>
+     </head>
+  <form id="createPrTeam" onsubmit="createTeam()">
+        <label><b>Team name:</b></label>
+        <input type="text" name="teamname" class="teamcreateclass" value="HY464-Ομάδα01">
+        <br> <br>
+        <label><b>Course:</b></label>
+        <input type="text" name="coursename" class="teamcreateclass" value="HY-464">
+        <br><br>
+        <label><b>Professor Name:</b></label>
+        <input type="text" name="professorname" class="teamcreateclass" value="Κωνσταντίνος Στεφανίδης">
+        <br><br>
+        <label><b>Number of Members:</b></label>
+        <input type="text" name="numofmembers" class="teamcreateclass" value="3">
+        <br><br>
+        <label><b>Project Name</b></label>
+        <input type="text" name="projectname" class="teamcreateclass" value="Θέμα Α HCI Web Design">
+        <br><br>
+        <hr class="dash" />
+        <input type="submit" value="Create Team" id="Create_Team" class="create_team">
+        <button type="button" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'" class="addmembers">Add Members</button>
+     </form>
+     
+     <div id="light" class="white_content">
+              <table id="add_members">
+                    <tr>
+                        <ul id="p_search_bar">
+                            <li><span id="project_container" class="p_Container"><a class="home" id="p_Search_field"><input type="text" name="search" class="p_search_field"></a><a class="home" id="p_Search_button"><input type="submit"                      onclick="addmemberssearch()" value="" class="p_search_button"></a></span></li>
+
+                        </ul>
+                    </tr>
+                    <tr>
+                        <table id="add_members_inner">
+                                <tr class="addfirst">
+                                    <td class="addname"><a href="#" onclick="showkaloyannis()">kaloyannis</a></td>
+                                    <td class="addbutton">
+                                        <input type="button" value="Add Member" class="myaddmemberbutton">
+                                    </td>
+                                </tr>
+                                <tr class="addsecond">
+                                        <td class="addname"><a href="#" onclick="showkaloyannis()">dagalakis</a></td>
+                                        <td class="addbutton">
+                                            <input type="button" onlick="addmember()" value="Add Member" class="myaddmemberbutton">
+                                        </td>
+                                </tr>
+                                <tr class="addfirst">
+                                        <td class="addname"><a href="#" onclick="showkaloyannis()">vardas</a></td>
+                                        <td class="addbutton">
+                                            <input type="button" onlick="addmember()" value="Add Member" class="myaddmemberbutton">
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td><br></td>
+                                </tr>
+                                <tr>
+                                    <table>
+                                    <td></td>
+                                    <td>
+                                        <input type="button"  href = "javascript:void(0)" onclick ="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" value="Close" class="popup_button" >
+                                    </td>
+                                    <td>
+                                        
+                                        <input type="button" onclick ="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none';location.href='Projects.html';"  value="Create Team" class="mycreateTeamButton">
+                                    </td>
+                                    </table>
+                                </tr>
+                        </table>
+                    </tr>
+            </table>              
+        </div>
+                            
+        <div id="fade" class="black_overlay"></div>
+</html>

@@ -1,0 +1,63 @@
+#tablesearchhad{
+    float:left;
+    margin-left: 10px;
+    width: 570px;
+}
+
+#tablesearchresult a{
+    text-decoration: none;   
+}
+
+#tablesearchhad td{   
+    height: 15px;
+}
+
+.searchcola{
+    width: 250px;   
+    float: left;
+}
+
+.searchcolk{
+    width: 195px;
+    float: left;
+    vertical-align: top;
+}
+
+#myform{
+    display: inline;
+}
+
+#tablesearchresult{
+    float: left;
+    margin-left: 10px;
+    width: 570px;
+    margin-top: 10px;
+}
+
+.searchfirst{
+    float: left;
+    width: 570px;
+    background-color: lightgray;
+}
+
+.searchsecond{
+    float: left;
+    width: 570px;
+
+}
+
+.searchcolf{
+    width: 200px; 
+    float: left;
+}
+
+
+.searchcols{
+    width: 150px;
+    float: left;
+}
+
+.searchcolt{
+    width: 50px;
+    float: left;
+}

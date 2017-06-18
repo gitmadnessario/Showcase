@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teams</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="CSS/index.css">
+  <link rel="stylesheet" type="text/css" href="CSS/left_side.css">
+  <link rel="stylesheet" type="text/css" href="CSS/right_side.css">
+  <link rel="stylesheet" type="text/css" href="CSS/footer.css">
+<link rel="stylesheet" type="text/css" href="CSS/teams_details.css">
+        <link rel="stylesheet" type="text/css" href="CSS/search_result.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="JavaScripts/login.js"></script>
+  <script src="JavaScripts/search.js"></script>
+  <script src="JavaScripts/browse_image.js"></script>
+    <script src="JavaScripts/Project_details.js"></script>
+    <script src="JavaScripts/comment.js"></script>
+    <script>
+        if (localStorage.getItem("remember")=="false"){
+            $(window).unload(function(){
+              localStorage.clear();
+            });
+        }
+    </script>
+  <!--<script src="JavaScripts/NavPath.js"></script>
+  <!--<style type="text/css">
+	body {
+		max-width: 1024px;
+		max-height: 768px;
+	}
+</style> -->
+</head>
+<body>
+
+<div id="index" style="width:1024px; max-height:768px; margin:0 auto;" align="center">
+<div id="header"></div>
+    
+    
+<div id="path">
+    <ul id="breadcrumb_path" class="breadcrumb">
+      <li><a class="home" href="Home.html" id="Home">Home</a></li>
+        <li> <b> > </b> </li>
+     <li><a class="home" href="Teams.html" id="Teams">Teams</a></li>
+        <li> <b> > </b> </li>
+      <li> <b>ΗΥ464-Ομάδα01 </b></li>
+    </ul>
+</div>
+
+<div id="left_bar">
+<div id="left_side">
+<table>
+	<th> News feed </th>
+	<tr>
+        <td><a class="home" href="#" onclick="details464(document.URL)" id="HY-464_project">New project HY-464</a></td>
+	</tr>
+	<tr>
+		<td><a class="home" href="#" onclick="details464(document.URL)" id="HY-463_project">New project HY-463</a></td>
+	</tr>
+	<tr>
+		<td><a class="home" href="#" onclick="details464(document.URL)" id="HY-340_project">New project HY-340</a></td>
+	</tr>
+    <tr>
+        <td><a class="home" href="#" onclick="details454(document.URL)" id="HY-454_project">New project HY-454</a></td>
+    </tr>
+    <tr>
+        <td><a class="home" href="#" onclick="details464(document.URL)" id="HY-335b_project">New project HY-335b</a></td>
+    </tr>
+</table>
+ </div>
+</div>
+
+ <div id="content" style="width:600px">
+    <table id="big_one">
+        
+        <tr>
+            <table id="team_table" class="sortable">
+                
+                <tbody>
+                   
+                    <tr><br>
+                        <td class="name_column">
+                            <div><a id="" class="lock_dot"></a></div>
+                            <div>ΗΥ464-Ομάδα01 <a href="#" onclick="details464(document.URL)" id="HY-340_project">(HY-464)Θέμα Α HCI Web Desig</a></div>
+                            <br><br>
+                            <div>Members (3/3)</div>
+                            
+                            <div style="float:left; width: 180px;"  >
+                            <a href="#" onclick="showkaloyannis()" id="">Kaloyannis</a></div><div style="float:left">
+                            <a href="mailto:kaloyannis@csd.uoc.gr" id="">Kaloyannis@csd.uoc.gr </a></div>
+                            
+                            
+                            
+                            
+                            <div style="float:left; width:180px;">
+                                <a href="#" onclick="showkaloyannis()" id="">Dagalakis</a></div>
+                                <a href="mailto:dagalakis@csd.uoc.gr" id="">dagalakis@csd.uoc.gr </a>
+                            
+                            
+                            <br>
+                            <div>
+                            <div style="float:left; width: 180px;">
+                            <a href="#" onclick="showkaloyannis()" id="">Vardas</a></div><div style="float:left">
+                            <a href="mailto:vardas@csd.uoc.gr" id="">vardas@csd.uoc.gr </a></div>
+                            </div><br><br>
+                            <div>Project : <a href="http://www.csd.uoc.gr/~hy464/files/lectures/Requirements%20Topic%20A.pdf" id="">Θέμα Α HCI Web Desig.pdf</a></div>
+                            
+
+                        </td>
+                        <td class="course_column"><br><br>
+                        <br><br><div><a id="" class="red_dot"></a></div><div><br>
+                        <div><a id="team_container" class="red_dot"></a></div><br>
+                        <div><a id="team_container" class="green_dot"></a></div>
+                        
+                        </td>
+                        
+                        <td class="status_column">
+                            <div>
+                                <input type=button onClick="location.href='project_team_creation.html'" value='Apply' class="Apply_button">
+                                
+                                
+                                
+                            </div>
+                        </td>
+                    </tr>
+                   
+                    
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </tr>
+    </table>
+    </div>
+ 
+    <div id="right_bar">
+ <div id="right_side">
+    
+ </div>
+    </div>
+ 
+<div id="footer" style="width:975px;">
+    Πανεπιστήμιο Κρήτης &#169; 2015
+</div>
+
+</div>
+<script> 
+     $(function(){ $("#header").load("header.html") });
+    //$(function(){ $("#right_side").load("form.html") });
+    /* $(function(){ $("#right_side").load("right_side_kaloyannis.html") }); */
+   </script>
+</body>
+</html>

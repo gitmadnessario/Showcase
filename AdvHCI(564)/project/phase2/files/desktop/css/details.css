@@ -1,0 +1,40 @@
+#details_top{
+	margin-top:10px;
+	border-bottom: 1px solid black;
+	float:left;
+	width:100%;
+}
+
+#top_left{
+	float:left;
+	position:relative;
+}
+
+#top_right{
+	float:right;
+	position: relative;
+	margin-right:-15px;
+}
+
+#details_top img{
+	width: 90px;
+	height: 90px;
+}
+
+#details_img{
+	float:left;
+}
+
+#details_content{
+	margin-top:140px;
+}
+
+.partbuttons{
+		width: 130px;
+}
+
+@media only screen and (max-width:480px){
+	#detailsfiles{
+		font-size: 12px;
+	}
+}

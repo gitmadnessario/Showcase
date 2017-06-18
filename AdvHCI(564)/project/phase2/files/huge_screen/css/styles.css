@@ -1,0 +1,125 @@
+.header{
+	background-image: linear-gradient(180deg, #FF9900, #FFFFFF);
+	
+	padding: 5px 25px 15px 25px;
+}
+body {
+	background-color: #F0F0F0;
+    
+}
+
+
+.container {
+	background-color: #fff;
+}
+
+.main {
+	padding: 25px;
+}
+
+.footer{
+	background-color: #414237;
+	color: #fff;
+	padding: 15px 25px 5px 25px;
+}
+
+p {
+    font-size: 18px;
+}
+.no_pad {
+    padding: 0px;
+    margin: 0px;
+}
+
+#participants1 {
+    
+   align-content: center;
+    padding: 00px;  
+    text-align: center;
+    border-right: 1px solid black;
+    background-color: #FFFFFF ;
+    height: 100%;
+    display: block;
+    position: absolute;
+    
+    text-decoration: none;
+    list-style: none;   
+}
+
+#participants2 {
+    
+    
+    align-content: center;
+    padding: 0px;  
+    text-align: center;
+    border-left: 1px solid black;
+    background-color: #FFFFFF ;
+    height: 100%;
+    display: block;
+    position: absolute;
+    
+}
+
+#presentation {
+    
+    
+    align-content: center;
+    padding: 0px;  
+    text-align: center;
+
+    background-color: #FFF;
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+#participant {
+    
+    border-bottom: 2px solid black;
+    background-color: x;
+    width: 100%;
+    display: block;
+   height: 150px;
+
+}
+#Settings_modal {
+    height: 60%;
+    text-align: center;
+    align-content: center;  
+}
+
+.hidden {
+
+    display: block;
+    line-height:0;
+    height: 0;
+    overflow: hidden;
+
+}
+
+.fullscreen {
+    z-index: 9960;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100% !important;
+}
+.full{
+    height: 100% !important;
+}
+.top{
+    z-index: 9999;
+}
+
+li  {list-style-type: none;}
+
+
+#idle{
+    background-image: linear-gradient(180deg, #FF9900, #FFFFFF);
+    
+    display: block;
+    height: 100%;
+    vertical-align: center;
+    text-align: center;
+
+}
