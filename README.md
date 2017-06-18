@@ -11,8 +11,8 @@ HCI(464) a mainly html & javascript project for students:
    - Link here: https://github.com/gitmadnessario/Showcase/tree/master/HCI(464)/project
 
 
-Pets is a demo backend for an idea of mine, developed in nodejs, using mongoose to manipulate a MongoDB.
-    - Link here: https://github.com/gitmadnessario/Showcase/tree/master/pets
+Pets is a demo backend for an idea of mine, developed in nodejs, using mongoose to manipulate a MongoDB:
+  - Link here: https://github.com/gitmadnessario/Showcase/tree/master/pets
 
 
 
