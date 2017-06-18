@@ -1,3 +1,0 @@
-function browseimg(){
-    alert("correct");  
-}
