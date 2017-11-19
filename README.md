@@ -15,6 +15,10 @@ HCI(464) : Design and implementation of an online Course and Assignments managem
 
 Pets is a demo backend for an idea of mine, developed in nodejs, using mongoose to manipulate a MongoDB:
   - Link here: https://github.com/gitmadnessario/Showcase/tree/master/pets
+  
+  Movie app for scanning local movies, getting their info from the net and creating their indexes. Find the suitable movie for the night based on rank,actors,directors etc.
+  
+  - Link here: https://github.com/gitmadnessario/Showcase/tree/master/movie%20app
 
 
 
