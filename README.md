@@ -25,5 +25,8 @@ Pets is a demo backend for an idea of mine, developed in nodejs, using mongoose 
 
   - Link here: https://github.com/gitmadnessario/Showcase/tree/master/SystemSecurity-DD2497
 
-# Live replication module implemented as a Backend Developer at Omnixell(permission granted)
+# Live replication module(permission granted)
+  The following project was developped during my time as a Backend Developer at Omnixell. There are several features included:
+  - Agnostic live replication protocol(can handle pouchDB, mongoDB, couchDB, Magento etc.) to enable offline experience to the client applications.
+  - Cache implemented to handle the different backends infrastructures.
 
