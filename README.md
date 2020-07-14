@@ -1,7 +1,4 @@
-Showcase Index Readme.
-
-564 and 464 are the collaborative work between me and Stayros Dagalakis
-
+# AdvHCI + HCI
 AdvHCI(564): Design and development of interactive applications for a smart conference room. The applications are designed to run on smartphones/tablets a PC and a Big Screen with the aid of Kinect(C#), pressure sensors and voice recognition. The online interface of the applications make use of HTML, Bootstrap and AngularJS. Colleagues attending remotely communicate with the ones present in the meeting via a chat system.
 
    - Report-Functional Analysis here: https://github.com/gitmadnessario/Showcase/tree/master/AdvHCI(564)/project/Report-Functional_Analysis.pdf
@@ -12,13 +9,21 @@ HCI(464) : Design and implementation of an online Course and Assignments managem
 
    - Link here: https://github.com/gitmadnessario/Showcase/tree/master/HCI(464)/project
 
+Both of these are the collaborative work between me and Stayros Dagalakis
 
+# Pets
 Pets is a demo backend for an idea of mine, developed in nodejs, using mongoose to manipulate a MongoDB:
   - Link here: https://github.com/gitmadnessario/Showcase/tree/master/pets
   
+# Movie desktop app
   Movie app for scanning local movies, getting their info from the net and creating their indexes. Find the suitable movie for the night based on rank,actors,directors etc.
   
   - Link here: https://github.com/gitmadnessario/Showcase/tree/master/movie%20app
 
+# Minix microkernel enhanchments
+  Security enhanchments to the Minix microkernel as part of a course in system security.
 
+  - Link here: https://github.com/gitmadnessario/Showcase/tree/master/SystemSecurity-DD2497
+
+# Live replication module implemented as a Backend Developer at Omnixell(permission granted)
 
