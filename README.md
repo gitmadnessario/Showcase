@@ -21,11 +21,11 @@ Pets is a demo backend for an idea of mine, developed in nodejs, using mongoose 
   - Application: https://github.com/gitmadnessario/Showcase/tree/master/movie%20app
 
 # Minix microkernel enhanchments
-  Security enhanchments to the Minix microkernel as part of a course in system security. The implementation provides a kernel stuck and heap randomization along with a File System Encryption Scheme. The repository contains its own readme file for further information.
+  Security enhanchments to the Minix microkernel as part of a course in system security. The implementation provides a kernel stuck and heap randomization along with a File System Encryption Scheme. The repository contains its own readme for further information.
 
   - Repository: https://github.com/gitmadnessario/Showcase/tree/master/SystemSecurity-DD2497
 
-# Security analysis of an autonomous vehicle infrastructure
+# Security analysis of an autonomous vehicle ecosystem
   The report contains a thorough investigation on the security vulnerabilities that can exist in the ecosystem of autonomous vehicles and their backend infrastructure. To achieve this, the goals of the company along with the potential damages are taken into account; the possible adversaries, and their capabilities, are quantified in order to provide a complete risk assesment. Certain vulnerabilities are identified and their feasibility is measured against the appropraite mitigation techniques. In the end, a comprehensive course of action is proposed based on the cost and the deployment time of those defensive mechanisms. 
 
   - Report: https://github.com/gitmadnessario/Showcase/tree/master/SecurityAnalysis-EP2790
