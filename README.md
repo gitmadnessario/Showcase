@@ -31,11 +31,11 @@ Pets is a demo backend for an idea of mine, developed in nodejs, using mongoose 
   - Report: https://github.com/gitmadnessario/Showcase/tree/master/SecurityAnalysis-EP2790
 
 # Master Thesis
-  My master thesis involved the investigation of network and jamming attacks on vehicular platoons and Cooperative Adaptive Cruside Control. New maneuvers were implemented in order to further tests our attacks and a defensive mechanisms was employed to test its feasibility and its shortcomings. Several new insights were gained and the feasibility of each attack from the perspective of the malicious actor is also explored.
+  My master thesis involved the investigation of network and jamming attacks on vehicular platoons and Cooperative Adaptive Cruside Control. New vehicle maneuvers were implemented, in order to further tests our attacks, a defensive mechanism was employed to test its feasibility and its shortcomings, and the rationality of the attacker was taken into account when evaluating the potency of the attacks.
 
-  - Link: when published on DiVa
+  - Published report: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1544979
 
-# Live replication module(permission granted)
+# Live replication module (permission granted)
   The following feature was developped during my time as a Backend Developer at Omnixell.
   - Reverse engineered the couchDB replication scheme and transformed it into an agnostic live replication protocol that can handle pouchDB, mongoDB, couchDB and Magento in order to enable a seamless offline/online experience to the client applications.
   - Caching system implemented in redis to handle the different backend infrastructures.
